@@ -1,0 +1,28 @@
+<html>
+
+<html prefix="og: http://ogp.me/ns#">
+<head>
+<title>GravityNull</title>
+<meta property="og:title" content="GravityNull" />
+<meta property="og:url" content="http://www.gravitynull.ga/" />
+<meta property="og:description" content="memes comics stories fun" />
+<meta property="og:image:type" content="http://upload.wikimedia.org/wikipedia/commons/9/94/Gravitynull.png" />
+<meta property="og:image:width" content="100" />
+<meta property="og:image:height" content="100" />
+
+<link href='//upload.wikimedia.org/wikipedia/commons/9/94/Gravitynull.png' rel='icon' sizes='192x192'/>
+<title>GravityNull</title>
+<meta content='notranslate' name='google'/>
+<meta content='meme,template,stories,memes,templates,gravitynull' name='keywords'/>
+<meta content='#4285F3' name='theme-color'/>
+
+<meta content='width=device-width, initial-scale=1' name='viewport'/
+<body>
+<div>
+<meta name="viewport" content="width=110%, initial-scale=1">
+<iframe src="https://www.gravitynull.xyz/" width="100%" height="100%" frameborder="0" style="overflow:hidden">
+</div>
+</body>
+</html>
+ 
+<script src="https://codegena.com/assets/js/async-iframe.js"></script>
