@@ -128,3 +128,19 @@ $(window).on("beforeunload", function() {
         isCardForm: false
       });
     </script></center></center>
+
+<script src="https://form.jotform.me/static/feedback2.js" type="text/javascript">
+      new JotformFeedback({
+        formId: "71551172738458",
+        buttonText: "Grab a free cartoon",
+        base: "https://form.jotform.me/",
+        background: "#64a819",
+        fontColor: "#FFFFFF",
+        buttonSide: "bottom",
+        buttonAlign: "center",
+        type: 1,
+        width: 300,
+        height: 300,
+        isCardForm: false
+      });
+    </script>
