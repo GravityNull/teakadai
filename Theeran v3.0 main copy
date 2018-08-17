@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <HTML expr:dir='data:blog.languageDirection'>
+<meta content='Vz8AgpsW4C4BN6KLJn52_3N-sJ0xppltfd1RD8t44j0' name='google-site-verification'/>
+
+
+
+
+
 <head>
 
-<script async='' src='//cdn.onesignal.com/sdks/OneSignalSDK.js'/>
-
+<script async='' src='https://cdn.onesignal.com/sdks/OneSignalSDK.js'/>
 <script>
   var OneSignal = window.OneSignal || [];
   OneSignal.push(function() {
@@ -13,6 +18,23 @@
     });
   });
 </script>
+
+<script src='https://form.jotform.me/static/feedback2.js' type='text/javascript'>
+      new JotformFeedback({
+        formId: &quot;71551172738458&quot;,
+        buttonText: &quot;Cartoon Yourself&quot;,
+        base: &quot;https://form.jotform.me/&quot;,
+        background: &quot;#64a819&quot;,
+        fontColor: &quot;#FFFFFF&quot;,
+        buttonSide: &quot;bottom&quot;,
+        buttonAlign: &quot;center&quot;,
+        type: 1,
+        width: 300,
+        height: 300,
+        isCardForm: false
+      });
+    </script>
+
 
 
 <link href='/manifest.webmanifest' rel='manifest'/>
@@ -32,6 +54,8 @@
 <meta content='width' name='MobileOptimized'/>
 <meta content='guest-home' name='pageKey'/>
 <meta content='width=device-width, initial-scale=1' name='viewport'/>
+<meta name='google' value='notranslate'/>
+<meta content='notranslate' name='google'/>
 
 
 
@@ -115,7 +139,7 @@
 <b:if cond='data:blog.metaDescription'>
 <meta expr:content='data:blog.metaDescription' property='og:description'/>
 <b:else/>
-<meta content='Tamil trend of the day' property='og:description'/>
+<meta content='memes caroons stories even more' property='og:description'/>
 </b:if>
 <meta expr:content='data:blog.title' property='og:site_name'/>
 <meta content='//www.facebook.com/URL-PROFILE-FB' property='article:author'/>
@@ -160,7 +184,7 @@ loadCSS(&quot;//fonts.googleapis.com/css?family=Roboto:400,400italic,700,700ital
 <div id='header' itemscope='itemscope' itemtype='//schema.org/WPHeader'>
 <div class='maxiwrap'>
 <b:section id='headerdua' maxwidgets='1' showaddelement='no'>
-  <b:widget id='Header1' locked='true' title='GravityNull::தமிழ் (Header)' type='Header' version='1'>
+  <b:widget id='Header1' locked='true' title='GravityNull தமிழ் (Header)' type='Header' version='1'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'/>
       <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -239,17 +263,18 @@ loadCSS(&quot;//fonts.googleapis.com/css?family=Roboto:400,400italic,700,700ital
 </b:section>
 
 
+
 <nav id='simplify-two' itemscope='itemscope' itemtype='//schema.org/SiteNavigationElement'>
 <input type='checkbox'><i aria-hidden='true' class='fa fa-th-list'/> Menu +</input>
 <ul id='simplify-click'>
 
-<li><a href='//www.gravitynull.xyz/p/appwww.html' itemprop='url'><span itemprop='name'>IPL <i class='fa fa-caret-down fa-fw'/></span></a>
+  <li><a href='http://www.teakadai.tk/' itemprop='url' target='blank'><span itemprop='name'>News <i class='fa fa-caret-down fa-fw'/></span></a>
 </li>
-<li><a href='//www.gravitynull.xyz/p/game.html' itemprop='url'><span itemprop='name'>Games <i class='fa fa-caret-down fa-fw'/></span></a>
+<li><a href='//gravitynull.blogspot.in/p/game.html' itemprop='url'><span itemprop='name'>Games <i class='fa fa-caret-down fa-fw'/></span></a>
 </li>
-<li><a href='//www.gravitynull.xyz/p/blog-page_9.html' itemprop='url'><span itemprop='name'>Chat <i class='fa fa-caret-down fa-fw'/></span></a>
+<li><a href='//gravitynull.blogspot.in/p/blog-page_9.html' itemprop='url'><span itemprop='name'>Chat <i class='fa fa-caret-down fa-fw'/></span></a>
 </li>
-<li><a href='//www.gravitynull.xyz/p/gravitynull-gravitynull.html' itemprop='url'><span itemprop='name'>About <i class='fa fa-caret-down fa-fw'/></span></a>
+<li><a href='//gravitynull.blogspot.in/p/rooban-gravitynull-is-entertainment.html' itemprop='url'><span itemprop='name'>About <i class='fa fa-caret-down fa-fw'/></span></a>
 </li>
 
 </ul>
@@ -294,7 +319,7 @@ loadCSS(&quot;//fonts.googleapis.com/css?family=Roboto:400,400italic,700,700ital
       <b:widget-setting name='style.textcolor'>#7c7c7c</b:widget-setting>
       <b:widget-setting name='showShareButtons'>false</b:widget-setting>
       <b:widget-setting name='authorLabel'>By</b:widget-setting>
-      <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+      <b:widget-setting name='showCommentLink'>false</b:widget-setting>
       <b:widget-setting name='style.urlcolor'>#afafaf</b:widget-setting>
       <b:widget-setting name='showAuthor'>false</b:widget-setting>
       <b:widget-setting name='style.linkcolor'>#5589c6</b:widget-setting>
@@ -1074,21 +1099,20 @@ Diterbitkan <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' t
 
 
 
-<span class='reaction-buttons'>
-  <b:if cond='data:top.showReactions'>
-  <iframe allowtransparency='true' class='reactions-iframe' expr:src='data:post.reactionsUrl' frameborder='0' name='reactions' scrolling='yes'/>
-  </b:if> 
-</span>
-
-
 <!-- AddToAny BEGIN -->
-<div class='a2a_kit a2a_kit_size_26 a2a_default_style'>
-  <i> - Sharing is caring :) </i>
+<div class='a2a_kit a2a_kit_size_32 a2a_default_style'>
 <a class='a2a_button_facebook'/>
 <a class='a2a_button_twitter'/>
 <a class='a2a_button_google_plus'/>
-<a class='a2a_button_whatsapp'/>
+<a class='a2a_button_whatsapp'/> <i> - Sharing is caring :) </i>
 </div>
+<script async='async' src='https://static.addtoany.com/menu/page.js'/>
+<!-- AddToAny END -->
+
+
+
+  
+
 
 <script async='async' src='//static.addtoany.com/menu/page.js'/>
 <!-- AddToAny END -->
@@ -1098,13 +1122,7 @@ Diterbitkan <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' t
 
 
 
-<div class='clear'/>
-<div class='clear'/>
-<div id='searchbar'>
-<form action='/search' id='searchfo' method='get'>
-<input id='sq' name='q' placeholder='search here...' type='text' value=''/>
-</form>
-</div>
+
 <div class='clear'/>
 <div id='related-post'>
 <div class='relhead'>
@@ -1127,18 +1145,14 @@ Diterbitkan <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' t
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <div class='authorboxwrap'>
 <div class='authorboxfull'>
-<div class='avatar-container'>
-<a href=''>
-<img class='author_avatar' expr:alt='data:post.author' expr:src='data:post.authorPhoto.url' expr:title='data:post.author' height='90' width='90'/>
-</a>
-</div>
+
 <div class='author_description_container'>
 <h4><a href='#' rel='author'><data:post.author/></a> <i class='fa fa-check-circle' style='color:#3498db;font-size:16px;margin:0 0 0 3px' title='Verified Author'/></h4>
 <p>
 <data:post.authorAboutMe/>
 </p>
 <div class='social-links'>
-<li><a class='external external-link' href='//roobanklucky' rel='nofollow' target='_blank'><i class='fa fa-facebook'/></a></li>
+  <li><a class='external external-link' href='https://www.facebook.com/roobenk' rel='nofollow' target='_blank'><i class='fa fa-facebook'/></a></li>
 <li><a class='external external-link' href='//twitter.com/roobank1' rel='nofollow' target='_blank'><i class='fa fa-twitter'/></a></li>
 <li><a class='external external-link' href='//google.com/+roobank1' rel='nofollow' target='_blank'><i class='fa fa-google-plus'/></a></li>
 <div class='clear'/>
@@ -1318,31 +1332,45 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
 </script>
 </b:includable>
   </b:widget>
-  <b:widget id='HTML2' locked='false' title='' type='HTML'>
+  <b:widget id='Label1' locked='false' title='Lables' type='Label' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;center&gt;&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-&lt;!-- gravitytamil_banner_AdSense1_1x1_as --&gt;
-&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:block&quot;
-     data-ad-client=&quot;ca-pub-9710168326260465&quot;
-     data-ad-slot=&quot;1954978061&quot;
-     data-ad-format=&quot;auto&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
-(adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
-&lt;/center&gt;
-</b:widget-setting>
+      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+      <b:widget-setting name='display'>CLOUD</b:widget-setting>
+      <b:widget-setting name='selectedLabelsList'>Ajith,Hero,avengers,bahubali,black sheep,chenima,college,crush,cute,dhanush,dhoni,fact,friendship,fun,gif,goundamani,gravitynull,hari baski,humor,jio,jumpcuts,kamal,kattapa,love,madras central,meme,memions,movie,nature,office,prank,quote,rajini,review,rj balaji,santhanam,science,single,sketch,songs,suri,template,text,vadivelu,video,vijay,vivek,whatsapp,wishes</b:widget-setting>
+      <b:widget-setting name='showType'>ALL</b:widget-setting>
+      <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
+<b:if cond='data:title != &quot;&quot;'>
+<h2><data:title/></h2>
+</b:if>
+<div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
+<b:if cond='data:display == &quot;list&quot;'>
+<div class='droplabeldo'>
+<select class='dropdown-select' onchange='location=this.options[this.selectedIndex].value;'>
+<option> Pilih Kategori </option>
+<b:loop values='data:labels' var='label'>
+<option class='labdrop' expr:title='data:label.name' expr:value='data:label.url + &quot;?&amp;amp;max-results=7&quot;'>
+<data:label.name/> <span class='labcount'><data:label.count/></span>
+</option>
+</b:loop>
+</select>
+</div>
+<b:else/>
+<b:loop values='data:labels' var='label'>
+<span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
+<b:if cond='data:post.href == data:label.url'>
+<span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+<b:else/>
+<a expr:dir='data:blog.languageDirection' expr:href='data:label.url + &quot;?&amp;amp;max-results=7&quot;' expr:title='data:label.name'><data:label.name/></a>
+</b:if>
+<b:if cond='data:showFreqNumbers'>
+<span class='label-count' dir='ltr'>(<data:label.count/>)</span>
+</b:if>
+</span>
+</b:loop>
+</b:if>
+</div>
 </b:includable>
   </b:widget>
 </b:section>
@@ -1376,23 +1404,43 @@ bloggerjs.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/blogger_index
 </ul>
 </div>
 <b:section class='sidebartop' id='sidebartop' preferred='yes'>
-  <b:widget id='HTML3' locked='false' title='Grab your free caricature' type='HTML' version='1'>
+  <b:widget id='HTML5' locked='false' title='' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;!doctype html&gt;
+      <b:widget-setting name='content'>&lt;center&gt;
+&lt;iframe src=&quot;https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgravitynull&amp;tabs&amp;width=340&amp;height=80&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false&amp;appId&quot; width=&quot;340&quot; height=&quot;80&quot; style=&quot;border:none;overflow:hidden&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML3' locked='false' title='' type='HTML' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;center&gt;
+
+&lt;b&gt;Grab your Cartoon Caricature&lt;/b&gt;
+
 &lt;style&gt;
-.mySlides {display:none;}
+.mySlides1 {display:none;}
 &lt;/style&gt;
 
 &lt;div class=&quot;w3-content w3-section&quot; style=&quot;max-width:500px&quot;&gt;
   
-&lt;a href=&quot;https://facebook.com/gravitynull&quot; target=&quot;blank&quot;&gt;
+&lt;a href=&quot;https://gntoons.blogspot.in&quot; target=&quot;blank&quot;&gt;
   &lt;img class=&quot;mySlides&quot; src=&quot;https://4.bp.blogspot.com/-s_160hRFXFM/WmbOGshH0HI/AAAAAAAAEzk/ipwIasSovB88lZOJtSAxL3jCsEYyio3tQCPcBGAYYCw/s400/3pic.jpg&quot; style=&quot;width:100%&quot; /&gt;&lt;/a&gt;
 
-&lt;a href=&quot;https://facebook.com/gravitynull&quot; target=&quot;blank&quot;&gt;
+&lt;a href=&quot;https://gntoons.blogspot.in&quot; target=&quot;blank&quot;&gt;
   &lt;img class=&quot;mySlides&quot; src=&quot;https://2.bp.blogspot.com/-1WcGZ658_wo/WmbOOU3reWI/AAAAAAAAEzo/bfEqk_HX-BQgH0KMzBZ4xP34kzsmm97UgCPcBGAYYCw/s400/2pic.jpg&quot; style=&quot;width:100%&quot; /&gt;&lt;/a&gt;
 
 
-&lt;a href=&quot;https://facebook.com/gravitynull&quot; target=&quot;blank&quot;&gt;
+&lt;a href=&quot;https://gntoons.blogspot.in&quot; target=&quot;blank&quot;&gt;
   &lt;img class=&quot;mySlides&quot; src=&quot;https://4.bp.blogspot.com/-iCqnLhr8et0/WmbOSYcx_XI/AAAAAAAAEzs/GOpl572RFCshs0unPvGf9outyADfe8_SgCPcBGAYYCw/s400/1pic.jpg&quot; style=&quot;width:100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
@@ -1414,8 +1462,44 @@ function carousel() {
 &lt;/script&gt;
 &lt;br /&gt;
 
-&lt;/!doctype&gt;
+&lt;center&gt;
+&lt;style&gt;
+body {font-family: Arial, Helvetica, sans-serif;}
+/* The Modal (background) */
+.modal { display: none;position: fixed; z-index: 10; padding-top: 50px; 
+left: 0; top: 0; width: 100%; height: 100%; 
+overflow: auto; background-color: rgb(0,0,0);  background-color: rgba(0,0,0,0);
+}
+/* Modal Content */
+.modal-content { background-color: #ffffff; margin: auto; padding: 20px; border: 1px solid #888; width: 80%;
+}
+/* The Close Button */
+.close { color: #aaaaaa; float: right; font-size: 28px;  font-weight: bold;
+}
+.close:hover,
+.close:focus { color: #000; text-decoration: none; cursor: pointer;
+}
+&lt;/style&gt;
 
+&lt;div id=&quot;myModal&quot; class=&quot;modal&quot;&gt;
+  &lt;div class=&quot;modal-content&quot;&gt; &lt;span class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;&lt;center&gt;
+  &lt;img src=&quot;https://image.ibb.co/hZoGf7/download.png&quot; style=&quot;width:50%&quot; /&gt;&lt;/center&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;button id=&quot;myBtn&quot;&gt;PayTM us :)&lt;/button&gt;
+
+&lt;div id=&quot;myModal&quot; class=&quot;modal&quot;&gt; &lt;/div&gt;
+
+&lt;script&gt;
+var modal = document.getElementById(&#39;myModal&#39;);
+var btn = document.getElementById(&quot;myBtn&quot;);
+var span = document.getElementsByClassName(&quot;close&quot;)[0];
+btn.onclick = function() { modal.style.display = &quot;block&quot;; }
+span.onclick = function() { modal.style.display = &quot;none&quot;; }
+window.onclick = function(event) { if (event.target == modal) { modal.style.display = &quot;none&quot;; } }
+&lt;/script&gt;
+
+    
 
 &lt;style&gt;
 #page-loader {
@@ -1450,7 +1534,13 @@ $(window).on(&quot;beforeunload&quot;, function() {
   gtag(&#39;js&#39;, new Date());
 
   gtag(&#39;config&#39;, &#39;UA-112167797-1&#39;);
-&lt;/script&gt;</b:widget-setting>
+&lt;/script&gt;
+
+
+&lt;hr /&gt;
+   
+    
+&lt;/center&gt;&lt;/center&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
 <b:if cond='data:title != &quot;&quot;'>
@@ -1462,9 +1552,28 @@ $(window).on(&quot;beforeunload&quot;, function() {
 <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
+  <b:widget id='HTML4' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;center&gt;
+&lt;b&gt;Grab the all new tamil flash news updates&lt;/b&gt;
+&lt;a href=&quot;https://www.teakadai.tk/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot; TeaKadai.tk&quot; border=&quot;0&quot;  src=&quot;https://scontent.fmaa1-2.fna.fbcdn.net/v/t1.0-9/36087367_1795837247105856_1114890668712394752_n.jpg?_nc_cat=0&amp;amp;oh=3b28ceb220b9d3e91da447983538342f&amp;amp;oe=5BE1B974&quot; width=&quot;110%&quot; height=&quot;110%&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;hr /&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
   <b:widget id='PopularPosts1' locked='false' title='Popular Post' type='PopularPosts' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
+      <b:widget-setting name='numItemsToShow'>4</b:widget-setting>
       <b:widget-setting name='showThumbnails'>true</b:widget-setting>
       <b:widget-setting name='showSnippets'>true</b:widget-setting>
       <b:widget-setting name='timeRange'>LAST_WEEK</b:widget-setting>
@@ -1516,65 +1625,29 @@ $(window).on(&quot;beforeunload&quot;, function() {
 </div>
 </b:includable>
   </b:widget>
-  <b:widget id='Label1' locked='false' title='Lables' type='Label' version='1'>
+  <b:widget id='HTML6' locked='false' title='' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-      <b:widget-setting name='display'>CLOUD</b:widget-setting>
-      <b:widget-setting name='selectedLabelsList'>Ajith,Hero,avengers,bahubali,black sheep,chenima,college,crush,cute,dhanush,dhoni,fact,friendship,fun,gif,goundamani,gravitynull,hari baski,humor,jio,jumpcuts,kamal,kattapa,love,madras central,meme,memions,movie,nature,office,prank,quote,rajini,review,rj balaji,santhanam,science,single,sketch,songs,suri,template,text,vadivelu,video,vijay,vivek,whatsapp,wishes</b:widget-setting>
-      <b:widget-setting name='showType'>ALL</b:widget-setting>
-      <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-<b:if cond='data:title != &quot;&quot;'>
-<h2><data:title/></h2>
-</b:if>
-<div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
-<b:if cond='data:display == &quot;list&quot;'>
-<div class='droplabeldo'>
-<select class='dropdown-select' onchange='location=this.options[this.selectedIndex].value;'>
-<option> Pilih Kategori </option>
-<b:loop values='data:labels' var='label'>
-<option class='labdrop' expr:title='data:label.name' expr:value='data:label.url + &quot;?&amp;amp;max-results=7&quot;'>
-<data:label.name/> <span class='labcount'><data:label.count/></span>
-</option>
-</b:loop>
-</select>
-</div>
-<b:else/>
-<b:loop values='data:labels' var='label'>
-<span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
-<b:if cond='data:post.href == data:label.url'>
-<span expr:dir='data:blog.languageDirection'><data:label.name/></span>
-<b:else/>
-<a expr:dir='data:blog.languageDirection' expr:href='data:label.url + &quot;?&amp;amp;max-results=7&quot;' expr:title='data:label.name'><data:label.name/></a>
-</b:if>
-<b:if cond='data:showFreqNumbers'>
-<span class='label-count' dir='ltr'>(<data:label.count/>)</span>
-</b:if>
-</span>
-</b:loop>
-</b:if>
-</div>
-</b:includable>
-  </b:widget>
-</b:section>
-<b:section class='sidebar' id='sidebar' preferred='yes'/>
-</aside>
-</div>
-<div class='clear'/>
-<b:section class='banner2 section' id='banner2' maxwidgets='1' showaddelement='yes'>
-  <b:widget id='HTML5' locked='false' title='' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'>&lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&gt;&lt;/script&gt;
-&lt;ins class=&quot;adsbygoogle&quot;
-     style=&quot;display:block; text-align:center;&quot;
-     data-ad-layout=&quot;in-article&quot;
-     data-ad-format=&quot;fluid&quot;
-     data-ad-client=&quot;ca-pub-9710168326260465&quot;
-     data-ad-slot=&quot;9938639168&quot;&gt;&lt;/ins&gt;
-&lt;script&gt;
-     (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;</b:widget-setting>
+      <b:widget-setting name='content'>&lt;center&gt;
+&lt;style amp-custom&gt;
+    amp-web-push-widget button.subscribe {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 2px;
+      border: 0;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 10px 15px;
+      cursor: pointer;
+      outline: none;
+      font-size: 15px;
+      font-weight: 400;
+      background: #4A90E2;
+      color: white;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+&lt;/style&gt;
+&lt;/center&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -1589,13 +1662,34 @@ $(window).on(&quot;beforeunload&quot;, function() {
 </b:includable>
   </b:widget>
 </b:section>
+<b:section class='sidebar' id='sidebar' preferred='yes'/>
+</aside>
 </div>
+<div class='clear'/>
+<b:section class='banner2 section' id='banner2' maxwidgets='1' showaddelement='yes'/>
+</div>
+
+
+
 <div class='clear'/>
 <footer id='footer-wrapper' itemscope='itemscope' itemtype='//schema.org/WPFooter' role='contentinfo'>
 <div class='maxiwrap'>
 <div class='footer-column'>
+
+
 <div class='footer-menu'>
-<h3>நன&#3021;ற&#3007;</h3>
+<h3>Notification</h3>
+<!-- A subscription widget -->
+<amp-web-push-widget height='45' layout='fixed' visibility='unsubscribed' width='95%'>
+<a href='https://gravitynull.os.tc' targer='_blank'><button class='subscribe' on='tap:amp-web-push.subscribe'>Subscribe</button></a>
+  <p>Click above to grab our all new updates</p></amp-web-push-widget>
+<ul class='footer2 line'>
+</ul>
+</div>
+
+
+<div class='footer-menu'>
+<h3>Share us</h3>
 <p class='footer2'>
 நன&#3021;ற&#3007;கள&#3021; பல :)
 <div class='clear'/>
@@ -1606,13 +1700,7 @@ $(window).on(&quot;beforeunload&quot;, function() {
 </div>
 </p>
 </div>
-<div class='footer-menu'>
-<h3>Trending</h3>
-<ul class='footer2 line'>
-<li><a href='//www.gravitynull.xyz/search/label/meme' title='Contact Form'>Memes</a></li>
-<li><a href='//www.gravitynull.xyz/search/label/template' title='Disclaimer'>Templates</a></li>
-</ul>
-</div>
+
 
 
 <div class='footer-menu' id='subscribe-footer'>
@@ -1634,11 +1722,17 @@ $(window).on(&quot;beforeunload&quot;, function() {
 <div id='footbawah'>
 <div class='maxiwrap'>
 <div class='footbawahkanan'>
-<span id='lightcredits'><a href='//www.gravitynull.xyz/' target='_blank' title='Kreativitas adalah kunci kesuksesan'>GravityNull</a> </span> | <a href='//gravitynull.xyz/' rel='dofoBlogllow' target='_blank'>GoogleBlog</a><hr/>
+<span id='lightcredits'><a href='//www.gravitynull.xyz/' target='_blank' title='Kreativitas adalah kunci kesuksesan'>GravityNull</a> </span> | <a href='//gravitynull.xyz/' rel='dofoBlogllow' target='_blank'>GoogleBlog</a>
+<hr/>
 <center>
 
 
-GravityNull v.3.0.TheeraN
+GravityNull v.3.0.TheeraN 
+<h4> . </h4>
+ 
+
+
+ 
 </center>
 </div>
 </div>
@@ -1681,5 +1775,6 @@ $(function(){$(&amp;quot;#simplify-click&amp;gt;li&amp;quot;).click(function(i){
 <script type='text/javascript'>(function(a){a.fn.lazyload=function(b){var c={threshold:0,failurelimit:0,event:&quot;scroll&quot;,effect:&quot;show&quot;,container:window};if(b){a.extend(c,b)}var d=this;if(&quot;scroll&quot;==c.event){a(c.container).bind(&quot;scroll&quot;,function(b){var e=0;d.each(function(){if(a.abovethetop(this,c)||a.leftofbegin(this,c)){}else if(!a.belowthefold(this,c)&amp;&amp;!a.rightoffold(this,c)){a(this).trigger(&quot;appear&quot;)}else{if(e++&gt;c.failurelimit){return false}}});var f=a.grep(d,function(a){return!a.loaded});d=a(f)})}this.each(function(){var b=this;if(undefined==a(b).attr(&quot;original&quot;)){a(b).attr(&quot;original&quot;,a(b).attr(&quot;src&quot;))}if(&quot;scroll&quot;!=c.event||undefined==a(b).attr(&quot;src&quot;)||c.placeholder==a(b).attr(&quot;src&quot;)||a.abovethetop(b,c)||a.leftofbegin(b,c)||a.belowthefold(b,c)||a.rightoffold(b,c)){if(c.placeholder){a(b).attr(&quot;src&quot;,c.placeholder)}else{a(b).removeAttr(&quot;src&quot;)}b.loaded=false}else{b.loaded=true}a(b).one(&quot;appear&quot;,function(){if(!this.loaded){a(&quot;&lt;img /&gt;&quot;).bind(&quot;load&quot;,function(){a(b).hide().attr(&quot;src&quot;,a(b).attr(&quot;original&quot;))[c.effect](c.effectspeed);b.loaded=true}).attr(&quot;src&quot;,a(b).attr(&quot;original&quot;))}});if(&quot;scroll&quot;!=c.event){a(b).bind(c.event,function(c){if(!b.loaded){a(b).trigger(&quot;appear&quot;)}})}});a(c.container).trigger(c.event);return this};a.belowthefold=function(b,c){if(c.container===undefined||c.container===window){var d=a(window).height()+a(window).scrollTop()}else{var d=a(c.container).offset().top+a(c.container).height()}return d&lt;=a(b).offset().top-c.threshold};a.rightoffold=function(b,c){if(c.container===undefined||c.container===window){var d=a(window).width()+a(window).scrollLeft()}else{var d=a(c.container).offset().left+a(c.container).width()}return d&lt;=a(b).offset().left-c.threshold};a.abovethetop=function(b,c){if(c.container===undefined||c.container===window){var d=a(window).scrollTop()}else{var d=a(c.container).offset().top}return d&gt;=a(b).offset().top+c.threshold+a(b).height()};a.leftofbegin=function(b,c){if(c.container===undefined||c.container===window){var d=a(window).scrollLeft()}else{var d=a(c.container).offset().left}return d&gt;=a(b).offset().left+c.threshold+a(b).width()};a.extend(a.expr[&quot;:&quot;],{&quot;below-the-fold&quot;:&quot;$.belowthefold(a, {threshold : 0, container: window})&quot;,&quot;above-the-fold&quot;:&quot;!$.belowthefold(a, {threshold : 0, container: window})&quot;,&quot;right-of-fold&quot;:&quot;$.rightoffold(a, {threshold : 0, container: window})&quot;,&quot;left-of-fold&quot;:&quot;!$.rightoffold(a, {threshold : 0, container:window})&quot;})})(jQuery);$(function(){$(&quot;.post img&quot;).lazyload({placeholder:&quot;//1.bp.blogspot.com/-Qg5bi1ZtDdM/VZ5nHAyYBqI/AAAAAAAAChE/exGnasO4oyk/s640/arlinadesign.gif&quot;,effect:&quot;fadeIn&quot;,threshold:&quot;0&quot;})});var _0xa908=[&quot;\x73&quot;,&quot;\x72\x65\x70\x6C\x61\x63\x65&quot;,&quot;\x73\x72\x63&quot;,&quot;\x61\x74\x74\x72&quot;,&quot;\x77\x69\x64\x74\x68&quot;,&quot;\x31\x30\x30\x25&quot;,&quot;\x68\x65\x69\x67\x68\x74&quot;,&quot;\x61\x75\x74\x6F&quot;,&quot;\x65\x61\x63\x68&quot;,&quot;\x69\x6D\x67&quot;,&quot;\x66\x69\x6E\x64&quot;,&quot;\x23\x50\x6F\x70\x75\x6C\x61\x72\x50\x6F\x73\x74\x73\x31\x2C\x2E\x72\x65\x63\x65\x6E\x74\x5F\x70\x6F\x73\x74\x73\x5F\x61\x72\x6C\x69\x6E\x61&quot;,&quot;\x72\x65\x61\x64\x79&quot;,&quot;\x73\x63\x72\x65\x65\x6E\x20\x61\x6E\x64\x20\x28\x6D\x69\x6E\x2D\x77\x69\x64\x74\x68\x3A\x20\x36\x30\x65\x6D\x29&quot;,&quot;\x6D\x61\x74\x63\x68\x4D\x65\x64\x69\x61&quot;,&quot;\x6D\x61\x74\x63\x68\x65\x73&quot;,&quot;\x6F\x6E\x6C\x6F\x61\x64&quot;,&quot;\x6C\x69\x67\x68\x74\x63\x72\x65\x64\x69\x74\x73&quot;,&quot;\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64&quot;,&quot;\x68\x72\x65\x66&quot;,&quot;\x6C\x6F\x63\x61\x74\x69\x6F\x6E&quot;,&quot;\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x61\x72\x6C\x69\x6E\x61\x64\x7A\x67\x6E\x2E\x63\x6F\x6D&quot;,&quot;\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65&quot;,&quot;\x72\x65\x6C&quot;,&quot;\x6E\x6F\x66\x6F\x6C\x6C\x6F\x77&quot;,&quot;\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C&quot;,&quot;\x3C\x61\x20\x68\x72\x65\x66\x3D\x27\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x61\x72\x6C\x69\x6E\x61\x64\x7A\x67\x6E\x2E\x63\x6F\x6D\x2F\x27\x20\x74\x61\x72\x67\x65\x74\x3D\x27\x5F\x62\x6C\x61\x6E\x6B\x27\x20\x74\x69\x74\x6C\x65\x3D\x27\x4B\x72\x65\x61\x74\x69\x76\x69\x74\x61\x73\x20\x61\x64\x61\x6C\x61\x68\x20\x6B\x75\x6E\x63\x69\x20\x6B\x65\x73\x75\x6B\x73\x65\x73\x61\x6E\x27\x3E\x41\x72\x6C\x69\x6E\x61\x20\x44\x65\x73\x69\x67\x6E\x3C\x2F\x61\x3E&quot;];$(document)[_0xa908[12]](function(){var _0x5fbex1=90;$(_0xa908[11])[_0xa908[10]](_0xa908[9])[_0xa908[8]](function(_0x5fbex2,_0x5fbex3){var _0x5fbex3=$(_0x5fbex3);_0x5fbex3[_0xa908[3]]({src:_0x5fbex3[_0xa908[3]](_0xa908[2])[_0xa908[1]](/s\B\d{2,4}/,_0xa908[0]+_0x5fbex1)}),_0x5fbex3[_0xa908[3]](_0xa908[4],_0xa908[5]),_0x5fbex3[_0xa908[3]](_0xa908[6],_0xa908[7])})});var mql=window[_0xa908[14]](_0xa908[13]);mql[_0xa908[15]]&amp;&amp;(window[_0xa908[16]]=function(){var _0x5fbex5=document[_0xa908[18]](_0xa908[17]);null==_0x5fbex5&amp;&amp;(window[_0xa908[20]][_0xa908[19]]=_0xa908[21]),_0x5fbex5[_0xa908[22]](_0xa908[19],_0xa908[21]),_0x5fbex5[_0xa908[22]](_0xa908[23],_0xa908[24]),_0x5fbex5[_0xa908[25]]=_0xa908[26]})</script>
 </b:if>
 <b:include data='blog' name='google-analytics'/>
+
 </body>
 </HTML>
