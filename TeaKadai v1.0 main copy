@@ -9,6 +9,16 @@
   });
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://www.teakadai.tk",
+  "name": "TeaKadai",
+  }
+}
+</script>
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112167797-2">
 {"dir" : "ltr",
     "lang" : "en",
@@ -132,7 +142,7 @@
         
         .closebtn {
             font-size: 10px;
-            line-height: 39px;
+            line-height: 40px;
             cursor: pointer;
             transition: 1s;
         }
@@ -154,11 +164,11 @@
         
         .header {
             font-family: "Lato", sans-serif;
-            position: fixed;
+            position:fixed ;
             bottom: 0;
             z-index: 1;
             width: 100%;
-            background-color: black;
+            background-color: black ;
         }
         
         .header h2 {
@@ -333,9 +343,9 @@ body {
 
 .sidenav .closebtn1 {
     position: absolute;
-    top: 28;
+    top: 33;
     left: 260px;
-    font-size: 35px;
+    font-size: 44px;
     padding-top: 0px;
     margin-left: 12px;
     color: red;
@@ -365,7 +375,7 @@ body {
 </button>
 <div>
 <button class="logo" >
-<b>TeaKadai powered by Twitter API & GravityNull</b>
+<center><b>TeaKadai powered by Twitter API & GravityNull</b></center>
 </button>
 </div>
 <br>
@@ -400,7 +410,8 @@ body {
 
 </style>
 <hr>
-<a href="https://gravitynull.blogspot.in" target="blank">CARTOON YOURSELF</a>
+<a href="https://gravitynull.blogspot.in" target="blank"><b>CARTOON YOURSELF</b></a>
+<hr>
 <div class="slideshow-containerr">
 <a href="https://www.facebook.com/gravitynull" target="blank">
 <div class="mySlidess">
@@ -418,9 +429,9 @@ body {
 <span class="dot" onclick="currentSlide(2)"></span>
 <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-<i>Made with <3 in Madurai</i>
+<b>Made with <3 in Madurai</b>
 </center>
-<hr>
+
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -449,6 +460,26 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
+
+<center>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "6f6a8484-b1bb-4dcd-8283-b486f837f3be",
+    });
+  });
+</script>
+<div class='onesignal-customlink-container'></div>
+<b>Subscribe to TeaKadai to grab all new offers and updates :)</b>
+</center>
+<hr>
+
+
+
+
+
 <center>
 
 <script async src="//www.googletagmanager.com/gtag/js?id=UA-112167797-1"></script>
@@ -467,6 +498,12 @@ function showSlides(n) {
 </div>
 <body bgcolor="white">
 <div class="header">
+
+
+
+
+
+
 <div class="progress-container">
 <div class="progress-bar" id="myBar"></div>
 <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">
@@ -493,37 +530,132 @@ function showSlides(n) {
 
 <div class="content">
 <div id="Home" class="tabcontent">
+
+
 <br>
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai" data-chrome="noheader" data-dnt="true" data-link-color="blue">loading..</a>
+<center>
+<script type="text/javascript">
+  ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+    var unit = {"calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+</script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+</center>
+<hr>
+
+
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+Loading...</a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
 <div id="Fun" class="tabcontent">
+
+
 <br>
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai2" data-chrome="noheader" data-dnt="true" data-link-color="blue">loading..</a>
+<center>
+<script type="text/javascript">
+  ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+    var unit = {"calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+</script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+</center>
+<hr>
+
+
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai2" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+Loading...</a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
 <div id="Tech" class="tabcontent">
+
+
 <br>
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai4" data-chrome="noheader" data-dnt="true" data-link-color="blue">loading..</a>
+<center>
+<script type="text/javascript">
+  ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+    var unit = {"calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+</script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+</center>
+<hr>
+
+
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai4" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+Loading...</a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
 <div id="Cinema" class="tabcontent">
+
+
 <br>
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai3" data-chrome="noheader" data-dnt="true" data-link-color="blue">loading..</a>
+<center>
+<script type="text/javascript">
+  ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+    var unit = {"calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+</script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+</center>
+<hr>
+
+
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai3" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+Loading...</a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
 <div id="World" class="tabcontent">
+
+
 <br>
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai1" data-chrome="noheader" data-dnt="true" data-link-color="blue">loading..</a>
+<center>
+<script type="text/javascript">
+  ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+    var unit = {"calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+</script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+</center>
+<hr>
+
+
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai1" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+Loading...</a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
 <div id="Chat" class="tabcontent">
+
+
 <br>
+
+
+
 <div id="disqus_thread"></div>
 <script>
                     /**
