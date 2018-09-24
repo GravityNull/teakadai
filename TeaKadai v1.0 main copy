@@ -1,778 +1,702 @@
 <html>
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-<script>
-  var OneSignal = window.OneSignal || [];
-  OneSignal.push(function() {
-    OneSignal.init({
-      appId: "6f6a8484-b1bb-4dcd-8283-b486f837f3be",
-    });
-  });
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "url": "https://www.teakadai.tk",
-  "name": "TeaKadai",
-  }
-}
-</script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112167797-2">
-{"dir" : "ltr",
-    "lang" : "en",
-    "name" : "TeaKadai",
-    "scope" : "/",
-    "display" : "browser",
-    "start_url" : "https://www.teakadai.tk/",
-    "short_name" : "TeaKadai",
-    "theme_color" : "transparent",
-    "description" : "news, images, videos and more",
-    "orientation" : "any",
-    "background_color" : "transparent",
-    "related_applications" : "",
-    "prefer_related_applications" : "false",
-    "icons" : [
-        {
-            "src": "https://image.ibb.co/frphtJ/tk_bold.png",
-            "sizes": "16x16 32x32"
-        }
-    ]}
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112167797-2');
-</script>
-<head>
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=300px">
-<meta name="mobile-web-app-capable" content="yes" display="standalone">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="/manifest.webmanifest" rel="manifest" />
-<link href="//image.ibb.co/frphtJ/tk_bold.png'" rel='icon' />
-<link rel=icon href="//image.ibb.co/frphtJ/tk_bold.png" sizes="96x96" type="image/png">
-<link rel="shortcut icon" href="//image.ibb.co/frphtJ/tk_bold.png">
-<title>TeaKadai</title>
-<meta content='notranslate' name='google' />
-<meta content='black' name='theme-color' />
-<meta content='yes' name='mobile-web-app-capable' />
-<meta content='width=device-width' name='viewport' />
-<meta content='yes' name='mobile-web-app-capable' />
-<meta content='black-translucent' name='apple-mobile-web-app-status-bar-style' />
-<meta content='true' name='HandheldFriendly' />
-<meta content='width' name='MobileOptimized' />
-<meta content='guest-home' name='pageKey' />
-
-
-<style>
-
-
-#myBtn {
-            font-family: 'IBM Plex Sans', sans-serif;
-            position: fixed;
-            top: 0%;
-            right: 0%;
-            z-index: 99;
-            font-size: 20px;
-            border-radius: 0%;
-            border: none;
-            outline: none;
-            background-color: red;
-            color: white;
-            cursor: pointer;
-            padding: 7px;
-        }
-        
-#myBtnn {
-            font-family: 'IBM Plex Sans';
-            position: fixed;
-            top: 0%;
-            left: 0%;
-            z-index: 99;
-            font-size: 10px;
-            border-radius: 0%;
-            border: none;
-            outline: none;
-            background-color: red;
-            color: white;
-            cursor: pointer;
-            padding: 5px;
-        }
-     
-.logo {
-            font-family: 'IBM Plex Sans', sans-serif;
-            position: fixed;
-            text-align: middle;
-            top: 0px;
-            left: 0px;
-            z-index: 9;
-            font-size: 11px;
-            border-radius: 0%;
-            border: 0;
-            outline: 0;
-            background-color: black ;
-            color: white;
-            cursor: pointer;
-            padding: 12.5px;
-            width: 100%;
-            opacity: 0.8;
-            filter: alpha(opacity=80);
-        }        
-        .alert {
-            padding: 1px;
-            background-color: white;
-            color: black;
-            opacity: 1;
-            transition: opacity 1s;
-            width: 300px;
-            height: 100%;
-
-        }
-        
-        .alert.success {
-            background-color: black;
-        }
-        
-        .closebtn {
-            font-size: 10px;
-            line-height: 40px;
-            cursor: pointer;
-            transition: 1s;
-        }
-        
-        .closebtn:hover {
-            color: black;
-        }
-        
-        a, u {
-            text-decoration: none;
-            Color: black;
-        }
-        
-        body {
-            font-family: "Lato", sans-serif;
-            margin: 0;
-            font-size: 150%;
-        }
-        
-        .header {
-            font-family: "Lato", sans-serif;
-            position:fixed ;
-            bottom: 0;
-            z-index: 1;
-            width: 100%;
-            background-color: black ;
-        }
-        
-        .header h2 {
-            font-family: "Lato", sans-serif;
-            text-align: center;
-        }
-        
-        .progress-container {
-            width: 100%;
-            height: 5px;
-        }
-@media screen and (min-width: 700px) {
-        .progress-container {
-            height: 5px;
-            align: center;
-        } }
-        
-        .progress-bar {
-            height: 6px;
-            background: green;
-            width: 0%;
-        }
-@media screen and (min-width: 700px) {
-        .progress-bar {
-            height: 6px;
-            background: green;
-            width: 0%;
-        } }
-
-        .content {
-            font-family: "Lato", sans-serif;
-            padding: 0px 0;
-            margin: 0px auto 0 auto;
-            width: 98%;
-        }
-        
-        @media screen and (min-width: 700px) {
-            .content {
-                padding: 20px 0;
-                margin: 0px auto 0 auto;
-                width: 60%;
-            }
-        }
-        
-        * {
-            box-sizing: border-box
-        }
-        /* Set height of body and the document to 100% */
-        
-        body,
-        html {
-            font-family: "Lato", sans-serif;
-            height: 100%;
-            width: 100%;
-            margin: 0;
-        }
-        
-.btt1 {
-            font-family: "Lato", sans-serif;          
-            text-align: center;
-            width: 80%;
-        }
-
-
-        .btt {
-            font-family: "Lato", sans-serif;
-            background-color: red;
-            color: white;
-            border: 0;
-            cursor: pointer;
-            text-align: left;
-            width: 8px;
-            -webkit-transition-duration: 0.4s;
-            /* Safari */
-            transition-duration: 0.4s;
-            text-decoration: none;
-            overflow: hidden;
-            cursor: pointer;
-            border-radius: 4px;
-            font-size: 15px;
-        }
-        
-        .btt:hover {
-            background-color: ;
-            color: black;
-            font-family: "Lato", sans-serif;
-        }
-        /* Style tab links */
-       
-
-        .tablink {
-            font-family: "Lato", sans-serif;
-            background-color: black;
-            color: white;
-            align: center;
-            float: left;
-            border: none;
-            outline: none;
-            padding: 3px;
-            font-size: 10px;
-            width: 16.5%;
-        }
-
-@media screen and (min-width: 600px) {
-        .tablink {
-            font-family: "Lato", sans-serif;
-            background-color: black;
-            color: white;
-            align: center;
-            float: left;
-            border: none;
-            outline: none;
-            padding: 6px;
-            font-size: 12px;
-            width: 16.5%;
-        }
-}
-
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="">
+  </script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+      OneSignal.init({
+        appId: "6f6a8484-b1bb-4dcd-8283-b486f837f3be",
+      }
+                    );
     }
+                  );
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-112167797-2');
+  </script>
+  <head>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=300px">
+    <meta name="mobile-web-app-capable" content="yes" display="standalone">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/manifest.webmanifest" rel="manifest" />
+    <link href="//image.ibb.co/frphtJ/tk_bold.png'" rel='icon' />
+    <link rel=icon href="//image.ibb.co/frphtJ/tk_bold.png" sizes="96x96" type="image/png">
+    <link rel="shortcut icon" href="//image.ibb.co/frphtJ/tk_bold.png">
+    <title>TeaKadai
+    </title>
+    <meta content='notranslate' name='google' />
+    <meta content='black' name='theme-color' />
+    <meta content='yes' name='mobile-web-app-capable' />
+    <meta content='width=device-width' name='viewport' />
+    <meta content='yes' name='mobile-web-app-capable' />
+    <meta content='black-translucent' name='apple-mobile-web-app-status-bar-style' />
+    <meta content='true' name='HandheldFriendly' />
+    <meta content='width' name='MobileOptimized' />
+    <meta content='guest-home' name='pageKey' />
+    <style>
+      #myBtn {
+        font-family: 'IBM Plex Sans', sans-serif;
+        position: fixed;
+        top: 0%;
+        right: 0%;
+        z-index: 99;
+        font-size: 20px;
+        border-radius: 0%;
+        border: none;
+        outline: none;
+        background-color: #00e676;
+        color: white;
+        cursor: pointer;
+        padding: 7px;
+        
+      }
+      #myBtnn {
+        font-family: 'IBM Plex Sans';
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        z-index: 99;
+        font-size: 10px;
+        border-radius: 0%;
+        border: none;
+        outline: none;
+        background-color: #f44336;
+        color: white;
+        cursor: pointer;
+        padding: 5px;
+        
+      }
+      .logo {
+        font-family: 'IBM Plex Sans', sans-serif;
+        position: fixed;
+        text-align: left;
+        top: 0px;
+        left: 10px;
+        z-index: 11;
+        font-size: 10px;
+        border-radius: 0%;
+        border: 0;
+        outline: 0;
+        background-color: red ;
+        color: white;
+        cursor: pointer;
+        padding: 12.5px;
+        width: 100%;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+      }
+      .alert {
+        padding: 1px;
+        background-color: white;
+        color: black;
+        opacity: 1;
+        scrollbar: 0;
+        transition: opacity 1s;
+        width: 300px;
+        height: 100%;
+      }
+      .alert.success {
+        background-color: black;
+      }
+      .closebtn {
+        font-size: 10px;
+        line-height: 25px;
+        cursor: pointer;
+        transition: 1s;
+      }
+      .closebtn:hover {
+        color: black;
+      }
+      a, u {
+        text-decoration: none;
+        Color: black;
+      }
+     .belbtn {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        font-size: 15px;
+        cursor: pointer;
+     }
+      body {
+        font-family: "Lato", sans-serif;
+        margin: 0;
+        font-size: 150%;
+      }
+      .header {
+        font-family: "Lato", sans-serif;
+        position:fixed ;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+        background-color:white ;
+      }
+      .header h2 {
+        font-family: "Lato", sans-serif;
+        text-align: center;
+      }
+      .progress-container {
+        width: 100%;
+        height: 5px;
+        background-color:white ;
 
-    .tablink:hover {
+      }
+      @media screen and (min-width: 700px) {
+        .progress-container {
+          height: 5px;
+          align: center;
+        }
+      }
+      .progress-bar {
+        height: 6px;
+        background-color:black ;
+        background: green;
+        width: 0%;
+      }
+      @media screen and (min-width: 700px) {
+        .progress-bar {
+          height: 6px;
+        background-color:black ;
+          background: green;
+          width: 0%;
+        }
+      }
+      .content {
+        font-family: "Lato", sans-serif;
+        padding: 0px 0;
+        margin: 0px auto 0 auto;
+        width: 99%;
+        height: 80%;
+      }
+      @media screen and (min-width: 700px) {
+        .content {
+          padding: 20px 0;
+          margin: 0px auto 0 auto;
+          width: 66%;
+        }
+      }
+      * {
+        box-sizing: border-box
+      }
+      /* Set height of body and the document to 100% */
+      body,
+      html {
+        font-family: "Lato", sans-serif;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+      }
+      .btt1 {
+        font-family: "Lato", sans-serif;
+        text-align: center;
+        width: 80%;
+      }
+      .btt {
+        font-family: "Lato", sans-serif;
+        background-color: red;
+        color: white;
+        border: 0;
+        cursor: pointer;
+        text-align: left;
+        width: 8px;
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 15px;
+      }
+      .btt:hover {
+        background-color: ;
+        color: black;
+        font-family: "Lato", sans-serif;
+      }
+      /* Style tab links */
+      .tablink {
+        font-family: "Lato", sans-serif;
+        background-color: black;
+        color: white;
+        align: center;
+        float: left;
+        border: none;
+        outline: none;
+        padding: 3px;
+        font-size: 10px;
+        width: 16.66%;
+      }
+      @media screen and (min-width: 600px) {
+        .tablink {
+          font-family: "Lato", sans-serif;
+          background-color: black;
+          color: white;
+          align: center;
+          float: left;
+          border: none;
+          outline: none;
+          padding: 6px;
+          font-size: 12px;
+          width: 16.66%;
+        }
+      }
+      }
+      .tablink:hover {
         background-color: white;
         font-family: "Lato", sans-serif;
-    }
-    
-/* Style the tab content (and add height:100% for full page content) */
-    .tabcontent {
+      }
+      /* Style the tab content (and add height:100% for full page content) */
+      .tabcontent {
         font-family: "Lato", sans-serif;
-        color: white;
+        color: ;
         display: none;
-        padding: 0px 0px;
-        height: 95%;
-    }
-
-    @media screen and (min-width: 600px) {
+        padding: 0px;
+        
+      }
+      @media screen and (min-width: 600px) {
         .tabcontent {
-            font-family: "Lato", sans-serif;
-            color: white;
-            display: none;
-            padding: 0px 0px;
-            height: 95%;
+          font-family: "Lato", sans-serif;
+          color: white;
+          display: none;
+          padding: 0px 0px;
+          height: 5%;
         }
-    }
-}
-body {
-    font-family: "Lato", sans-serif;
-    font-size: 15px;
-    transition: background-color .5s;
-}
-.sidenav {
-    height: 100%;
-    background-color: ;
-    width: 0;
-    position: fixed;
-    padding: 0px;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    transition: 0.75s;
-    padding-top: 25px;
-    font-size: 15px;
-    webkit-transition-duration: 0.4s;
-}
-.sidenav a {
-    padding: 4px 4px 4px 2px;
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    transition: 1s;
-}
-
-.sidenav .closebtn1 {
-    position: absolute;
-    top: 33;
-    left: 260px;
-    font-size: 44px;
-    padding-top: 0px;
-    margin-left: 12px;
-    color: red;
-}
-#main {
-    transition: margin-left .5s;
-    padding: 1px;
-}
-#Home {
-    background-color:;
-}
-#Fun {
-    background-color:;
-}
-#Cinema {
-    background-color:;
-}
+      }
+      }
+      body {
+        font-family: "Lato", sans-serif;
+        font-size: 15px;
+        transition: background-color 1.5s;
+      }
+      .sidenav {
+        height: 100%;
+        background-color: ;
+        width: 0;
+        position: fixed;
+        padding: 0px;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: .75s;
+        padding-top: 24px;
+        font-size: 10px;
+        webkit-transition-duration: 0.4s;
+      }
+      .sidenav a {
+        padding: 2px;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        transition: 1s;
+      }
+      .sidenav .closebtn1 {
+        position: absolute;
+        top: 25;
+        left: 260px;
+        font-size: 44px;
+        padding-top: 0px;
+        margin-left: 12px;
+        color: red;
+      }
+      #main {
+        transition: margin-left .5s;
+        padding: 1px;
+      }
+      #Home {
+        background-color:;
+      }
+      #Fun {
+        background-color:;
+      }
+      #Cinema {
+        background-color:;
+      }
     </style>
-</head>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="material-icons">expand_less
+      </i>
+    </button>
+    <button id="myBtnn" onclick="openNav()">
+      <i class="material-icons">menu
+      </i>
+      <img src="//image.ibb.co/frphtJ/tk_bold.png" style="width:25px;" alt="TeaKadai">
+    </button>
+    <div>
+      <button class="logo" >
+        <center>
+          <b>TeaKadai powered by Twitter API & GravityNull
+          </b>
+        </center>
+      </button>
+    </div>
+    <br>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn1" onclick="closeNav()">&times;
+      </a>
+      <div class="alert">
+        <span class="closebtn">
+          <left>
+            <center>
+              <style>
+                /* Slideshow container */
+                .slideshow-containerr {
+                  max-width: 150%;
+                }
+                /* The dots/bullets/indicators */
+                .dot {
+                  cursor: pointer;
+                  height: 15px;
+                  width: 15px;
+                  margin: 0 2px;
+                  background-color: red;
+                  border-radius: 50%;
+                  display: inline-block;
+                  transition: background-color 0.6s ease;
+                }
+                .active, .dot:hover {
+                  background-color: black;
+                }
+              </style>
+              <hr>
+              <a href="https://gravitynull.blogspot.in" target="blank">
+                <b>CARTOON YOURSELF
+                </b>
+              </a>
+              <hr>
+              <div class="slideshow-containerr">
+                <a href="https://www.facebook.com/gravitynull" target="blank">
+                  <div class="mySlidess">
+                    <img src="https://4.bp.blogspot.com/-s_160hRFXFM/WmbOGshH0HI/AAAAAAAAEzk/ipwIasSovB88lZOJtSAxL3jCsEYyio3tQCPcBGAYYCw/s400/3pic.jpg" style="width: 100%;" />
+                  </div>
+                  <div class="mySlidess">
+                    <img src="https://2.bp.blogspot.com/-1WcGZ658_wo/WmbOOU3reWI/AAAAAAAAEzo/bfEqk_HX-BQgH0KMzBZ4xP34kzsmm97UgCPcBGAYYCw/s400/2pic.jpg" style="width: 100%;" />
+                  </div>
+                  <div class="mySlidess">
+                    <img src="https://4.bp.blogspot.com/-iCqnLhr8et0/WmbOSYcx_XI/AAAAAAAAEzs/GOpl572RFCshs0unPvGf9outyADfe8_SgCPcBGAYYCw/s400/1pic.jpg" style="width: 100%;" />
+                  </div>
+                </a>
+                <div style="text-align: center;">
+                  <span class="dot" onclick="currentSlide(1)">
+                  </span>
+                  <span class="dot" onclick="currentSlide(2)">
+                  </span>
+                  <span class="dot" onclick="currentSlide(3)">
+                  </span>
+                </div>                <b>Made with <3 in Madurai </b>
 
-<body>
-<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="material-icons">expand_less</i>
-</button>
-<button id="myBtnn" onclick="openNav()">
-<i class="material-icons">menu</i>
-<img src="//image.ibb.co/frphtJ/tk_bold.png" style="width:25px;" alt="TeaKadai">
-</button>
-<div>
-<button class="logo" >
-<center><b>TeaKadai powered by Twitter API & GravityNull</b></center>
-</button>
-</div>
-<br>
-<div id="mySidenav" class="sidenav">
-<a href="javascript:void(0)" class="closebtn1" onclick="closeNav()">&times;</a>
-<div class="alert">
-<span class="closebtn">
-<left>
+                  </center>
+                <script>
+                  var slideIndex = 1;
+                  showSlides(slideIndex);
+                  function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                  }
+                  function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                  }
+                  function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlidess");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) {
+                      slideIndex = 1}
+                    if (n < 1) {
+                      slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";
+                    dots[slideIndex-1].className += " active";
+                  }
+                </script>
+                <center>
+                  <a href="https://teakadai.os.tc/" target="blank">
+<button class="belbtn"><i class="fa fa-bell"></i><b> subscribe</b></button></a>
+                  <br>
+                  <b>Subscribe to #TeaKadai to grab all new offers and updates
+</br>  <hr> v1.0.7 butter biscut</b>
+                </center>
+               
+                
+                <center>
+                  <script async src="//www.googletagmanager.com/gtag/js?id=UA-112167797-1">
+                  </script>
+                  <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){
+                      dataLayer.push(arguments);
+                    }
+                    gtag('js', new Date());
+                    gtag('config', 'UA-112167797-1');
+                  </script>
+                </center>
+                </center>
+              </centre>
+            </span>
+          </div>
+      </div>
+    </div>
+    <body bgcolor="white">
+      <div class="header">
+        
 <center>
-<style>
+    <div class="progress-container">
 
-/* Slideshow container */
-.slideshow-containerr {
-  max-width: 150%;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: red;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: black;
-}
-
-</style>
-<hr>
-<a href="https://gravitynull.blogspot.in" target="blank"><b>CARTOON YOURSELF</b></a>
-<hr>
-<div class="slideshow-containerr">
-<a href="https://www.facebook.com/gravitynull" target="blank">
-<div class="mySlidess">
-<img src="https://4.bp.blogspot.com/-s_160hRFXFM/WmbOGshH0HI/AAAAAAAAEzk/ipwIasSovB88lZOJtSAxL3jCsEYyio3tQCPcBGAYYCw/s400/3pic.jpg" style="width: 100%;" />
-</div>
-<div class="mySlidess">
-<img src="https://2.bp.blogspot.com/-1WcGZ658_wo/WmbOOU3reWI/AAAAAAAAEzo/bfEqk_HX-BQgH0KMzBZ4xP34kzsmm97UgCPcBGAYYCw/s400/2pic.jpg" style="width: 100%;" />
-</div>
-<div class="mySlidess">
-<img src="https://4.bp.blogspot.com/-iCqnLhr8et0/WmbOSYcx_XI/AAAAAAAAEzs/GOpl572RFCshs0unPvGf9outyADfe8_SgCPcBGAYYCw/s400/1pic.jpg" style="width: 100%;" />
-</div>
-</a>
-<div style="text-align: center;">
-<span class="dot" onclick="currentSlide(1)"></span>
-<span class="dot" onclick="currentSlide(2)"></span>
-<span class="dot" onclick="currentSlide(3)"></span>
-</div>
-<b>Made with <3 in Madurai</b>
-</center>
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlidess");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
-<center>
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-<script>
-  var OneSignal = window.OneSignal || [];
-  OneSignal.push(function() {
-    OneSignal.init({
-      appId: "6f6a8484-b1bb-4dcd-8283-b486f837f3be",
-    });
-  });
-</script>
-<div class='onesignal-customlink-container'></div>
-<b>Subscribe to TeaKadai to grab all new offers and updates :)</b>
-</center>
-<hr>
+          <center>
+            <script type="text/javascript">
+              ( function() {
+                if (window.CHITIKA === undefined) {
+                  window.CHITIKA = {
+                    'units' : [] };
+                };
+                var unit = {
+                  "calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
+                var placement_id = window.CHITIKA.units.length;
+                window.CHITIKA.units.push(unit);
+                document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+              }
+               ());
+            </script>
+            <script type="text/javascript" src="//cdn.chitika.net/getads.js" async>
+            </script>
+          </center>
 
 
+          <div class="progress-bar" id="myBar">
+          </div>
+          <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">
+            <i class="material-icons">place
+            </i>
+            <br>tamil
+          </button>
+          <button class="tablink" onclick="openPage('Fun', this, '#9C27B0')">
+            <center>
+              <i class="material-icons">recent_actors
+              </i>
+              <br>social
+              </button>
+            </center>
+          <button class="tablink" onclick="openPage('Tech', this, '#00C853')">
+            <i class="material-icons">devices
+            </i>
+            <br>tech
+          </button>
+          <button class="tablink" onclick="openPage('Cinema', this, '#FFC107')">
+            <i class="material-icons">local_movies
+            </i>
+            <br>cinema
+          </button>
+          <button class="tablink" onclick="openPage('World', this, '#1565C0')">
+            <i class="material-icons">public
+            </i>
+            <br>world
+          </button>
+          <button class="tablink" onclick="openPage('Chat', this, '#FF9800')">
+            <i class="material-icons">message
+            </i>
+            <br>comment
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <div id="Home" class="tabcontent">
 
-
-
-<center>
-
-<script async src="//www.googletagmanager.com/gtag/js?id=UA-112167797-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112167797-1');
-</script>
-</center></center>
-</centre>
-</span>
-</div>
-</div>
-</div>
-<body bgcolor="white">
-<div class="header">
-
-
-
-
-
-
-<div class="progress-container">
-<div class="progress-bar" id="myBar"></div>
-<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">
-<i class="material-icons">place</i>
-<br>tamil</button>
-<button class="tablink" onclick="openPage('Fun', this, 'red')">
-<center><i class="material-icons">recent_actors</i>
-<br>social</button>
-</center>
-<button class="tablink" onclick="openPage('Tech', this, 'red')">
-<i class="material-icons">devices</i>
-<br>tech</button>
-<button class="tablink" onclick="openPage('Cinema', this, 'red')">
-<i class="material-icons">local_movies</i>
-<br>cinema</button>
-<button class="tablink" onclick="openPage('World', this, 'red')">
-<i class="material-icons">public</i>
-<br>world</button>
-<button class="tablink" onclick="openPage('Chat', this, 'red')">
-<i class="material-icons">message</i>
-<br>comment</button>
-</div>
-</div>
-
-<div class="content">
-<div id="Home" class="tabcontent">
-
-
-<br>
-<center>
-<script type="text/javascript">
-  ( function() {
-    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
-    var unit = {"calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
-    var placement_id = window.CHITIKA.units.length;
-    window.CHITIKA.units.push(unit);
-    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
-}());
-</script>
-<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
-</center>
-<hr>
-
-
+<br>    
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai" data-chrome="noheader" data-dnt="true" data-link-color="blue">
-Loading...</a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            Loading...
+          </a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+          </script>        
+.
 </div>
 
-<div id="Fun" class="tabcontent">
-
-
-<br>
-<center>
-<script type="text/javascript">
-  ( function() {
-    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
-    var unit = {"calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
-    var placement_id = window.CHITIKA.units.length;
-    window.CHITIKA.units.push(unit);
-    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
-}());
-</script>
-<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
-</center>
-<hr>
-
-
+        <div id="Fun" class="tabcontent">
+        
+<br>         
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai2" data-chrome="noheader" data-dnt="true" data-link-color="blue">
-Loading...</a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            Loading...
+          </a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+          </script>
+.
 </div>
 
-<div id="Tech" class="tabcontent">
-
-
-<br>
-<center>
-<script type="text/javascript">
-  ( function() {
-    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
-    var unit = {"calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
-    var placement_id = window.CHITIKA.units.length;
-    window.CHITIKA.units.push(unit);
-    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
-}());
-</script>
-<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
-</center>
-<hr>
-
+        <div id="Tech" class="tabcontent">          
+<br>          
 
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai4" data-chrome="noheader" data-dnt="true" data-link-color="blue">
-Loading...</a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            Loading...
+          </a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+          </script>
+.
 </div>
 
-<div id="Cinema" class="tabcontent">
-
-
+        <div id="Cinema" class="tabcontent">          
 <br>
-<center>
-<script type="text/javascript">
-  ( function() {
-    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
-    var unit = {"calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
-    var placement_id = window.CHITIKA.units.length;
-    window.CHITIKA.units.push(unit);
-    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
-}());
-</script>
-<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
-</center>
-<hr>
-
 
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai3" data-chrome="noheader" data-dnt="true" data-link-color="blue">
-Loading...</a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            Loading...
+          </a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+          </script>
+.
 </div>
 
-<div id="World" class="tabcontent">
-
-
+        <div id="World" class="tabcontent">          
 <br>
-<center>
-<script type="text/javascript">
-  ( function() {
-    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
-    var unit = {"calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
-    var placement_id = window.CHITIKA.units.length;
-    window.CHITIKA.units.push(unit);
-    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
-}());
-</script>
-<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
-</center>
-<hr>
-
 
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai1" data-chrome="noheader" data-dnt="true" data-link-color="blue">
-Loading...</a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            Loading...
+          </a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+          </script>
+.        
 </div>
 
-<div id="Chat" class="tabcontent">
-
-
-<br>
-
-
-
-<div id="disqus_thread"></div>
-<script>
-                    /**
+        <div id="Chat" class="tabcontent">
+          <br>
+          <div id="disqus_thread">
+          </div>
+          <script>
+            /**
                      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
                      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-                    /*
+            /*
                     var disqus_config = function () {
                     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
                     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                     };
                     */
-                    (function() { // DON'T EDIT BELOW THIS LINE
-                        var d = document,
-                            s = d.createElement('script');
-                        s.src = 'https://teakadaii.disqus.com/embed.js';
-                        s.setAttribute('data-timestamp', +new Date());
-                        (d.head || d.body).appendChild(s);
-                    })();
-                </script>
-<noscript>
-                    <a href="https://disqus.com/?ref_noscript"></a>
-                </noscript>
-</div>
+            (function() {
+              // DON'T EDIT BELOW THIS LINE
+              var d = document,
+                  s = d.createElement('script');
+              s.src = 'https://teakadaii.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+            }
+            )();
+          </script>
+          <noscript>
+            <a href="https://disqus.com/?ref_noscript">
+            </a>
+          </noscript>
+        </div>
+        <script>
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {
+            scrollFunction()
+          };
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("myBtn").style.display = "block";
+            }
+            else {
+              document.getElementById("myBtn").style.display = "none";
+            }
+          }
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+          function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+          }
+          // Get the element with id="defaultOpen" and click on it
+          document.getElementById("defaultOpen").click();
+          // When the user scrolls the page, execute myFunction 
+          window.onscroll = function() {
+            myFunction()
+          };
+          function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+          }
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+          }
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0%";
+          }
+          window.addEventListener('beforeinstallprompt', (e) => {
+            // Prevent Chrome 67 and earlier from automatically showing the prompt
+            e.preventDefault();
+            // Stash the event so it can be triggered later.
+            deferredPrompt = e;
+          }
+                                 );
+          btnAdd.addEventListener('click', (e) => {
+            // hide our user interface that shows our A2HS button
+            btnAdd.style.display = 'none';
+            // Show the prompt
+            deferredPrompt.prompt();
+            // Wait for the user to respond to the prompt
+            deferredPrompt.userChoice
+              .then((choiceResult) => {
+              if (choiceResult.outcome === 'accepted') {
+                console.log('User accepted the A2HS prompt');
+              }
+              else {
+                console.log('User dismissed the A2HS prompt');
+              }
+              deferredPrompt = null;
+            }
+                   );
+          }
+                                 );
+        </script>
+        <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js">
+        </script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyDJMWieFnCKbovhrroUugoUpD3thy5Q_N8",
+            authDomain: "teakadai-tk.firebaseapp.com",
+            databaseURL: "https://teakadai-tk.firebaseio.com",
+            projectId: "teakadai-tk",
+            storageBucket: "teakadai-tk.appspot.com",
+            messagingSenderId: "679404193304"
+          };
+          firebase.initializeApp(config);
+        </script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
-                // When the user scrolls down 20px from the top of the document, show the button
-                window.onscroll = function() {
-                    scrollFunction()
-                };
-
-                function scrollFunction() {
-                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                        document.getElementById("myBtn").style.display = "block";
-                    } else {
-                        document.getElementById("myBtn").style.display = "none";
-                    }
-                }
-
-                // When the user clicks on the button, scroll to the top of the document
-                function topFunction() {
-                    document.body.scrollTop = 0;
-                    document.documentElement.scrollTop = 0;
-                }
-
-                function openPage(pageName, elmnt, color) {
-                    var i, tabcontent, tablinks;
-                    tabcontent = document.getElementsByClassName("tabcontent");
-                    for (i = 0; i < tabcontent.length; i++) {
-                        tabcontent[i].style.display = "";
-                    }
-                    tablinks = document.getElementsByClassName("tablink");
-                    for (i = 0; i < tablinks.length; i++) {
-                        tablinks[i].style.backgroundColor = "";
-                    }
-                    document.getElementById(pageName).style.display = "block";
-                    elmnt.style.backgroundColor = color;
-
-                }
-
-                // Get the element with id="defaultOpen" and click on it
-                document.getElementById("defaultOpen").click();
-
-                // When the user scrolls the page, execute myFunction 
-                window.onscroll = function() {
-                    myFunction()
-                };
-
-                function myFunction() {
-                    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-                    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-                    var scrolled = (winScroll / height) * 100;
-                    document.getElementById("myBar").style.width = scrolled + "%";
-                }
-
-                function openNav() {
-                    document.getElementById("mySidenav").style.width = "100%";
-                }
-
-                function closeNav() {
-                    document.getElementById("mySidenav").style.width = "0%";
-                }
-
-window.addEventListener('beforeinstallprompt', (e) => {
-  // Prevent Chrome 67 and earlier from automatically showing the prompt
-  e.preventDefault();
-  // Stash the event so it can be triggered later.
-  deferredPrompt = e;
-});
-btnAdd.addEventListener('click', (e) => {
-  // hide our user interface that shows our A2HS button
-  btnAdd.style.display = 'none';
-  // Show the prompt
-  deferredPrompt.prompt();
-  // Wait for the user to respond to the prompt
-  deferredPrompt.userChoice
-    .then((choiceResult) => {
-      if (choiceResult.outcome === 'accepted') {
-        console.log('User accepted the A2HS prompt');
-      } else {
-        console.log('User dismissed the A2HS prompt');
-      }
-      deferredPrompt = null;
-    });
-});
-            </script>
-
-<script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyDJMWieFnCKbovhrroUugoUpD3thy5Q_N8",
-    authDomain: "teakadai-tk.firebaseapp.com",
-    databaseURL: "https://teakadai-tk.firebaseio.com",
-    projectId: "teakadai-tk",
-    storageBucket: "teakadai-tk.appspot.com",
-    messagingSenderId: "679404193304"
-  };
-  firebase.initializeApp(config);
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6609460552489397",
+    enable_page_level_ads: true
+  });
 </script>
 
-</body></html>
+        </body>
+      </html>
