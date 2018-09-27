@@ -1,353 +1,403 @@
 <html>
-  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="">
-  </script>
-  <script>
-    var OneSignal = window.OneSignal || [];
-    OneSignal.push(function() {
-      OneSignal.init({
-        appId: "6f6a8484-b1bb-4dcd-8283-b486f837f3be",
-      }
-                    );
-    }
-                  );
-  </script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-112167797-2');
-  </script>
-  <head>
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=300px">
-    <meta name="mobile-web-app-capable" content="yes" display="standalone">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="/manifest.webmanifest" rel="manifest" />
-    <link href="//image.ibb.co/frphtJ/tk_bold.png'" rel='icon' />
-    <link rel=icon href="//image.ibb.co/frphtJ/tk_bold.png" sizes="96x96" type="image/png">
-    <link rel="shortcut icon" href="//image.ibb.co/frphtJ/tk_bold.png">
-    <title>TeaKadai
-    </title>
-    <meta content='notranslate' name='google' />
-    <meta content='black' name='theme-color' />
-    <meta content='yes' name='mobile-web-app-capable' />
-    <meta content='width=device-width' name='viewport' />
-    <meta content='yes' name='mobile-web-app-capable' />
-    <meta content='black-translucent' name='apple-mobile-web-app-status-bar-style' />
-    <meta content='true' name='HandheldFriendly' />
-    <meta content='width' name='MobileOptimized' />
-    <meta content='guest-home' name='pageKey' />
-    <style>
-      #myBtn {
-        font-family: 'IBM Plex Sans', sans-serif;
-        position: fixed;
-        top: 0%;
-        right: 0%;
-        z-index: 99;
-        font-size: 20px;
-        border-radius: 0%;
-        border: none;
-        outline: none;
-        background-color: #00e676;
-        color: white;
-        cursor: pointer;
-        padding: 7px;
-        
-      }
-      #myBtnn {
-        font-family: 'IBM Plex Sans';
-        position: fixed;
-        top: 0%;
-        left: 0%;
-        z-index: 99;
-        font-size: 10px;
-        border-radius: 0%;
-        border: none;
-        outline: none;
-        background-color: #f44336;
-        color: white;
-        cursor: pointer;
-        padding: 5px;
-        
-      }
-      .logo {
-        font-family: 'IBM Plex Sans', sans-serif;
-        position: fixed;
-        text-align: left;
-        top: 0px;
-        left: 10px;
-        z-index: 11;
-        font-size: 10px;
-        border-radius: 0%;
-        border: 0;
-        outline: 0;
-        background-color: red ;
-        color: white;
-        cursor: pointer;
-        padding: 12.5px;
-        width: 100%;
-        opacity: 0.8;
-        filter: alpha(opacity=80);
-      }
-      .alert {
-        padding: 1px;
-        background-color: white;
-        color: black;
-        opacity: 1;
-        scrollbar: 0;
-        transition: opacity 1s;
-        width: 300px;
-        height: 100%;
-      }
-      .alert.success {
-        background-color: black;
-      }
-      .closebtn {
-        font-size: 10px;
-        line-height: 25px;
-        cursor: pointer;
-        transition: 1s;
-      }
-      .closebtn:hover {
-        color: black;
-      }
-      a, u {
-        text-decoration: none;
-        Color: black;
-      }
-     .belbtn {
-        background-color: red;
-        border: none;
-        color: white;
-        padding: 10px 10px;
-        font-size: 15px;
-        cursor: pointer;
-     }
-      body {
-        font-family: "Lato", sans-serif;
-        margin: 0;
-        font-size: 150%;
-      }
-      .header {
-        font-family: "Lato", sans-serif;
-        position:fixed ;
-        bottom: 0;
-        z-index: 1;
-        width: 100%;
-        background-color:white ;
-      }
-      .header h2 {
-        font-family: "Lato", sans-serif;
-        text-align: center;
-      }
-      .progress-container {
-        width: 100%;
-        height: 5px;
-        background-color:white ;
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="">
+</script>
+<script>
+	var OneSignal = window.OneSignal || [];
+	    OneSignal.push(function() {
+	      OneSignal.init({
+	        appId: "6f6a8484-b1bb-4dcd-8283-b486f837f3be",
+	      }
+	                    );
+	    }
+	                  );
+</script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	    function gtag(){
+	      dataLayer.push(arguments);
+	    }
+	    gtag('js', new Date());
+	    gtag('config', 'UA-112167797-2');
+</script>
 
-      }
-      @media screen and (min-width: 700px) {
-        .progress-container {
-          height: 5px;
-          align: center;
-        }
-      }
-      .progress-bar {
-        height: 6px;
-        background-color:black ;
-        background: green;
-        width: 0%;
-      }
-      @media screen and (min-width: 700px) {
-        .progress-bar {
-          height: 6px;
-        background-color:black ;
-          background: green;
-          width: 0%;
-        }
-      }
-      .content {
-        font-family: "Lato", sans-serif;
-        padding: 0px 0;
-        margin: 0px auto 0 auto;
-        width: 99%;
-        height: 80%;
-      }
-      @media screen and (min-width: 700px) {
-        .content {
-          padding: 20px 0;
-          margin: 0px auto 0 auto;
-          width: 66%;
-        }
-      }
-      * {
-        box-sizing: border-box
-      }
-      /* Set height of body and the document to 100% */
-      body,
-      html {
-        font-family: "Lato", sans-serif;
-        height: 100%;
-        width: 100%;
-        margin: 0;
-      }
-      .btt1 {
-        font-family: "Lato", sans-serif;
-        text-align: center;
-        width: 80%;
-      }
-      .btt {
-        font-family: "Lato", sans-serif;
-        background-color: red;
-        color: white;
-        border: 0;
-        cursor: pointer;
-        text-align: left;
-        width: 8px;
-        -webkit-transition-duration: 0.4s;
-        /* Safari */
-        transition-duration: 0.4s;
-        text-decoration: none;
-        overflow: hidden;
-        cursor: pointer;
-        border-radius: 4px;
-        font-size: 15px;
-      }
-      .btt:hover {
-        background-color: ;
-        color: black;
-        font-family: "Lato", sans-serif;
-      }
-      /* Style tab links */
-      .tablink {
-        font-family: "Lato", sans-serif;
-        background-color: black;
-        color: white;
-        align: center;
-        float: left;
-        border: none;
-        outline: none;
-        padding: 3px;
-        font-size: 10px;
-        width: 16.66%;
-      }
-      @media screen and (min-width: 600px) {
-        .tablink {
-          font-family: "Lato", sans-serif;
-          background-color: black;
-          color: white;
-          align: center;
-          float: left;
-          border: none;
-          outline: none;
-          padding: 6px;
-          font-size: 12px;
-          width: 16.66%;
-        }
-      }
-      }
-      .tablink:hover {
-        background-color: white;
-        font-family: "Lato", sans-serif;
-      }
-      /* Style the tab content (and add height:100% for full page content) */
-      .tabcontent {
-        font-family: "Lato", sans-serif;
-        color: ;
-        display: none;
-        padding: 0px;
-        
-      }
-      @media screen and (min-width: 600px) {
-        .tabcontent {
-          font-family: "Lato", sans-serif;
-          color: white;
-          display: none;
-          padding: 0px 0px;
-          height: 5%;
-        }
-      }
-      }
-      body {
-        font-family: "Lato", sans-serif;
-        font-size: 15px;
-        transition: background-color 1.5s;
-      }
-      .sidenav {
-        height: 100%;
-        background-color: ;
-        width: 0;
-        position: fixed;
-        padding: 0px;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        overflow-x: hidden;
-        transition: .75s;
-        padding-top: 24px;
-        font-size: 10px;
-        webkit-transition-duration: 0.4s;
-      }
-      .sidenav a {
-        padding: 2px;
-        text-decoration: none;
-        font-size: 20px;
-        color: black;
-        transition: 1s;
-      }
-      .sidenav .closebtn1 {
-        position: absolute;
-        top: 25;
-        left: 260px;
-        font-size: 44px;
-        padding-top: 0px;
-        margin-left: 12px;
-        color: red;
-      }
-      #main {
-        transition: margin-left .5s;
-        padding: 1px;
-      }
-      #Home {
-        background-color:;
-      }
-      #Fun {
-        background-color:;
-      }
-      #Cinema {
-        background-color:;
-      }
-    </style>
-  </head>
-  <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
-      <i class="material-icons">expand_less
+<head>
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=300px">
+	<meta name="mobile-web-app-capable" content="yes" display="standalone">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="/manifest.webmanifest" rel="manifest" />
+	<link href="//image.ibb.co/frphtJ/tk_bold.png'" rel='icon' />
+	<link rel=icon href="//image.ibb.co/frphtJ/tk_bold.png" sizes="96x96" type="image/png">
+	<link rel="shortcut icon" href="//image.ibb.co/frphtJ/tk_bold.png">
+	<title>TeaKadai</title>
+	<meta content='notranslate' name='google' />
+	<meta content='black' name='theme-color' />
+	<meta content='yes' name='mobile-web-app-capable' />
+	<meta content='width=device-width' name='viewport' />
+	<meta content='yes' name='mobile-web-app-capable' />
+	<meta content='black-translucent' name='apple-mobile-web-app-status-bar-style' />
+	<meta content='true' name='HandheldFriendly' />
+	<meta content='width' name='MobileOptimized' />
+	<meta content='guest-home' name='pageKey' />
+	<style>
+		#myBtn {
+		        font-family: 'IBM Plex Sans', sans-serif;
+		        position: fixed;
+		        top: 0%;
+		        right: 0%;
+		        z-index: 99;
+		        font-size: 12px;
+		        border-radius: 0%;
+		        border: none;
+		        outline: none;
+		        background-color: #00e676;
+		        color: white;
+		        cursor: pointer;
+		        padding: 7.5px;
+		        
+		      }
+		      
+		      #ptBtn {
+		        font-family: 'IBM Plex Sans', sans-serif;
+		        position: fixed;
+		        top: 0%;
+		        right: 33px;
+		        z-index: 99;
+		        font-size: 20px;
+		        border-radius: 0%;
+		        border: none;
+		        outline: none;
+		        background-color: #00e676;
+		        color: white;
+		        cursor: pointer;
+		        padding: 7.5px;
+		        
+		      }
+		      
+		      
+		      #myBtnn {
+		        position: fixed;
+		        top: 0%;
+		        left: 0%;
+		        z-index: 99;
+		        font-size: 1px;
+		        border-radius: 0%;
+		        border: none;
+		        outline: none;
+		        background-color: red;
+		        color: white;
+		        cursor: pointer;
+		        padding: 6px;
+		        
+		      }
+		      .logo {
+		        font-family: 'IBM Plex Sans', sans-serif;
+		        position: fixed;
+		        top: 0px;
+		        left: -6px;
+		        z-index: 11;
+		        font-size: 10px;
+		        border-radius: 0%;
+		        border: 0;
+		        outline: 0;
+		        background-color: #448AFF;
+		        color: white;
+		        cursor: pointer;
+		        padding: 13.5px;
+		        width: 100%;
+		        opacity: 0.90;
+		        filter: alpha(opacity=90);
+		      }
+		      .alert {
+		        padding: 1px;
+		        background-color: white;
+		        color: black;
+		        opacity: 1;
+		        scrollbar: 0;
+		        transition: opacity 1s;
+		        width: 300px;
+		        height: 100%;
+		      }
+		      .alert.success {
+		        background-color: black;
+		      }
+		      .closebtn {
+		        font-size: 10px;
+		        line-height: 30px;
+		        cursor: pointer;
+		        transition: 1s;
+		      }
+		      .closebtn:hover {
+		        color: black;
+		      }
+		      a, u {
+		        text-decoration: none;
+		        Color: black;
+		      }
+		     .belbtn {
+		        background-color: red;
+		        border: none;
+		        color: white;
+		        padding: 10px 10px;
+		        font-size: 15px;
+		        cursor: pointer;
+		     }
+		      body {
+		        font-family: "Lato", sans-serif;
+		        margin: 0;
+		        font-size: 150%;
+		      }
+		      .header {
+		        font-family: "Lato", sans-serif;
+		        position:fixed ;
+		        bottom: 0;
+		        z-index: 1;
+		        width: 100%;
+		        background-color:white ;
+		      }
+		      .header h2 {
+		        font-family: "Lato", sans-serif;
+		        text-align: center;
+		      }
+		      .progress-container {
+		        width: 100%;
+		        height: 5px;
+		        background-color:gold ;
+		
+		      }
+		      @media screen and (min-width: 700px) {
+		        .progress-container {
+		          height: 5px;
+		          align: center;
+		        }
+		      }
+		      .progress-bar {
+		        height: 6px;
+		        background-color:gold ;
+		        background: skyblue;
+		        width: 0%;
+		      }
+		      @media screen and (min-width: 700px) {
+		        .progress-bar {
+		          height: 6px;
+		        background-color:gold ;
+		          background: skyblue;
+		          width: 0%;
+		        }
+		      }
+		      .content {
+		        font-family: "Lato", sans-serif;
+		        padding: 0px 0;
+		        margin: 0px auto 0 auto;
+		        width: 99%;
+		        height: 80%;
+		      }
+		      @media screen and (min-width: 700px) {
+		        .content {
+		          padding: 20px 0;
+		          margin: 0px auto 0 auto;
+		          width: 66%;
+		        }
+		      }
+		      * {
+		        box-sizing: border-box
+		      }
+		      /* Set height of body and the document to 100% */
+		      body,
+		      html {
+		        font-family: "Lato", sans-serif;
+		        height: 100%;
+		        width: 100%;
+		        margin: 0;
+		      }
+		      .btt1 {
+		        font-family: "Lato", sans-serif;
+		        text-align: center;
+		        width: 80%;
+		      }
+		      .btt {
+		        font-family: "Lato", sans-serif;
+		        background-color: red;
+		        color: white;
+		        border: 0;
+		        cursor: pointer;
+		        text-align: left;
+		        width: 8px;
+		        -webkit-transition-duration: 0.4s;
+		        /* Safari */
+		        transition-duration: 0.4s;
+		        text-decoration: none;
+		        overflow: hidden;
+		        cursor: pointer;
+		        border-radius: 4px;
+		        font-size: 15px;
+		      }
+		      .btt:hover {
+		        background-color: ;
+		        color: black;
+		        font-family: "Lato", sans-serif;
+		      }
+		      /* Style tab links */
+		      .tablink {
+		        font-family: "Lato", sans-serif;
+		        background-color: black;
+		        color: white;
+		        align: center;
+		        float: left;
+		        border: none;
+		        outline: none;
+		        padding: 3px;
+		        font-size: 10px;
+		        width: 16.66%;
+		      }
+		      @media screen and (min-width: 600px) {
+		        .tablink {
+		          font-family: "Lato", sans-serif;
+		          background-color: black;
+		          color: white;
+		          align: center;
+		          float: left;
+		          border: none;
+		          outline: none;
+		          padding: 6px;
+		          font-size: 12px;
+		          width: 16.66%;
+		        }
+		      }
+		      }
+		      .tablink:hover {
+		        background-color: white;
+		        font-family: "Lato", sans-serif;
+		      }
+		      /* Style the tab content (and add height:100% for full page content) */
+		      .tabcontent {
+		        font-family: "Lato", sans-serif;
+		        color: ;
+		        display: none;
+		        padding: 0px;
+		        
+		      }
+		      @media screen and (min-width: 600px) {
+		        .tabcontent {
+		          font-family: "Lato", sans-serif;
+		          color: white;
+		          display: none;
+		          padding: 0px 0px;
+		          height: 5%;
+		        }
+		      }
+		      }
+		      body {
+		        font-family: "Lato", sans-serif;
+		        font-size: 15px;
+		        transition: background-color 1.5s;
+		      }
+		      .sidenav {
+		        height: 100%;
+		        background-color: ;
+		        width: 0;
+		        position: fixed;
+		        padding: 0px;
+		        z-index: 1;
+		        top: 0;
+		        left: 0;
+		        overflow-x: hidden;
+		        transition: .75s;
+		        padding-top: 28px;
+		        font-size: 10px;
+		        webkit-transition-duration: 0.4s;
+		      }
+		      .sidenav a {
+		        padding: 2px;
+		        text-decoration: none;
+		        font-size: 20px;
+		        color: black;
+		        transition: 1s;
+		      }
+		      .sidenav .closebtn1 {
+		        position: absolute;
+		        top: 30;
+		        left: 260px;
+		        font-size: 44px;
+		        padding-top: 0px;
+		        margin-left: 12px;
+		        color: red;
+		      }
+		      #main {
+		        transition: margin-left .5s;
+		        padding: 1px;
+		      }
+		      #Home {
+		        background-color:;
+		      }
+		      #Fun {
+		        background-color:;
+		      }
+		      #Cinema {
+		        background-color:;
+		      }
+		      
+		      body 
+		      {font-family: Arial, Helvetica, sans-serif;}
+		.ptmodal 
+		{ display: none;position: fixed; z-index: 100; padding-top: 50px; 
+		left: 0; top: 0; width: 88%;
+		overflow: auto; background-color: rgb(0,0,0);  background-color: rgba(0,0,0,0);
+		}
+		.ptmodal-content { background-color: #ffffff;float: right; margin: auto; padding: 20px; border: 1px solid #888; width: 80%;font-size: 15px;
+		}
+		.close1 { color: red; float: right; font-size: 35px;  font-weight: bold;
+		}
+		.close1:hover,
+		.close1:focus { color: #000; text-decoration: none; cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="material-icons">eject
       </i>
-    </button>
-    <button id="myBtnn" onclick="openNav()">
-      <i class="material-icons">menu
+	</button>
+	<div id="ptModal" class="ptmodal">
+		<div class="ptmodal-content"> <span class="close1">&times;</span>
+			<center>Donate UPI
+				<br>roobank1@okicici</b>
+				<br>
+				<img src="https://image.ibb.co/hZoGf7/download.png" style="width:50%" />
+		</div>
+	</div>
+	<button onclick="topFunction()" id="ptBtn" title="Donate"> <i class="material-icons">favorite	
+
       </i>
-      <img src="//image.ibb.co/frphtJ/tk_bold.png" style="width:25px;" alt="TeaKadai">
-    </button>
-    <div>
-      <button class="logo" >
-        <center>
-          <b>TeaKadai powered by Twitter API & GravityNull
-          </b>
-        </center>
-      </button>
-    </div>
-    <br>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn1" onclick="closeNav()">&times;
+	</button>
+	<div id="ptModal" class="ptmodal"></div>
+	<script>
+		var ptmodal = document.getElementById('ptModal');
+		var btn = document.getElementById("ptBtn");
+		var span = document.getElementsByClassName("close1")[0];
+		btn.onclick = function() { ptmodal.style.display = "block"; }
+		span.onclick = function() { ptmodal.style.display = "none"; }
+		window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.display = "none"; } }
+	</script>
+	<button id="myBtnn" onclick="openNav()"> <i class="material-icons">
+        <b>menu</b>
+      </i>
+		<img src="//image.ibb.co/frphtJ/tk_bold.png" style="width:25px;" alt="TeaKadai">
+	</button>
+	<div>
+		<button class="logo">
+			<center> 
+          <b> TeaKadai powered by TwitterAPI & GravityNull </b>
+			</center>
+		</button>
+	</div>
+	<br>
+	<div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn1" onclick="closeNav()">&times;
       </a>
-      <div class="alert">
-        <span class="closebtn">
+		<div class="alert"> <span class="closebtn">
           <left>
             <center>
               <style>
@@ -391,48 +441,51 @@
                 <div style="text-align: center;">
                   <span class="dot" onclick="currentSlide(1)">
                   </span>
-                  <span class="dot" onclick="currentSlide(2)">
+			<span class="dot" onclick="currentSlide(2)">
                   </span>
-                  <span class="dot" onclick="currentSlide(3)">
+			<span class="dot" onclick="currentSlide(3)">
                   </span>
-                </div>                <b>Made with <3 in Madurai </b>
+		</div><b>Made with <3 in Madurai .</b>
+		</center>
+		<script>
+			var slideIndex = 1;
+			                  showSlides(slideIndex);
+			                  function plusSlides(n) {
+			                    showSlides(slideIndex += n);
+			                  }
+			                  function currentSlide(n) {
+			                    showSlides(slideIndex = n);
+			                  }
+			                  function showSlides(n) {
+			                    var i;
+			                    var slides = document.getElementsByClassName("mySlidess");
+			                    var dots = document.getElementsByClassName("dot");
+			                    if (n > slides.length) {
+			                      slideIndex = 1}
+			                    if (n < 1) {
+			                      slideIndex = slides.length}
+			                    for (i = 0; i < slides.length; i++) {
+			                      slides[i].style.display = "none";
+			                    }
+			                    for (i = 0; i < dots.length; i++) {
+			                      dots[i].className = dots[i].className.replace(" active", "");
+			                    }
+			                    slides[slideIndex-1].style.display = "block";
+			                    dots[slideIndex-1].className += " active";
+			                  }
+		</script>
+		<center>
+			<a href="https://teakadai.os.tc/" target="blank">
+				<button class="belbtn"><i class="fa fa-bell"></i><b> subscribe +</b>
+				</button>
+			</a>
+			<br> <b>Subscribe to #TeaKadai to grab all new offers and updates
 
-                  </center>
-                <script>
-                  var slideIndex = 1;
-                  showSlides(slideIndex);
-                  function plusSlides(n) {
-                    showSlides(slideIndex += n);
-                  }
-                  function currentSlide(n) {
-                    showSlides(slideIndex = n);
-                  }
-                  function showSlides(n) {
-                    var i;
-                    var slides = document.getElementsByClassName("mySlidess");
-                    var dots = document.getElementsByClassName("dot");
-                    if (n > slides.length) {
-                      slideIndex = 1}
-                    if (n < 1) {
-                      slideIndex = slides.length}
-                    for (i = 0; i < slides.length; i++) {
-                      slides[i].style.display = "none";
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                      dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                    slides[slideIndex-1].style.display = "block";
-                    dots[slideIndex-1].className += " active";
-                  }
-                </script>
-                <center>
-                  <a href="https://teakadai.os.tc/" target="blank">
-<button class="belbtn"><i class="fa fa-bell"></i><b> subscribe</b></button></a>
-                  <br>
-                  <b>Subscribe to #TeaKadai to grab all new offers and updates
-</br>  <hr> v1.0.7 butter biscut</b>
-                </center>
-               
+<hr>
+</center>
+                
+                
+                
                 
                 <center>
                   <script async src="//www.googletagmanager.com/gtag/js?id=UA-112167797-1">
@@ -455,27 +508,9 @@
     <body bgcolor="white">
       <div class="header">
         
-<center>
+
     <div class="progress-container">
 
-          <center>
-            <script type="text/javascript">
-              ( function() {
-                if (window.CHITIKA === undefined) {
-                  window.CHITIKA = {
-                    'units' : [] };
-                };
-                var unit = {
-                  "calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
-                var placement_id = window.CHITIKA.units.length;
-                window.CHITIKA.units.push(unit);
-                document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
-              }
-               ());
-            </script>
-            <script type="text/javascript" src="//cdn.chitika.net/getads.js" async>
-            </script>
-          </center>
 
 
           <div class="progress-bar" id="myBar">
@@ -518,6 +553,7 @@
         <div id="Home" class="tabcontent">
 
 <br>    
+          
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
           </a>
@@ -675,20 +711,19 @@
           }
                                  );
         </script>
-        <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js">
-        </script>
-        <script>
-          // Initialize Firebase
-          var config = {
-            apiKey: "AIzaSyDJMWieFnCKbovhrroUugoUpD3thy5Q_N8",
-            authDomain: "teakadai-tk.firebaseapp.com",
-            databaseURL: "https://teakadai-tk.firebaseio.com",
-            projectId: "teakadai-tk",
-            storageBucket: "teakadai-tk.appspot.com",
-            messagingSenderId: "679404193304"
-          };
-          firebase.initializeApp(config);
-        </script>
+        <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDJMWieFnCKbovhrroUugoUpD3thy5Q_N8",
+    authDomain: "teakadai-tk.firebaseapp.com",
+    databaseURL: "https://teakadai-tk.firebaseio.com",
+    projectId: "teakadai-tk",
+    storageBucket: "teakadai-tk.appspot.com",
+    messagingSenderId: "679404193304"
+  };
+  firebase.initializeApp(config);
+</script>
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
