@@ -21,6 +21,8 @@
 </script>
 
 <head>
+        <link rel="manifest" href="manifest.json">
+
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,7 +45,8 @@
 	<meta content='width' name='MobileOptimized' />
 	<meta content='guest-home' name='pageKey' />
 	<style>
-		#myBtn {
+		
+      /* go to top */ #myBtn {
 		        font-family: 'IBM Plex Sans', sans-serif;
 		        position: fixed;
 		        top: 0%;
@@ -57,10 +60,10 @@
 		        color: white;
 		        cursor: pointer;
 		        padding: 7.5px;
-		        
+
 		      }
-		      
-		      #ptBtn {
+
+   /* paytm button */ #ptBtn {
 		        font-family: 'IBM Plex Sans', sans-serif;
 		        position: fixed;
 		        top: 0%;
@@ -74,24 +77,24 @@
 		        color: white;
 		        cursor: pointer;
 		        padding: 7.5px;
-		        
+
 		      }
-		      
-		      
-		      #myBtnn {
+
+
+   /* logo button */  #myBtnn {
 		        position: fixed;
 		        top: 0%;
 		        left: 0%;
 		        z-index: 99;
 		        font-size: 1px;
-		        border-radius: 0%;
+		        border-radius: none;
 		        border: none;
 		        outline: none;
 		        background-color: red;
 		        color: white;
 		        cursor: pointer;
-		        padding: 6px;
-		        
+		        padding: 6.5px;
+
 		      }
 		      .logo {
 		        font-family: 'IBM Plex Sans', sans-serif;
@@ -126,7 +129,7 @@
 		      }
 		      .closebtn {
 		        font-size: 10px;
-		        line-height: 30px;
+		        line-height: 20px;
 		        cursor: pointer;
 		        transition: 1s;
 		      }
@@ -166,7 +169,7 @@
 		        width: 100%;
 		        height: 5px;
 		        background-color:gold ;
-		
+
 		      }
 		      @media screen and (min-width: 700px) {
 		        .progress-container {
@@ -249,9 +252,9 @@
 		        float: left;
 		        border: none;
 		        outline: none;
-		        padding: 3px;
+		        padding: 6px;
 		        font-size: 10px;
-		        width: 16.66%;
+		        width: 20%;
 		      }
 		      @media screen and (min-width: 600px) {
 		        .tablink {
@@ -264,7 +267,7 @@
 		          outline: none;
 		          padding: 6px;
 		          font-size: 12px;
-		          width: 16.66%;
+		          width: 20%;
 		        }
 		      }
 		      }
@@ -278,7 +281,7 @@
 		        color: ;
 		        display: none;
 		        padding: 0px;
-		        
+
 		      }
 		      @media screen and (min-width: 600px) {
 		        .tabcontent {
@@ -319,7 +322,7 @@
 		      }
 		      .sidenav .closebtn1 {
 		        position: absolute;
-		        top: 30;
+		        top: 28;
 		        left: 260px;
 		        font-size: 44px;
 		        padding-top: 0px;
@@ -339,7 +342,7 @@
 		      #Cinema {
 		        background-color:;
 		      }
-		      
+
 		      body 
 		      {font-family: Arial, Helvetica, sans-serif;}
 		.ptmodal 
@@ -367,6 +370,8 @@
 				<br>roobank1@okicici</b>
 				<br>
 				<img src="https://image.ibb.co/hZoGf7/download.png" style="width:50%" />
+<hr>
+Follow us on <a href="https://fb.com/gravitynull/" target="blank">Fb.com/GravityNull</a>
 		</div>
 	</div>
 	<button onclick="topFunction()" id="ptBtn" title="Donate"> <i class="material-icons">favorite	
@@ -426,54 +431,40 @@
                 </b>
               </a>
               <hr>
-              <div class="slideshow-containerr">
-                <a href="https://www.facebook.com/gravitynull" target="blank">
-                  <div class="mySlidess">
-                    <img src="https://4.bp.blogspot.com/-s_160hRFXFM/WmbOGshH0HI/AAAAAAAAEzk/ipwIasSovB88lZOJtSAxL3jCsEYyio3tQCPcBGAYYCw/s400/3pic.jpg" style="width: 100%;" />
-                  </div>
-                  <div class="mySlidess">
-                    <img src="https://2.bp.blogspot.com/-1WcGZ658_wo/WmbOOU3reWI/AAAAAAAAEzo/bfEqk_HX-BQgH0KMzBZ4xP34kzsmm97UgCPcBGAYYCw/s400/2pic.jpg" style="width: 100%;" />
-                  </div>
-                  <div class="mySlidess">
-                    <img src="https://4.bp.blogspot.com/-iCqnLhr8et0/WmbOSYcx_XI/AAAAAAAAEzs/GOpl572RFCshs0unPvGf9outyADfe8_SgCPcBGAYYCw/s400/1pic.jpg" style="width: 100%;" />
-                  </div>
-                </a>
-                <div style="text-align: center;">
-                  <span class="dot" onclick="currentSlide(1)">
-                  </span>
-			<span class="dot" onclick="currentSlide(2)">
-                  </span>
-			<span class="dot" onclick="currentSlide(3)">
-                  </span>
-		</div><b>Made with <3 in Madurai .</b>
-		</center>
-		<script>
-			var slideIndex = 1;
-			                  showSlides(slideIndex);
-			                  function plusSlides(n) {
-			                    showSlides(slideIndex += n);
-			                  }
-			                  function currentSlide(n) {
-			                    showSlides(slideIndex = n);
-			                  }
-			                  function showSlides(n) {
-			                    var i;
-			                    var slides = document.getElementsByClassName("mySlidess");
-			                    var dots = document.getElementsByClassName("dot");
-			                    if (n > slides.length) {
-			                      slideIndex = 1}
-			                    if (n < 1) {
-			                      slideIndex = slides.length}
-			                    for (i = 0; i < slides.length; i++) {
-			                      slides[i].style.display = "none";
-			                    }
-			                    for (i = 0; i < dots.length; i++) {
-			                      dots[i].className = dots[i].className.replace(" active", "");
-			                    }
-			                    slides[slideIndex-1].style.display = "block";
-			                    dots[slideIndex-1].className += " active";
-			                  }
-		</script>
+              <style>
+.mySlides1 {display:none;}
+</style>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  
+<a href="https://gntoons.blogspot.in" target="blank">
+  <img class="mySlides" src="https://4.bp.blogspot.com/-s_160hRFXFM/WmbOGshH0HI/AAAAAAAAEzk/ipwIasSovB88lZOJtSAxL3jCsEYyio3tQCPcBGAYYCw/s400/3pic.jpg" style="width:100%" /></a>
+
+<a href="https://gntoons.blogspot.in" target="blank">
+  <img class="mySlides" src="https://2.bp.blogspot.com/-1WcGZ658_wo/WmbOOU3reWI/AAAAAAAAEzo/bfEqk_HX-BQgH0KMzBZ4xP34kzsmm97UgCPcBGAYYCw/s400/2pic.jpg" style="width:100%" /></a>
+
+
+<a href="https://gntoons.blogspot.in" target="blank">
+  <img class="mySlides" src="https://4.bp.blogspot.com/-iCqnLhr8et0/WmbOSYcx_XI/AAAAAAAAEzs/GOpl572RFCshs0unPvGf9outyADfe8_SgCPcBGAYYCw/s400/1pic.jpg" style="width:100%" /></a>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
 		<center>
 			<a href="https://teakadai.os.tc/" target="blank">
 				<button class="belbtn"><i class="fa fa-bell"></i><b> subscribe +</b>
@@ -481,7 +472,13 @@
 			</a>
 			<br> <b>Subscribe to #TeaKadai to grab all new offers and updates
 
+
 <hr>
+
+<script type="text/javascript">amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="all03a-21"; amzn_assoc_marketplace ="amazon"; amzn_assoc_region ="IN"; amzn_assoc_placement =""; amzn_assoc_search_type = "search_widget";amzn_assoc_width ="300"; amzn_assoc_height ="250"; amzn_assoc_default_search_category =""; amzn_assoc_default_search_key ="mi 6 pro";amzn_assoc_theme ="light"; amzn_assoc_bg_color ="FFFFFF"; </script><script src="//z-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&Marketplace=IN"></script>
+
+
+<hr><br><hr>
 </center>
                 
                 
@@ -520,12 +517,7 @@
             </i>
             <br>tamil
           </button>
-          <button class="tablink" onclick="openPage('Fun', this, '#9C27B0')">
-            <center>
-              <i class="material-icons">recent_actors
-              </i>
-              <br>social
-              </button>
+         <center>
             </center>
           <button class="tablink" onclick="openPage('Tech', this, '#00C853')">
             <i class="material-icons">devices
@@ -608,32 +600,31 @@
 
         <div id="Chat" class="tabcontent">
           <br>
-          <div id="disqus_thread">
-          </div>
-          <script>
-            /**
-                     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-            /*
-                    var disqus_config = function () {
-                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                    };
-                    */
-            (function() {
-              // DON'T EDIT BELOW THIS LINE
-              var d = document,
-                  s = d.createElement('script');
-              s.src = 'https://teakadaii.disqus.com/embed.js';
-              s.setAttribute('data-timestamp', +new Date());
-              (d.head || d.body).appendChild(s);
-            }
-            )();
+         
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGravityNull%2F&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=504839786557699" width="340" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=504839786557699&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<div class="fb-comments" data-href="https://www.facebook.com/teakadai" data-numposts="5"></div>
+
+
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai2" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+            Loading...
+          </a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
           </script>
-          <noscript>
-            <a href="https://disqus.com/?ref_noscript">
-            </a>
-          </noscript>
+
+
+
         </div>
         <script>
           // When the user scrolls down 20px from the top of the document, show the button
@@ -732,6 +723,44 @@
     enable_page_level_ads: true
   });
 </script>
+
+
+
+
+<style>
+@media screen and (min-width: 700px) {
+   .sidenav {
+    height: 35%;
+    width: 100%;
+    position: fixed;
+    z-index: 10000000000;
+    top: 30%;
+    left:0;
+    border:10;
+    background-color: #212121;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+}
+
+@media screen and (min-width: 700px) {
+   sdd att:after {
+        content: " " attr(dzz) " ";
+        font-size: 20px;
+        font-style: bold;
+        color: white;
+    }
+}
+</style>
+
+<div id="mySidenav" class="sidenav">
+<sdd><att dzz="Sorry :(" ></att></sdd>
+<i><b><sdd><br><att dzz="TeaKadai webUI works well only on mobile device, resize the tab (or) visit us on mobile" ></att></sdd></b></i>
+<br>
+</div>
+
 
         </body>
       </html>
