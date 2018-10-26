@@ -1,6 +1,36 @@
 <html>
+
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="">
 </script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6609460552489397",
+    enable_page_level_ads: true
+  });
+</script>
+  
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDJMWieFnCKbovhrroUugoUpD3thy5Q_N8",
+    authDomain: "teakadai-tk.firebaseapp.com",
+    databaseURL: "https://teakadai-tk.firebaseio.com",
+    projectId: "teakadai-tk",
+    storageBucket: "teakadai-tk.appspot.com",
+    messagingSenderId: "679404193304"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+<script src="bower_components/firebaseui/dist/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="bower_components/firebaseui/dist/firebaseui.css" />
+
+
+
 <script>
 	var OneSignal = window.OneSignal || [];
 	    OneSignal.push(function() {
@@ -121,7 +151,7 @@
 		        opacity: 1;
 		        scrollbar: 0;
 		        transition: opacity 1s;
-		        width: 300px;
+		        width: 320px;
 		        height: 100%;
 		      }
 		      .alert.success {
@@ -144,10 +174,19 @@
 		        background-color: red;
 		        border: none;
 		        color: white;
-		        padding: 10px 10px;
+		        padding: 10px;
 		        font-size: 15px;
 		        cursor: pointer;
 		     }
+                     .belbt1 {
+		        background-color: red;
+		        border: none;
+		        color: white;
+		        padding: 5px;
+		        font-size: 15px;
+		        cursor: pointer;
+		     }
+                     
 		      body {
 		        font-family: "Lato", sans-serif;
 		        margin: 0;
@@ -182,6 +221,7 @@
 		        background-color:gold ;
 		        background: skyblue;
 		        width: 0%;
+  -webkit-transition-duration: 0.4s;
 		      }
 		      @media screen and (min-width: 700px) {
 		        .progress-bar {
@@ -189,7 +229,8 @@
 		        background-color:gold ;
 		          background: skyblue;
 		          width: 0%;
-		        }
+
+  -webkit-transition-duration: 0.4s;		        }
 		      }
 		      .content {
 		        font-family: "Lato", sans-serif;
@@ -282,6 +323,7 @@
 		        display: none;
 		        padding: 0px;
 
+  -webkit-transition-duration: 0.75s;
 		      }
 		      @media screen and (min-width: 600px) {
 		        .tabcontent {
@@ -290,6 +332,7 @@
 		          display: none;
 		          padding: 0px 0px;
 		          height: 5%;
+  -webkit-transition-duration: 0.75s;
 		        }
 		      }
 		      }
@@ -301,7 +344,7 @@
 		      .sidenav {
 		        height: 100%;
 		        background-color: ;
-		        width: 0;
+		        width: 1;
 		        position: fixed;
 		        padding: 0px;
 		        z-index: 1;
@@ -311,7 +354,7 @@
 		        transition: .75s;
 		        padding-top: 28px;
 		        font-size: 10px;
-		        webkit-transition-duration: 0.4s;
+		        webkit-transition-duration: 0.75s;
 		      }
 		      .sidenav a {
 		        padding: 2px;
@@ -323,34 +366,25 @@
 		      .sidenav .closebtn1 {
 		        position: absolute;
 		        top: 28;
-		        left: 260px;
-		        font-size: 44px;
+		        left: 270px;
+		        font-size: 54px;
 		        padding-top: 0px;
 		        margin-left: 12px;
 		        color: red;
 		      }
-		      #main {
-		        transition: margin-left .5s;
-		        padding: 1px;
-		      }
-		      #Home {
-		        background-color:;
-		      }
-		      #Fun {
-		        background-color:;
-		      }
-		      #Cinema {
-		        background-color:;
-		      }
+		      
 
 		      body 
-		      {font-family: Arial, Helvetica, sans-serif;}
+		      {font-family: Arial, Helvetica, sans-serif;
+-webkit-transition-duration: 0.75s;
+}
 		.ptmodal 
 		{ display: none;position: fixed; z-index: 100; padding-top: 50px; 
-		left: 0; top: 0; width: 88%;
+		left: 0; top: 0; width: 88%;  -webkit-transition-duration: 0.75s;
 		overflow: auto; background-color: rgb(0,0,0);  background-color: rgba(0,0,0,0);
 		}
 		.ptmodal-content { background-color: #ffffff;float: right; margin: auto; padding: 20px; border: 1px solid #888; width: 80%;font-size: 15px;
+-webkit-transition-duration: 0.75s;
 		}
 		.close1 { color: red; float: right; font-size: 35px;  font-weight: bold;
 		}
@@ -361,20 +395,27 @@
 </head>
 
 <body>
-	<button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="material-icons">eject
+	<button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="material-icons">change_history
       </i>
 	</button>
 	<div id="ptModal" class="ptmodal">
 		<div class="ptmodal-content"> <span class="close1">&times;</span>
-			<center>Donate UPI
-				<br>roobank1@okicici</b>
-				<br>
-				<img src="https://image.ibb.co/hZoGf7/download.png" style="width:50%" />
+			<center>
+
+
+Donate Developer
+<br> 
+<b>roobank1@okicici</b>
+<br>
+<img src="https://image.ibb.co/hZoGf7/download.png" style="width:50%" />
+<br>
+
 <hr>
-Follow us on <a href="https://fb.com/gravitynull/" target="blank">Fb.com/GravityNull</a>
-		</div>
+
+<center>
+</div>
 	</div>
-	<button onclick="topFunction()" id="ptBtn" title="Donate"> <i class="material-icons">favorite	
+	<button onclick="topFunction()" id="ptBtn" title="Donate"> <i class="material-icons">favorite_border
 
       </i>
 	</button>
@@ -404,7 +445,6 @@ Follow us on <a href="https://fb.com/gravitynull/" target="blank">Fb.com/Gravity
       </a>
 		<div class="alert"> <span class="closebtn">
           <left>
-            <center>
               <style>
                 /* Slideshow container */
                 .slideshow-containerr {
@@ -427,63 +467,87 @@ Follow us on <a href="https://fb.com/gravitynull/" target="blank">Fb.com/Gravity
               </style>
               <hr>
               <a href="https://gravitynull.blogspot.in" target="blank">
-                <b>CARTOON YOURSELF
-                </b>
-              </a>
-              <hr>
-              <style>
-.mySlides1 {display:none;}
-</style>
+                <b>
 
-<div class="w3-content w3-section" style="max-width:500px">
+<a href="https://teakadai.os.tc/" target="blank">
+<button class="belbtn"><i class="fa fa-bell">
+</i><b> </b>
+</button>
+<b> Subscribe to TeaKadai</b></a>.tk
+<hr>
+<center>
+<b>Cartoon your photos @ GravityNull.blogspot.in</b>
+</center>
+
+
+<a href="https://gntoons.blogspot.in" target="blank">
+  <img class="mySlides12" src="https://4.bp.blogspot.com/-s_160hRFXFM/WmbOGshH0HI/AAAAAAAAEzk/ipwIasSovB88lZOJtSAxL3jCsEYyio3tQCPcBGAYYCw/s400/3pic.jpg" style="width:100%" /></a>
+
+<a href="https://gntoons.blogspot.in" target="blank">
+  <img class="mySlides12" src="https://2.bp.blogspot.com/-1WcGZ658_wo/WmbOOU3reWI/AAAAAAAAEzo/bfEqk_HX-BQgH0KMzBZ4xP34kzsmm97UgCPcBGAYYCw/s400/2pic.jpg" style="width:100%" /></a>
+
+<a href="https://gntoons.blogspot.in" target="blank">
+  <img class="mySlides12" src="https://4.bp.blogspot.com/-iCqnLhr8et0/WmbOSYcx_XI/AAAAAAAAEzs/GOpl572RFCshs0unPvGf9outyADfe8_SgCPcBGAYYCw/s400/1pic.jpg" style="width:100%" /></a>
   
-<a href="https://gntoons.blogspot.in" target="blank">
-  <img class="mySlides" src="https://4.bp.blogspot.com/-s_160hRFXFM/WmbOGshH0HI/AAAAAAAAEzk/ipwIasSovB88lZOJtSAxL3jCsEYyio3tQCPcBGAYYCw/s400/3pic.jpg" style="width:100%" /></a>
 
-<a href="https://gntoons.blogspot.in" target="blank">
-  <img class="mySlides" src="https://2.bp.blogspot.com/-1WcGZ658_wo/WmbOOU3reWI/AAAAAAAAEzo/bfEqk_HX-BQgH0KMzBZ4xP34kzsmm97UgCPcBGAYYCw/s400/2pic.jpg" style="width:100%" /></a>
+<center>
+<button  class="pgn" class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">
+<i class="material-icons">
+<b>chevron_left</b> </i></button>
 
+<button  class="pgn"class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">
+<i class="material-icons">
+<b>chevron_right</b> </i></button>
+<center>
 
-<a href="https://gntoons.blogspot.in" target="blank">
-  <img class="mySlides" src="https://4.bp.blogspot.com/-iCqnLhr8et0/WmbOSYcx_XI/AAAAAAAAEzs/GOpl572RFCshs0unPvGf9outyADfe8_SgCPcBGAYYCw/s400/1pic.jpg" style="width:100%" /></a>
-</div>
 
 <script>
-var myIndex = 0;
-carousel();
+var slideIndex = 1;
+showDivs(slideIndex);
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides12");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
 }
 </script>
 
-		<center>
-			<a href="https://teakadai.os.tc/" target="blank">
-				<button class="belbtn"><i class="fa fa-bell"></i><b> subscribe +</b>
-				</button>
-			</a>
-			<br> <b>Subscribe to #TeaKadai to grab all new offers and updates
+<center>
+</a>
+
+
+</center>
+more cartoons <br>
+@ <br>
+<a href="https://facebook.com/gravitynull" target="blank">fb.com/gravitynull</a>
+
+<br>
+
+<script type="text/javascript">
+  ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+    var unit = {"calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+</script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
 
 
 <hr>
+<br>               
+                
 
-<script type="text/javascript">amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="all03a-21"; amzn_assoc_marketplace ="amazon"; amzn_assoc_region ="IN"; amzn_assoc_placement =""; amzn_assoc_search_type = "search_widget";amzn_assoc_width ="300"; amzn_assoc_height ="250"; amzn_assoc_default_search_category =""; amzn_assoc_default_search_key ="mi 6 pro";amzn_assoc_theme ="light"; amzn_assoc_bg_color ="FFFFFF"; </script><script src="//z-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&Marketplace=IN"></script>
-
-
-<hr><br><hr>
-</center>
-                
-                
-                
-                
+ 
                 <center>
                   <script async src="//www.googletagmanager.com/gtag/js?id=UA-112167797-1">
                   </script>
@@ -601,8 +665,7 @@ function carousel() {
         <div id="Chat" class="tabcontent">
           <br>
          
-<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGravityNull%2F&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=504839786557699" width="340" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-
+<center>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -615,7 +678,7 @@ function carousel() {
 
 
 <div class="fb-comments" data-href="https://www.facebook.com/teakadai" data-numposts="5"></div>
-
+</center>
 
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai2" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
@@ -666,7 +729,7 @@ function carousel() {
           function myFunction() {
             var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
             var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            var scrolled = (winScroll / height) * 100;
+            var scrolled = (winScroll / height) * 10;
             document.getElementById("myBar").style.width = scrolled + "%";
           }
           function openNav() {
