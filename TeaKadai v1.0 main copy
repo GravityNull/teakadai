@@ -1,33 +1,10 @@
 <html>
 
+<meta name="a1aa0dce1a6ca9802ac3f637c2d41294182653a8" content="855334238aa8fa59284ad9f6753bbcd0748e8d44" />
+
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="">
 </script>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-6609460552489397",
-    enable_page_level_ads: true
-  });
-</script>
   
-<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyDJMWieFnCKbovhrroUugoUpD3thy5Q_N8",
-    authDomain: "teakadai-tk.firebaseapp.com",
-    databaseURL: "https://teakadai-tk.firebaseio.com",
-    projectId: "teakadai-tk",
-    storageBucket: "teakadai-tk.appspot.com",
-    messagingSenderId: "679404193304"
-  };
-  firebase.initializeApp(config);
-</script>
-<script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
-<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
-<script src="bower_components/firebaseui/dist/firebaseui.js"></script>
-<link type="text/css" rel="stylesheet" href="bower_components/firebaseui/dist/firebaseui.css" />
 
 
 
@@ -59,7 +36,7 @@
 	<meta name="viewport" content="width=300px">
 	<meta name="mobile-web-app-capable" content="yes" display="standalone">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 	<link href="/manifest.webmanifest" rel="manifest" />
 	<link href="//image.ibb.co/frphtJ/tk_bold.png'" rel='icon' />
 	<link rel=icon href="//image.ibb.co/frphtJ/tk_bold.png" sizes="96x96" type="image/png">
@@ -470,7 +447,7 @@ Donate Developer
                 <b>
 
 <a href="https://teakadai.os.tc/" target="blank">
-<button class="belbtn"><i class="fa fa-bell">
+<button class="belbtn"><i class="material-icons">notifications</i>
 </i><b> </b>
 </button>
 <b> Subscribe to TeaKadai</b></a>.tk
@@ -729,7 +706,7 @@ more cartoons <br>
           function myFunction() {
             var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
             var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            var scrolled = (winScroll / height) * 10;
+            var scrolled = (winScroll / height) * 100;
             document.getElementById("myBar").style.width = scrolled + "%";
           }
           function openNav() {
@@ -765,7 +742,8 @@ more cartoons <br>
           }
                                  );
         </script>
-        <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js" 
+            crossorigin="anonymous"></script>
 <script>
   // Initialize Firebase
   var config = {
@@ -777,14 +755,6 @@ more cartoons <br>
     messagingSenderId: "679404193304"
   };
   firebase.initializeApp(config);
-</script>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-6609460552489397",
-    enable_page_level_ads: true
-  });
 </script>
 
 
