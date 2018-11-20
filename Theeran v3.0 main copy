@@ -4,7 +4,7 @@
 <meta content='Vz8AgpsW4C4BN6KLJn52_3N-sJ0xppltfd1RD8t44j0' name='google-site-verification'/>
 
 
-
+<meta content='54c5a2c3628d817a7febe73d14396c96' name='p:domain_verify'/>
 
 
 <head>
@@ -274,7 +274,7 @@ loadCSS(&quot;//fonts.googleapis.com/css?family=Roboto:400,400italic,700,700ital
 </li>
 <li><a href='//gravitynull.blogspot.in/p/blog-page_9.html' itemprop='url'><span itemprop='name'>Chat <i class='fa fa-caret-down fa-fw'/></span></a>
 </li>
-<li><a href='//gravitynull.blogspot.in/p/rooban-gravitynull-is-entertainment.html' itemprop='url'><span itemprop='name'>About <i class='fa fa-caret-down fa-fw'/></span></a>
+<li><a href='//gravitynull.blogspot.com/p/blog-page_91.html' itemprop='url'><span itemprop='name'>About <i class='fa fa-caret-down fa-fw'/></span></a>
 </li>
 
 </ul>
@@ -1556,8 +1556,34 @@ $(window).on(&quot;beforeunload&quot;, function() {
     <b:widget-settings>
       <b:widget-setting name='content'>&lt;center&gt;
 &lt;b&gt;Grab the all new tamil flash news updates&lt;/b&gt;
-&lt;a href=&quot;https://www.teakadai.tk/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot; TeaKadai.tk&quot; border=&quot;0&quot;  src=&quot;https://scontent.fmaa1-2.fna.fbcdn.net/v/t1.0-9/36087367_1795837247105856_1114890668712394752_n.jpg?_nc_cat=0&amp;amp;oh=3b28ceb220b9d3e91da447983538342f&amp;amp;oe=5BE1B974&quot; width=&quot;110%&quot; height=&quot;110%&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;a href=&quot;https://www.teakadai.tk/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot; TeaKadai.tk&quot; border=&quot;0&quot;  src=&quot;https://image.ibb.co/cB2eS0/Pics-Art-10-24-12-29-14-01.jpg&quot; width=&quot;110%&quot; height=&quot;110%&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
 &lt;hr /&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML2' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;center&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+  ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { &#39;units&#39; : [] }; };
+    var unit = {&quot;calltype&quot;:&quot;async[2]&quot;,&quot;publisher&quot;:&quot;roobank1&quot;,&quot;width&quot;:320,&quot;height&quot;:50,&quot;sid&quot;:&quot;Chitika Default&quot;};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write(&#39;&lt;div id=&quot;chitikaAdBlock-&#39; + placement_id + &#39;&quot;&gt;&lt;/div&gt;&#39;);
+}());
+&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;//cdn.chitika.net/getads.js&quot; async&gt;&lt;/script&gt;&lt;br /&gt;&lt;/center&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -1662,30 +1688,7 @@ $(window).on(&quot;beforeunload&quot;, function() {
 </b:includable>
   </b:widget>
 </b:section>
-<b:section class='sidebar' id='sidebar' preferred='yes'>
-  <b:widget id='HTML2' locked='false' title='' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'>&lt;!-- PopAds.net Popunder Code for gravitynull.blogspot.in | 2018-09-03,2552494,0,0 --&gt;
-&lt;script type=&quot;text/javascript&quot; data-cfasync=&quot;false&quot;&gt;
-/*&lt;![CDATA[/* */
-/* Privet darkv. Each domain is 2h fox dead */
- (function(){ var j=window;j[&quot;_\u0070\x6f\u0070&quot;]=[[&quot;\x73\u0069\u0074\u0065\x49d&quot;,2552494],[&quot;\u006di\x6eBid&quot;,0],[&quot;\u0070o\u0070\x75n\x64\u0065r\u0073\x50\u0065r\u0049P&quot;,0],[&quot;d\u0065l\u0061\x79\x42etwe\u0065n&quot;,2],[&quot;def\x61ul\x74&quot;,false],[&quot;\x64e\x66\u0061\x75\x6c\x74P\u0065r\u0044\u0061\u0079&quot;,100],[&quot;\x74o\x70\x6d\u006f\u0073\u0074L\u0061\u0079er&quot;,!0]];var r=[&quot;\x2f\x2fc1\u002e\u0070\x6f\x70\x61d\u0073.\x6ee\x74\x2fpop.\u006as&quot;,&quot;\u002f\u002fc\x32.\u0070\x6f\x70\u0061d\x73\x2en\x65\x74/\x70op\x2e\u006a\x73&quot;,&quot;\u002f\x2fw\x77\u0077\u002ea\u0067\x67\x70\u0066\x6d\x64\x74\x7a\x66.c\u006f\x6d\x2f\u0066\u0062\x6a\x65.\u006as&quot;,&quot;\u002f\u002f\x77w\u0077.\x6br\u0070\x64q\u006e\u006eb\u002e\x63\x6fm\u002fp\u0070\x6c\u0078\x2e\x6a\u0073&quot;,&quot;&quot;],q=0,s,k=function(){if(&quot;&quot;==r[q])return;s=j[&quot;doc\x75m\x65n\u0074&quot;][&quot;c\x72\x65\x61\u0074e\u0045\x6c\u0065ment&quot;](&quot;s\u0063r\u0069\x70\u0074&quot;);s[&quot;\u0074\u0079\u0070e&quot;]=&quot;\x74e\u0078\x74\u002fj\u0061\x76\x61\u0073\x63\u0072\u0069\u0070t&quot;;s[&quot;\x61s\u0079\u006e\x63&quot;]=!0;var d=j[&quot;d\u006f\u0063u\u006d\x65\x6et&quot;][&quot;g\x65t\x45\x6ce\x6d\x65\u006e\u0074\x73By\u0054ag\x4e\x61me&quot;](&quot;\u0073cr\x69\u0070\u0074&quot;)[0];s[&quot;\x73\x72c&quot;]=r[q];if(q&lt;2){s[&quot;cr\x6fs\u0073\u004f\x72i\x67\x69\x6e&quot;]=&quot;\u0061n\u006fny\u006dou\u0073&quot;;};s[&quot;\u006f\x6e\x65r\x72\x6f\u0072&quot;]=function(){q++;k()};d[&quot;p\x61r\x65\u006e\u0074\x4e\x6f\x64e&quot;][&quot;\x69\u006e\u0073e\u0072\x74\x42e\u0066\x6fr\u0065&quot;](s,d)};k()})();
-/*]]&gt;/* */
-&lt;/script&gt;</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-  </b:widget>
-</b:section>
+<b:section class='sidebar' id='sidebar' preferred='yes'/>
 </aside>
 </div>
 <div class='clear'/>
@@ -1702,16 +1705,16 @@ $(window).on(&quot;beforeunload&quot;, function() {
 
 <div class='footer-menu'>
 <h3>Notification</h3>
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script async='' src='https://cdn.onesignal.com/sdks/OneSignalSDK.js'/>
 <script>
   var OneSignal = window.OneSignal || [];
   OneSignal.push(function() {
     OneSignal.init({
-      appId: "ff144432-ff3d-4e99-80fc-5b250be91a72",
+      appId: &quot;ff144432-ff3d-4e99-80fc-5b250be91a72&quot;,
     });
   });
 </script>
-<div class='onesignal-customlink-container'></div>
+<div class='onesignal-customlink-container'/>
   <p>Click above to grab our all new updates</p>
 <ul class='footer2 line'>
 </ul>
