@@ -4,20 +4,29 @@
 
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="">
 </script>
-  
+
+
+
+
+
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<link rel="manifest" href="/home.json">
 
 
 
 <script>
-	var OneSignal = window.OneSignal || [];
-	    OneSignal.push(function() {
-	      OneSignal.init({
+var OneSignal = window.OneSignal || [];
+	    OneSignal.push(function() 
+          {
+	      OneSignal.init(
+             {
 	        appId: "6f6a8484-b1bb-4dcd-8283-b486f837f3be",
 	      }
 	                    );
 	    }
 	                  );
 </script>
+
 <script>
 	window.dataLayer = window.dataLayer || [];
 	    function gtag(){
@@ -28,7 +37,6 @@
 </script>
 
 <head>
-        <link rel="manifest" href="manifest.json">
 
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -37,7 +45,6 @@
 	<meta name="mobile-web-app-capable" content="yes" display="standalone">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	
-	<link href="/manifest.webmanifest" rel="manifest" />
 	<link href="//image.ibb.co/frphtJ/tk_bold.png'" rel='icon' />
 	<link rel=icon href="//image.ibb.co/frphtJ/tk_bold.png" sizes="96x96" type="image/png">
 	<link rel="shortcut icon" href="//image.ibb.co/frphtJ/tk_bold.png">
@@ -51,6 +58,8 @@
 	<meta content='true' name='HandheldFriendly' />
 	<meta content='width' name='MobileOptimized' />
 	<meta content='guest-home' name='pageKey' />
+
+
 	<style>
 		
       /* go to top */ #myBtn {
@@ -88,7 +97,7 @@
 		      }
 
 
-   /* logo button */  #myBtnn {
+ /* tk logo button */  #myBtnn {
 		        position: fixed;
 		        top: 0%;
 		        left: 0%;
@@ -121,14 +130,15 @@
 		        opacity: 0.90;
 		        filter: alpha(opacity=90);
 		      }
-		      .alert {
+
+/* side navigation */.alert {
 		        padding: 1px;
 		        background-color: white;
 		        color: black;
 		        opacity: 1;
 		        scrollbar: 0;
 		        transition: opacity 1s;
-		        width: 320px;
+		        width: 99%;
 		        height: 100%;
 		      }
 		      .alert.success {
@@ -309,14 +319,14 @@
 		          display: none;
 		          padding: 0px 0px;
 		          height: 5%;
-  -webkit-transition-duration: 0.75s;
+  -webkit-transition-duration: 0.15s;
 		        }
 		      }
 		      }
 		      body {
 		        font-family: "Lato", sans-serif;
 		        font-size: 15px;
-		        transition: background-color 1.5s;
+		        transition: background-color 0.5s;
 		      }
 		      .sidenav {
 		        height: 100%;
@@ -331,19 +341,19 @@
 		        transition: .75s;
 		        padding-top: 28px;
 		        font-size: 10px;
-		        webkit-transition-duration: 0.75s;
+		        webkit-transition-duration: 0.5s;
 		      }
 		      .sidenav a {
 		        padding: 2px;
 		        text-decoration: none;
 		        font-size: 20px;
 		        color: black;
-		        transition: 1s;
+		        transition: 0.5s;
 		      }
 		      .sidenav .closebtn1 {
 		        position: absolute;
 		        top: 28;
-		        left: 270px;
+		        left: 85%;
 		        font-size: 54px;
 		        padding-top: 0px;
 		        margin-left: 12px;
@@ -382,9 +392,9 @@
 
 Donate Developer
 <br> 
-<b>roobank1@okicici</b>
+<b> roobank1@okicici</b>
 <br>
-<img src="https://image.ibb.co/hZoGf7/download.png" style="width:50%" />
+<img src="//image.ibb.co/hZoGf7/download.png" style="width:50%" />
 <br>
 
 <hr>
@@ -413,7 +423,7 @@ Donate Developer
 	<div>
 		<button class="logo">
 			<center> 
-          <b> TeaKadai powered by TwitterAPI & GravityNull </b>
+          <b> TeaKadai.tk power'd by TwitterAPI & GravityNull </b>
 			</center>
 		</button>
 	</div>
@@ -450,12 +460,8 @@ Donate Developer
 <button class="belbtn"><i class="material-icons">notifications</i>
 </i><b> </b>
 </button>
-<b> Subscribe to TeaKadai</b></a>.tk
+ <b> Subscribe to TeaKadai</b></a>.tk 
 <hr>
-<center>
-<b>Cartoon your photos @ GravityNull.blogspot.in</b>
-</center>
-
 
 <a href="https://gntoons.blogspot.in" target="blank">
   <img class="mySlides12" src="https://4.bp.blogspot.com/-s_160hRFXFM/WmbOGshH0HI/AAAAAAAAEzk/ipwIasSovB88lZOJtSAxL3jCsEYyio3tQCPcBGAYYCw/s400/3pic.jpg" style="width:100%" /></a>
@@ -468,6 +474,8 @@ Donate Developer
   
 
 <center>
+<h3>Cartoon your photos @ GravityNull.blogspot.in </h3>
+
 <button  class="pgn" class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">
 <i class="material-icons">
 <b>chevron_left</b> </i></button>
@@ -587,7 +595,7 @@ more cartoons <br>
 
 <br>    
           
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tamil" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
           </a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
@@ -595,21 +603,12 @@ more cartoons <br>
 .
 </div>
 
-        <div id="Fun" class="tabcontent">
-        
-<br>         
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai2" data-chrome="noheader" data-dnt="true" data-link-color="blue">
-            Loading...
-          </a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-          </script>
-.
-</div>
+       
 
         <div id="Tech" class="tabcontent">          
 <br>          
 
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai4" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tech" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
           </a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
@@ -620,7 +619,7 @@ more cartoons <br>
         <div id="Cinema" class="tabcontent">          
 <br>
 
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai3" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-cinema" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
           </a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
@@ -631,7 +630,7 @@ more cartoons <br>
         <div id="World" class="tabcontent">          
 <br>
 
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai1" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-english" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
           </a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
@@ -657,7 +656,7 @@ more cartoons <br>
 <div class="fb-comments" data-href="https://www.facebook.com/teakadai" data-numposts="5"></div>
 </center>
 
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai2" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-social" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
           </a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
@@ -722,41 +721,9 @@ more cartoons <br>
             deferredPrompt = e;
           }
                                  );
-          btnAdd.addEventListener('click', (e) => {
-            // hide our user interface that shows our A2HS button
-            btnAdd.style.display = 'none';
-            // Show the prompt
-            deferredPrompt.prompt();
-            // Wait for the user to respond to the prompt
-            deferredPrompt.userChoice
-              .then((choiceResult) => {
-              if (choiceResult.outcome === 'accepted') {
-                console.log('User accepted the A2HS prompt');
-              }
-              else {
-                console.log('User dismissed the A2HS prompt');
-              }
-              deferredPrompt = null;
-            }
-                   );
-          }
-                                 );
+         
         </script>
-        <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js" 
-            crossorigin="anonymous"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyDJMWieFnCKbovhrroUugoUpD3thy5Q_N8",
-    authDomain: "teakadai-tk.firebaseapp.com",
-    databaseURL: "https://teakadai-tk.firebaseio.com",
-    projectId: "teakadai-tk",
-    storageBucket: "teakadai-tk.appspot.com",
-    messagingSenderId: "679404193304"
-  };
-  firebase.initializeApp(config);
-</script>
-
+        
 
 
 
@@ -793,6 +760,13 @@ more cartoons <br>
 <i><b><sdd><br><att dzz="TeaKadai webUI works well only on mobile device, resize the tab (or) visit us on mobile" ></att></sdd></b></i>
 <br>
 </div>
+
+
+
+
+
+
+
 
 
         </body>
