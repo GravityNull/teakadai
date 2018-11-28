@@ -2,11 +2,13 @@
 
 <meta name="a1aa0dce1a6ca9802ac3f637c2d41294182653a8" content="855334238aa8fa59284ad9f6753bbcd0748e8d44" />
 
+
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="">
 </script>
 
 
-
+<link rel="manifest" href="https://github.com/GravityNull/blog/blob/master/manifest.json" />
+<script async  src="https://cdn.rawgit.com/GoogleChrome/pwacompat/v2.0.1/pwacompat.min.js"></script>
 
 
 <meta name="viewport" content="width=device-width, user-scalable=no" />
@@ -44,10 +46,11 @@ var OneSignal = window.OneSignal || [];
 	<meta name="viewport" content="width=300px">
 	<meta name="mobile-web-app-capable" content="yes" display="standalone">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
 	
-	<link href="//image.ibb.co/frphtJ/tk_bold.png'" rel='icon' />
-	<link rel=icon href="//image.ibb.co/frphtJ/tk_bold.png" sizes="96x96" type="image/png">
-	<link rel="shortcut icon" href="//image.ibb.co/frphtJ/tk_bold.png">
+	<link href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png" rel='icon' />
+	<link rel=icon href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png" sizes="96x96" type="image/png">
+	<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png"> 
 	<title>TeaKadai</title>
 	<meta content='notranslate' name='google' />
 	<meta content='black' name='theme-color' />
@@ -60,10 +63,21 @@ var OneSignal = window.OneSignal || [];
 	<meta content='guest-home' name='pageKey' />
 
 
+
+<meta property="og:title" content="TeaKadai">
+<meta property="og:site_name" content="TeaKadai.tk">
+<meta property="og:url" content="https://www.teakadai.tk/">
+<meta property="og:description" content="Tamil flash news updates">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png">
+
+
+
+
 	<style>
 		
       /* go to top */ #myBtn {
-		        font-family: 'IBM Plex Sans', sans-serif;
+		        font-family: 'acme', sans-serif;
 		        position: fixed;
 		        top: 0%;
 		        right: 0%;
@@ -76,11 +90,11 @@ var OneSignal = window.OneSignal || [];
 		        color: white;
 		        cursor: pointer;
 		        padding: 7.5px;
-
-		      }
+                transition: .155s;
+                }
 
    /* paytm button */ #ptBtn {
-		        font-family: 'IBM Plex Sans', sans-serif;
+		        font-family: 'hind', sans-serif;
 		        position: fixed;
 		        top: 0%;
 		        right: 33px;
@@ -93,7 +107,7 @@ var OneSignal = window.OneSignal || [];
 		        color: white;
 		        cursor: pointer;
 		        padding: 7.5px;
-
+                transition: .155s;
 		      }
 
 
@@ -113,7 +127,7 @@ var OneSignal = window.OneSignal || [];
 
 		      }
 		      .logo {
-		        font-family: 'IBM Plex Sans', sans-serif;
+		        font-family: 'acme', sans-serif;
 		        position: fixed;
 		        top: 0px;
 		        left: -6px;
@@ -175,12 +189,12 @@ var OneSignal = window.OneSignal || [];
 		     }
                      
 		      body {
-		        font-family: "Lato", sans-serif;
+		        font-family: "hind", sans-serif;
 		        margin: 0;
 		        font-size: 150%;
 		      }
 		      .header {
-		        font-family: "Lato", sans-serif;
+		        font-family: "hind", sans-serif;
 		        position:fixed ;
 		        bottom: 0;
 		        z-index: 1;
@@ -188,7 +202,7 @@ var OneSignal = window.OneSignal || [];
 		        background-color:white ;
 		      }
 		      .header h2 {
-		        font-family: "Lato", sans-serif;
+		        font-family: "hind", sans-serif;
 		        text-align: center;
 		      }
 		      .progress-container {
@@ -220,7 +234,7 @@ var OneSignal = window.OneSignal || [];
   -webkit-transition-duration: 0.4s;		        }
 		      }
 		      .content {
-		        font-family: "Lato", sans-serif;
+		        font-family: "Acme", sans-serif;
 		        padding: 0px 0;
 		        margin: 0px auto 0 auto;
 		        width: 99%;
@@ -239,18 +253,18 @@ var OneSignal = window.OneSignal || [];
 		      /* Set height of body and the document to 100% */
 		      body,
 		      html {
-		        font-family: "Lato", sans-serif;
+		        font-family: "Acme", sans-serif;
 		        height: 100%;
 		        width: 100%;
 		        margin: 0;
 		      }
 		      .btt1 {
-		        font-family: "Lato", sans-serif;
+		        font-family: "Acme", sans-serif;
 		        text-align: center;
 		        width: 80%;
 		      }
 		      .btt {
-		        font-family: "Lato", sans-serif;
+		        font-family: "Acme", sans-serif;
 		        background-color: red;
 		        color: white;
 		        border: 0;
@@ -269,7 +283,7 @@ var OneSignal = window.OneSignal || [];
 		      .btt:hover {
 		        background-color: ;
 		        color: black;
-		        font-family: "Lato", sans-serif;
+		        font-family: "Acme", sans-serif;
 		      }
 		      /* Style tab links */
 		      .tablink {
@@ -286,7 +300,7 @@ var OneSignal = window.OneSignal || [];
 		      }
 		      @media screen and (min-width: 600px) {
 		        .tablink {
-		          font-family: "Lato", sans-serif;
+		          font-family: "Acme", sans-serif;
 		          background-color: black;
 		          color: white;
 		          align: center;
@@ -301,11 +315,11 @@ var OneSignal = window.OneSignal || [];
 		      }
 		      .tablink:hover {
 		        background-color: white;
-		        font-family: "Lato", sans-serif;
+		        font-family: "Acme", sans-serif;
 		      }
 		      /* Style the tab content (and add height:100% for full page content) */
 		      .tabcontent {
-		        font-family: "Lato", sans-serif;
+		        font-family: "Acme", sans-serif;
 		        color: ;
 		        display: none;
 		        padding: 0px;
@@ -314,7 +328,7 @@ var OneSignal = window.OneSignal || [];
 		      }
 		      @media screen and (min-width: 600px) {
 		        .tabcontent {
-		          font-family: "Lato", sans-serif;
+		          font-family: "hind", sans-serif;
 		          color: white;
 		          display: none;
 		          padding: 0px 0px;
@@ -324,9 +338,8 @@ var OneSignal = window.OneSignal || [];
 		      }
 		      }
 		      body {
-		        font-family: "Lato", sans-serif;
+		        font-family: "hind", sans-serif;
 		        font-size: 15px;
-		        transition: background-color 0.5s;
 		      }
 		      .sidenav {
 		        height: 100%;
@@ -338,17 +351,15 @@ var OneSignal = window.OneSignal || [];
 		        top: 0;
 		        left: 0;
 		        overflow-x: hidden;
-		        transition: .75s;
+		        transition: .25s;
 		        padding-top: 28px;
 		        font-size: 10px;
-		        webkit-transition-duration: 0.5s;
 		      }
 		      .sidenav a {
 		        padding: 2px;
 		        text-decoration: none;
 		        font-size: 20px;
 		        color: black;
-		        transition: 0.5s;
 		      }
 		      .sidenav .closebtn1 {
 		        position: absolute;
@@ -362,13 +373,15 @@ var OneSignal = window.OneSignal || [];
 		      
 
 		      body 
-		      {font-family: Arial, Helvetica, sans-serif;
--webkit-transition-duration: 0.75s;
+		      {font-family: hind, sans-serif;
+-webkit-transition-duration: 0.5s;
 }
 		.ptmodal 
 		{ display: none;position: fixed; z-index: 100; padding-top: 50px; 
 		left: 0; top: 0; width: 88%;  -webkit-transition-duration: 0.75s;
 		overflow: auto; background-color: rgb(0,0,0);  background-color: rgba(0,0,0,0);
+		        transition: .55s;
+
 		}
 		.ptmodal-content { background-color: #ffffff;float: right; margin: auto; padding: 20px; border: 1px solid #888; width: 80%;font-size: 15px;
 -webkit-transition-duration: 0.75s;
@@ -418,7 +431,7 @@ Donate Developer
 	<button id="myBtnn" onclick="openNav()"> <i class="material-icons">
         <b>menu</b>
       </i>
-		<img src="//image.ibb.co/frphtJ/tk_bold.png" style="width:25px;" alt="TeaKadai">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png" style="width:25px;" alt="TeaKadai">
 	</button>
 	<div>
 		<button class="logo">
@@ -463,18 +476,20 @@ Donate Developer
  <b> Subscribe to TeaKadai</b></a>.tk 
 <hr>
 
-<a href="https://gntoons.blogspot.in" target="blank">
+
+
+<a href="https://fb.com/gravitynull" target="blank">
   <img class="mySlides12" src="https://4.bp.blogspot.com/-s_160hRFXFM/WmbOGshH0HI/AAAAAAAAEzk/ipwIasSovB88lZOJtSAxL3jCsEYyio3tQCPcBGAYYCw/s400/3pic.jpg" style="width:100%" /></a>
 
-<a href="https://gntoons.blogspot.in" target="blank">
+<a href="https://fb.com/gravitynull" target="blank">
   <img class="mySlides12" src="https://2.bp.blogspot.com/-1WcGZ658_wo/WmbOOU3reWI/AAAAAAAAEzo/bfEqk_HX-BQgH0KMzBZ4xP34kzsmm97UgCPcBGAYYCw/s400/2pic.jpg" style="width:100%" /></a>
 
-<a href="https://gntoons.blogspot.in" target="blank">
+<a href="https://fb.com/gravitynull" target="blank">
   <img class="mySlides12" src="https://4.bp.blogspot.com/-iCqnLhr8et0/WmbOSYcx_XI/AAAAAAAAEzs/GOpl572RFCshs0unPvGf9outyADfe8_SgCPcBGAYYCw/s400/1pic.jpg" style="width:100%" /></a>
   
 
 <center>
-<h3>Cartoon your photos @ GravityNull.blogspot.in </h3>
+<h3>Cartoon your photos @ fb.com/gravitynull </h3>
 
 <button  class="pgn" class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">
 <i class="material-icons">
@@ -505,30 +520,23 @@ function showDivs(n) {
 }
 </script>
 
+
+
+
 <center>
 </a>
 
 
 </center>
-more cartoons <br>
-@ <br>
-<a href="https://facebook.com/gravitynull" target="blank">fb.com/gravitynull</a>
+<hr> <br>
+
 
 <br>
 
-<script type="text/javascript">
-  ( function() {
-    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
-    var unit = {"calltype":"async[2]","publisher":"roobank1","width":320,"height":50,"sid":"Chitika Default"};
-    var placement_id = window.CHITIKA.units.length;
-    window.CHITIKA.units.push(unit);
-    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
-}());
-</script>
-<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+<center>
 
 
-<hr>
+</center>
 <br>               
                 
 
@@ -553,12 +561,12 @@ more cartoons <br>
     </div>
     <body bgcolor="white">
       <div class="header">
-        
-
-    <div class="progress-container">
 
 
 
+
+
+          <div class="progress-container">
           <div class="progress-bar" id="myBar">
           </div>
           <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">
@@ -591,22 +599,36 @@ more cartoons <br>
         </div>
       </div>
       <div class="content">
+
+<center>
+
+<hr>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Ftouch.facebook.com%2FGravityNull%2Fphotos%2Fa.1354714587884793%2F2013397488683163%2F%3Ftype%3D3%26notif_t%3Dpage_post_reaction%26notif_id%3D1543298493411597%26ref%3Dbookmarks&width=600&show_text=true&appId=504839786557699" width="99%" height="200" style="border:none;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+
+
         <div id="Home" class="tabcontent">
 
 <br>    
-          
+
+<center>
+
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tamil" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
           </a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
           </script>        
-.
-</div>
 
-       
+
+
+</div>
 
         <div id="Tech" class="tabcontent">          
 <br>          
+
+<center>
+
+
 
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tech" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
@@ -618,6 +640,8 @@ more cartoons <br>
 
         <div id="Cinema" class="tabcontent">          
 <br>
+
+<center>
 
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-cinema" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
@@ -642,19 +666,7 @@ more cartoons <br>
           <br>
          
 <center>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=504839786557699&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
-
-
-<div class="fb-comments" data-href="https://www.facebook.com/teakadai" data-numposts="5"></div>
-</center>
 
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-social" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
@@ -721,7 +733,7 @@ more cartoons <br>
             deferredPrompt = e;
           }
                                  );
-         
+           
         </script>
         
 
@@ -753,6 +765,7 @@ more cartoons <br>
         color: white;
     }
 }
+
 </style>
 
 <div id="mySidenav" class="sidenav">
@@ -760,9 +773,6 @@ more cartoons <br>
 <i><b><sdd><br><att dzz="TeaKadai webUI works well only on mobile device, resize the tab (or) visit us on mobile" ></att></sdd></b></i>
 <br>
 </div>
-
-
-
 
 
 
