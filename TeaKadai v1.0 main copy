@@ -74,6 +74,15 @@ var OneSignal = window.OneSignal || [];
 
 
 
+<meta property="og:type" content="product">
+<meta property="og:title" content="TeaKadai">
+<meta property="og:url" content="Https://www.teakadai.tk/">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png">
+<meta property="product:price:amount" content="">
+<meta property="product:price:currency" content="">
+
+
+
 	<style>
 		
       /* go to top */ #myBtn {
@@ -97,7 +106,7 @@ var OneSignal = window.OneSignal || [];
 		        font-family: 'hind', sans-serif;
 		        position: fixed;
 		        top: 0%;
-		        right: 33px;
+		        right: 36px;
 		        z-index: 99;
 		        font-size: 20px;
 		        border-radius: 0%;
@@ -208,7 +217,7 @@ var OneSignal = window.OneSignal || [];
 		      .progress-container {
 		        width: 100%;
 		        height: 5px;
-		        background-color:gold ;
+		        background-color:yellow ;
 
 		      }
 		      @media screen and (min-width: 700px) {
@@ -377,16 +386,14 @@ var OneSignal = window.OneSignal || [];
 -webkit-transition-duration: 0.5s;
 }
 		.ptmodal 
-		{ display: none;position: fixed; z-index: 100; padding-top: 50px; 
-		left: 0; top: 0; width: 88%;  -webkit-transition-duration: 0.75s;
-		overflow: auto; background-color: rgb(0,0,0);  background-color: rgba(0,0,0,0);
-		        transition: .55s;
-
+		{ display: none;position: fixed; z-index: 100; padding-top: 39px; 
+		left: 5%; top: 0; width: 88%;  -webkit-transition-duration: 0.75s;
+		overflow: auto; background-color: rgb(0,0,0);  background-color: rgba(0,0,0,0);float: center;
 		}
-		.ptmodal-content { background-color: #ffffff;float: right; margin: auto; padding: 20px; border: 1px solid #888; width: 80%;font-size: 15px;
+		.ptmodal-content { background-color: #ffffff; margin: auto; padding: 20px; border: 1px solid #888; width: 99%;font-size: 15px;
 -webkit-transition-duration: 0.75s;
 		}
-		.close1 { color: red; float: right; font-size: 35px;  font-weight: bold;
+		.close1 { color: red; float: right; font-size: 45px;  font-weight: bold;
 		}
 		.close1:hover,
 		.close1:focus { color: #000; text-decoration: none; cursor: pointer;
@@ -403,14 +410,11 @@ var OneSignal = window.OneSignal || [];
 			<center>
 
 
-Donate Developer
-<br> 
-<b> roobank1@okicici</b>
 <br>
-<img src="//image.ibb.co/hZoGf7/download.png" style="width:50%" />
-<br>
+<b><center> Donate Dev's Google Pay UPI </center></b>
+<img src="//i.ibb.co/YkB0ptm/Screenshot-2018-12-06-15-13-43-440-com-google-android-apps-nbu-paisa-user.png" style="width:99%" />
 
-<hr>
+<br>
 
 <center>
 </div>
@@ -498,6 +502,8 @@ Donate Developer
 <button  class="pgn"class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">
 <i class="material-icons">
 <b>chevron_right</b> </i></button>
+
+
 <center>
 
 
@@ -594,7 +600,7 @@ function showDivs(n) {
           <button class="tablink" onclick="openPage('Chat', this, '#FF9800')">
             <i class="material-icons">message
             </i>
-            <br>comment
+            <br>social
           </button>
         </div>
       </div>
@@ -602,14 +608,25 @@ function showDivs(n) {
 
 <center>
 
-<hr>
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Ftouch.facebook.com%2FGravityNull%2Fphotos%2Fa.1354714587884793%2F2013397488683163%2F%3Ftype%3D3%26notif_t%3Dpage_post_reaction%26notif_id%3D1543298493411597%26ref%3Dbookmarks&width=600&show_text=true&appId=504839786557699" width="99%" height="200" style="border:none;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<center>
+<a href="https://fb.com/gravitynull" target="blank">
+
+
+<picture>
+
+
+  <source media="(min-width: 100%)">
+  <img src="https://scontent.fmaa2-2.fna.fbcdn.net/v/t1.0-0/q85/p261x260/47192606_2019961208026791_4421112899255140352_o.jpg?_nc_cat=103&_nc_ht=scontent.fmaa2-2.fna&oh=452b4676c6548121deca1a1494d8ded4&oe=5CA37C24" alt="GravityNull" style="width:100%;"> 
+</picture>
+
+</a>
 
 
 
         <div id="Home" class="tabcontent">
 
-<br>    
+
+<br>
 
 <center>
 
@@ -627,8 +644,6 @@ function showDivs(n) {
 <br>          
 
 <center>
-
-
 
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tech" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
@@ -666,6 +681,8 @@ function showDivs(n) {
           <br>
          
 <center>
+
+
 
 
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-social" data-chrome="noheader" data-dnt="true" data-link-color="blue">
@@ -732,8 +749,8 @@ function showDivs(n) {
             // Stash the event so it can be triggered later.
             deferredPrompt = e;
           }
-                                 );
-           
+                                 );           
+
         </script>
         
 
@@ -764,6 +781,11 @@ function showDivs(n) {
         font-style: bold;
         color: white;
     }
+}
+
+#fixed {
+overflow: scroll;
+-webkit-overflow-scrolling: touch;
 }
 
 </style>
