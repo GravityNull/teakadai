@@ -3,6 +3,7 @@
 <meta name="a1aa0dce1a6ca9802ac3f637c2d41294182653a8" content="855334238aa8fa59284ad9f6753bbcd0748e8d44" />
 
 
+
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="">
 </script>
 
@@ -11,7 +12,7 @@
 <script async  src="https://cdn.rawgit.com/GoogleChrome/pwacompat/v2.0.1/pwacompat.min.js"></script>
 
 
-<meta name="viewport" content="width=device-width, user-scalable=no" />
+<meta name="viewport" content="width=device-width, user-scalable=yes" />
 <link rel="manifest" href="/home.json">
 
 
@@ -78,6 +79,7 @@ var OneSignal = window.OneSignal || [];
 <meta property="og:title" content="TeaKadai">
 <meta property="og:url" content="Https://www.teakadai.tk/">
 <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png">
+<meta property="display" content="standalone">
 <meta property="product:price:amount" content="">
 <meta property="product:price:currency" content="">
 
@@ -156,13 +158,13 @@ var OneSignal = window.OneSignal || [];
 
 /* side navigation */.alert {
 		        padding: 1px;
-		        background-color: white;
+		        background-color: ;
 		        color: black;
 		        opacity: 1;
 		        scrollbar: 0;
 		        transition: opacity 1s;
 		        width: 99%;
-		        height: 100%;
+		        height: 80%;
 		      }
 		      .alert.success {
 		        background-color: black;
@@ -352,8 +354,8 @@ var OneSignal = window.OneSignal || [];
 		      }
 		      .sidenav {
 		        height: 100%;
-		        background-color: ;
-		        width: 1;
+	   background-color: white;
+		        width: 0;
 		        position: fixed;
 		        padding: 0px;
 		        z-index: 1;
@@ -388,9 +390,9 @@ var OneSignal = window.OneSignal || [];
 		.ptmodal 
 		{ display: none;position: fixed; z-index: 100; padding-top: 39px; 
 		left: 5%; top: 0; width: 88%;  -webkit-transition-duration: 0.75s;
-		overflow: auto; background-color: rgb(0,0,0);  background-color: rgba(0,0,0,0);float: center;
+		overflow: auto; background-color: ; float: center;
 		}
-		.ptmodal-content { background-color: #ffffff; margin: auto; padding: 20px; border: 1px solid #888; width: 99%;font-size: 15px;
+		.ptmodal-content { background-color:white ; margin: auto; padding: 20px; border: 1px solid #888; width: 99%;font-size: 15px;
 -webkit-transition-duration: 0.75s;
 		}
 		.close1 { color: red; float: right; font-size: 45px;  font-weight: bold;
@@ -398,7 +400,19 @@ var OneSignal = window.OneSignal || [];
 		.close1:hover,
 		.close1:focus { color: #000; text-decoration: none; cursor: pointer;
 		}
+
+.panel {
+    padding: 0 2px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
 	</style>
+
+
+
 </head>
 
 <body>
@@ -493,7 +507,7 @@ var OneSignal = window.OneSignal || [];
   
 
 <center>
-<h3>Cartoon your photos @ fb.com/gravitynull </h3>
+<h3>Cartoon Your Photos</h3>
 
 <button  class="pgn" class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">
 <i class="material-icons">
@@ -540,6 +554,31 @@ function showDivs(n) {
 <br>
 
 <center>
+
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://teakadai.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+
+
 
 
 </center>
@@ -609,17 +648,56 @@ function showDivs(n) {
 <center>
 
 <center>
-<a href="https://fb.com/gravitynull" target="blank">
+
+<style>
+.ribbon {
+ font-size: 12px !important;
+
+ width: 84%;
+    
+ position: relative;
+ background: #861982;
+ color: gold;
+ text-align: center;
+ margin: 1em auto 1em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1em solid #751472;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
 
 
+</style>
+
+<h3 class="ribbon">
+   <strong class="ribbon-content">
+<hr>     
+<h2 class="accordion"><b> Cartoon Your Photo </b></h2>
+<div class="panel">
 <picture>
-
-
-  <source media="(min-width: 100%)">
-  <img src="https://scontent.fmaa2-2.fna.fbcdn.net/v/t1.0-0/q85/p261x260/47192606_2019961208026791_4421112899255140352_o.jpg?_nc_cat=103&_nc_ht=scontent.fmaa2-2.fna&oh=452b4676c6548121deca1a1494d8ded4&oe=5CA37C24" alt="GravityNull" style="width:100%;"> 
-</picture>
-
+<source media="(min-width: 100%)">
+<a href="https://facebook.com/gravitynull" target="_blank">
+<img src="https://i.ibb.co/VHr4Jf2/Pics-Art-12-10-03-55-43.jpg" alt="GravityNull" style="width:100%;"> 
 </a>
+</picture>
+</div>
+   
+   </strong>
+</h1>
 
 
 
@@ -749,7 +827,25 @@ function showDivs(n) {
             // Stash the event so it can be triggered later.
             deferredPrompt = e;
           }
-                                 );           
+                                 );      
+
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+
+     
 
         </script>
         
