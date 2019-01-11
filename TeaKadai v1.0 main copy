@@ -1,19 +1,23 @@
-<html>
+<html ⚡>
 
 <meta name="a1aa0dce1a6ca9802ac3f637c2d41294182653a8" content="855334238aa8fa59284ad9f6753bbcd0748e8d44" />
+
+<link rel='amphtml' expr:href='"https://mercury.postlight.com/amp?url=" + data:blog.url' />
+
+
 
 
 
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="">
 </script>
 
-
-<link rel="manifest" href="https://github.com/GravityNull/blog/blob/master/manifest.json" />
+<link rel="manifest" href="pwa.webmanifest">
+<link rel="manifest" href="//teakadai.000webhostapp.com/manifest.json" />
 <script async  src="https://cdn.rawgit.com/GoogleChrome/pwacompat/v2.0.1/pwacompat.min.js"></script>
 
 
 <meta name="viewport" content="width=device-width, user-scalable=yes" />
-<link rel="manifest" href="/home.json">
+
 
 
 
@@ -42,9 +46,7 @@ var OneSignal = window.OneSignal || [];
 <head>
 
 	<meta name="mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="viewport" content="width=300px">
+	<meta name="scope" content="/app">
 	<meta name="mobile-web-app-capable" content="yes" display="standalone">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         
@@ -59,7 +61,7 @@ var OneSignal = window.OneSignal || [];
 	<meta content='width=device-width' name='viewport' />
 	<meta content='yes' name='mobile-web-app-capable' />
 	<meta content='black-translucent' name='apple-mobile-web-app-status-bar-style' />
-	<meta content='true' name='HandheldFriendly' />
+	<meta content='standalone' name='display' />
 	<meta content='width' name='MobileOptimized' />
 	<meta content='guest-home' name='pageKey' />
 
@@ -134,25 +136,25 @@ var OneSignal = window.OneSignal || [];
 		        background-color: red;
 		        color: white;
 		        cursor: pointer;
-		        padding: 6.5px;
+		        padding: 7px;
 
 		      }
 		      .logo {
 		        font-family: 'acme', sans-serif;
 		        position: fixed;
 		        top: 0px;
-		        left: -6px;
+		        right: 5;
 		        z-index: 11;
-		        font-size: 10px;
+		        font-size: 13.5px;
 		        border-radius: 0%;
 		        border: 0;
 		        outline: 0;
 		        background-color: #448AFF;
 		        color: white;
 		        cursor: pointer;
-		        padding: 13.5px;
+		        padding: 11.5px;
 		        width: 100%;
-		        opacity: 0.90;
+		        opacity: 1;
 		        filter: alpha(opacity=90);
 		      }
 
@@ -182,12 +184,23 @@ var OneSignal = window.OneSignal || [];
 		        text-decoration: none;
 		        Color: black;
 		      }
-		     .belbtn {
+		     
+             .belbtn {
 		        background-color: red;
 		        border: none;
 		        color: white;
 		        padding: 10px;
 		        font-size: 15px;
+		        cursor: pointer;
+		     }
+             
+             .belbtn1 {
+		        background-color: #09f;
+		        border: none;
+                        border-radius: 10px;
+		        color: white;
+		        padding: 12px;
+		        font-size: 12px;
 		        cursor: pointer;
 		     }
                      .belbt1 {
@@ -230,8 +243,8 @@ var OneSignal = window.OneSignal || [];
 		      }
 		      .progress-bar {
 		        height: 6px;
-		        background-color:gold ;
-		        background: skyblue;
+		        background-color:#009540 ;
+		        background: #red;
 		        width: 0%;
   -webkit-transition-duration: 0.4s;
 		      }
@@ -453,8 +466,9 @@ var OneSignal = window.OneSignal || [];
 	</button>
 	<div>
 		<button class="logo">
-			<center> 
-          <b> TeaKadai.tk power'd by TwitterAPI & GravityNull </b>
+			<left> 
+          <b> TeaKadai.tk </b> 
+          <b> powerd by TwitterAPI </b>
 			</center>
 		</button>
 	</div>
@@ -507,18 +521,22 @@ var OneSignal = window.OneSignal || [];
   
 
 <center>
-<h3>Cartoon Your Photos</h3>
 
-<button  class="pgn" class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">
-<i class="material-icons">
-<b>chevron_left</b> </i></button>
 
-<button  class="pgn"class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">
-<i class="material-icons">
-<b>chevron_right</b> </i></button>
+<b><button class="belbtn1" class="pgn" class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">
+
+<</b> </button>
+
+<button class="belbtn1"> Cartoon Your Photos </button>
+
+<b><button class="belbtn1" class="pgn"class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">
+
+<b>></b> </button>
 
 
 <center>
+
+
 
 
 <script>
@@ -548,11 +566,7 @@ function showDivs(n) {
 
 
 </center>
-<hr> <br>
-
-
-<br>
-
+<hr>
 <center>
 
 
@@ -651,9 +665,9 @@ s.setAttribute('data-timestamp', +new Date());
 
 <style>
 .ribbon {
- font-size: 12px !important;
+ font-size: 8.4px !important;
 
- width: 84%;
+ width: 85%;
     
  position: relative;
  background: #861982;
@@ -665,7 +679,7 @@ s.setAttribute('data-timestamp', +new Date());
  content: "";
  position: absolute;
  display: block;
- bottom: -1em;
+ bottom: -1.5em;
  border: 1em solid #751472;
  z-index: -1;
 }
@@ -682,10 +696,11 @@ s.setAttribute('data-timestamp', +new Date());
 
 
 </style>
-
+<b>
 <h3 class="ribbon">
    <strong class="ribbon-content">
-<hr>     
+
+<hr>   
 <h2 class="accordion"><b> Cartoon Your Photo </b></h2>
 <div class="panel">
 <picture>
@@ -694,10 +709,17 @@ s.setAttribute('data-timestamp', +new Date());
 <img src="https://i.ibb.co/VHr4Jf2/Pics-Art-12-10-03-55-43.jpg" alt="GravityNull" style="width:100%;"> 
 </a>
 </picture>
+
+
+
+
+
 </div>
    
    </strong>
 </h1>
+
+
 
 
 
@@ -845,7 +867,11 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-     
+
+
+
+
+   
 
         </script>
         
@@ -893,8 +919,17 @@ overflow: scroll;
 </div>
 
 
-
-
+<!-- Composite Start -->
+<div id="M387201ScriptRootC312160">
+        <script>
+                (function(){
+            var D=new Date(),d=document,b='body',ce='createElement',ac='appendChild',st='style',ds='display',n='none',gi='getElementById',lp=d.location.protocol,wp=lp.indexOf('http')==0?lp:'https:';
+            var i=d[ce]('iframe');i[st][ds]=n;d[gi]("M387201ScriptRootC312160")[ac](i);try{var iw=i.contentWindow.document;iw.open();iw.writeln("<ht"+"ml><bo"+"dy></bo"+"dy></ht"+"ml>");iw.close();var c=iw[b];}
+            catch(e){var iw=d;var c=d[gi]("M387201ScriptRootC312160");}var dv=iw[ce]('div');dv.id="MG_ID";dv[st][ds]=n;dv.innerHTML=312160;c[ac](dv);
+            var s=iw[ce]('script');s.async='async';s.defer='defer';s.charset='utf-8';s.src=wp+"//jsc.mgid.com/t/e/teakadai.tk.312160.js?t="+D.getYear()+D.getMonth()+D.getUTCDate()+D.getUTCHours();c[ac](s);})();
+    </script>
+    </div>
+<!-- Composite End -->
 
 
         </body>
