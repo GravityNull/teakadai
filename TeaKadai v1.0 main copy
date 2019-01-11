@@ -506,67 +506,44 @@ var OneSignal = window.OneSignal || [];
 </i><b> </b>
 </button>
  <b> Subscribe to TeaKadai</b></a>.tk 
-<hr>
 
 
+<style>
+.mySlides {display:none;}
+</style>
+
+<div class="w3-content w3-section" style="max-width:500px">
+<a href="https://fb.com/gravitynull" target="blank">
+<img class="mySlides" src="https://4.bp.blogspot.com/-iCqnLhr8et0/WmbOSYcx_XI/AAAAAAAAEzs/GOpl572RFCshs0unPvGf9outyADfe8_SgCPcBGAYYCw/s400/1pic.jpg" style="width:100%">
+</a>
+
+<a href="https://fb.com/gravitynull" target="blank">  
+  <img class="mySlides" src="https://2.bp.blogspot.com/-1WcGZ658_wo/WmbOOU3reWI/AAAAAAAAEzo/bfEqk_HX-BQgH0KMzBZ4xP34kzsmm97UgCPcBGAYYCw/s400/2pic.jpg" style="width:100%">
+</a>
 
 <a href="https://fb.com/gravitynull" target="blank">
-  <img class="mySlides12" src="https://4.bp.blogspot.com/-s_160hRFXFM/WmbOGshH0HI/AAAAAAAAEzk/ipwIasSovB88lZOJtSAxL3jCsEYyio3tQCPcBGAYYCw/s400/3pic.jpg" style="width:100%" /></a>
+  <img class="mySlides" src="https://4.bp.blogspot.com/-s_160hRFXFM/WmbOGshH0HI/AAAAAAAAEzk/ipwIasSovB88lZOJtSAxL3jCsEYyio3tQCPcBGAYYCw/s400/3pic.jpg" style="width:100%">
+</a>
 
-<a href="https://fb.com/gravitynull" target="blank">
-  <img class="mySlides12" src="https://2.bp.blogspot.com/-1WcGZ658_wo/WmbOOU3reWI/AAAAAAAAEzo/bfEqk_HX-BQgH0KMzBZ4xP34kzsmm97UgCPcBGAYYCw/s400/2pic.jpg" style="width:100%" /></a>
-
-<a href="https://fb.com/gravitynull" target="blank">
-  <img class="mySlides12" src="https://4.bp.blogspot.com/-iCqnLhr8et0/WmbOSYcx_XI/AAAAAAAAEzs/GOpl572RFCshs0unPvGf9outyADfe8_SgCPcBGAYYCw/s400/1pic.jpg" style="width:100%" /></a>
-  
-
-<center>
-
-
-<b><button class="belbtn1" class="pgn" class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">
-
-<</b> </button>
-
-<button class="belbtn1"> Cartoon Your Photos </button>
-
-<b><button class="belbtn1" class="pgn"class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">
-
-<b>></b> </button>
-
-
-<center>
-
-
-
+</div>
 
 <script>
-var slideIndex = 1;
-showDivs(slideIndex);
+var myIndex = 0;
+carousel();
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-function showDivs(n) {
+function carousel() {
   var i;
-  var x = document.getElementsByClassName("mySlides12");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
+  var x = document.getElementsByClassName("mySlides");
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+    x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 </script>
 
-
-
-
-<center>
-</a>
-
-
-</center>
-<hr>
 <center>
 
 
