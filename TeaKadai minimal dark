@@ -1,0 +1,141 @@
+<html>
+
+<head>
+
+
+
+        <link rel="manifest" href="manifest.json">
+
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="mobile-web-app-capable" content="yes" display="standalone">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="/manifest.webmanifest" rel="manifest" />
+	<link href="//image.ibb.co/frphtJ/tk_bold.png'" rel='icon' />
+	<link rel=icon href="//image.ibb.co/frphtJ/tk_bold.png" sizes="96x96" type="image/png">
+	<link rel="shortcut icon" href="//image.ibb.co/frphtJ/tk_bold.png">
+	<title>TeaKadai</title>
+	<meta content='notranslate' name='google' />
+	<meta content='black' name='theme-color' />
+	<meta content='yes' name='mobile-web-app-capable' />
+	<meta content='width=device-width' name='viewport' />
+	<meta content='yes' name='mobile-web-app-capable' />
+	<meta content='black-translucent' name='apple-mobile-web-app-status-bar-style' />
+	<meta content='true' name='HandheldFriendly' />
+	<meta content='width' name='MobileOptimized' />
+	<meta content='guest-home' name='pageKey' />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+	
+
+   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+  </head>
+
+    <link href="metro-icons.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+    
+
+<body data-role="touch">
+
+<div data-role="appbar">
+    ...
+
+
+    
+
+<div class="head-bar pos-absolute bg-dark fg-white float-none">
+    <img src="//image.ibb.co/frphtJ/tk_bold.png" style="width:25px;height:25px;" alt="TeaKadai">
+    <span class="app-title"><b>TeaKadai</b>
+
+<i> ~ powered by Twitter API </i>
+
+</span>
+  
+
+    
+</div>
+
+
+
+
+<ul class="app-bar-present pos-absolute"
+    data-role="materialtabs"
+    data-fixed-tabs="true"
+    data-deep="true"
+    data-cls-tab="bg-black fg-white text-light"
+    data-cls-tab-active="text-bold white"
+    data-cls-marker="bg-red"
+>
+    <li><a href="#a">Tamil</a></li>
+    <li><a href="#b">Tech</a></li>
+    <li><a href="#c">Social</a></li>
+    <li><a href="#d">Flims</a></li>
+
+</ul>
+
+<ul class="app-bar-menu">
+    ...
+    </ul>
+</div>
+
+
+
+    <div id="a"><br><br><br><br>
+    
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tamil" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+<center>Loading...</a>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+</div>
+
+
+
+    
+    
+    <div id="b"><br><br><br><br>
+
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tech" data-chrome="noheader" data-dnt="true" data-link-color="blue"> </a>
+
+</div>
+
+
+
+    <div id="c"><br><br><br><br>
+
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-social" data-chrome="noheader" data-dnt="true" data-link-color="blue"> </a>
+
+</div>
+
+
+
+    <div id="d"><br><br><br><br>
+
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-cinema" data-chrome="noheader" data-dnt="true" data-link-color="blue"></a>
+
+</div>
+
+
+
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+
+
+
+
