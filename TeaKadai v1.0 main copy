@@ -1,39 +1,5 @@
 <html ⚡>
 
-<meta name="a1aa0dce1a6ca9802ac3f637c2d41294182653a8" content="855334238aa8fa59284ad9f6753bbcd0748e8d44" />
-
-<link rel='amphtml' expr:href='"https://mercury.postlight.com/amp?url=" + data:blog.url' />
-
-
-
-
-
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async="">
-</script>
-
-<link rel="manifest" href="pwa.webmanifest">
-<link rel="manifest" href="//teakadai.000webhostapp.com/manifest.json" />
-<script async  src="https://cdn.rawgit.com/GoogleChrome/pwacompat/v2.0.1/pwacompat.min.js"></script>
-
-
-<meta name="viewport" content="width=device-width, user-scalable=yes" />
-
-
-
-
-<script>
-var OneSignal = window.OneSignal || [];
-	    OneSignal.push(function() 
-          {
-	      OneSignal.init(
-             {
-	        appId: "6f6a8484-b1bb-4dcd-8283-b486f837f3be",
-	      }
-	                    );
-	    }
-	                  );
-</script>
-
 <script>
 	window.dataLayer = window.dataLayer || [];
 	    function gtag(){
@@ -42,48 +8,48 @@ var OneSignal = window.OneSignal || [];
 	    gtag('js', new Date());
 	    gtag('config', 'UA-112167797-2');
 </script>
+<script>
+  if ('serviceWorker' in navigator) {
+    console.log("Will the service worker register?");
+    navigator.serviceWorker.register('service-worker.js')
+      .then(function(reg){
+        console.log("Yes, it did.");
+      }).catch(function(err) {
+        console.log("No it didn't. This happened: ", err)
+      });
+  }
+</script>
 
 <head>
-
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="manifest" href="manifest.json" />
 	<meta name="mobile-web-app-capable" content="yes">
-	<meta name="scope" content="/app">
 	<meta name="mobile-web-app-capable" content="yes" display="standalone">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         
 	
-	<link href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png" rel='icon' />
-	<link rel=icon href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png" sizes="96x96" type="image/png">
-	<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png"> 
-	<title>TeaKadai</title>
-	<meta content='notranslate' name='google' />
-	<meta content='black' name='theme-color' />
-	<meta content='yes' name='mobile-web-app-capable' />
-	<meta content='width=device-width' name='viewport' />
-	<meta content='yes' name='mobile-web-app-capable' />
-	<meta content='black-translucent' name='apple-mobile-web-app-status-bar-style' />
-	<meta content='standalone' name='display' />
-	<meta content='width' name='MobileOptimized' />
-	<meta content='guest-home' name='pageKey' />
+<link href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png" rel='icon' />
+<link rel=icon href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png" sizes="96x96" type="image/png">
+<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png"> 
 
+<title>TeaKadai</title>
 
-
+<meta content='notranslate' name='google' />
+<meta content='black' name='theme-color' />
+<meta content='yes' name='mobile-web-app-capable' />
+<meta content='width=device-width' name='viewport' />
+<meta content='yes' name='mobile-web-app-capable' />
+<meta content='black-translucent' name='apple-mobile-web-app-status-bar-style' />
+<meta content='standalone' name='display' />
+<meta content='width' name='MobileOptimized' />
 <meta property="og:title" content="TeaKadai">
 <meta property="og:site_name" content="TeaKadai.tk">
 <meta property="og:url" content="https://www.teakadai.tk/">
 <meta property="og:description" content="Tamil flash news updates">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png">
-
-
-
-
 <meta property="og:type" content="product">
-<meta property="og:title" content="TeaKadai">
-<meta property="og:url" content="Https://www.teakadai.tk/">
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png">
 <meta property="display" content="standalone">
-<meta property="product:price:amount" content="">
-<meta property="product:price:currency" content="">
 
 
 
@@ -160,12 +126,12 @@ var OneSignal = window.OneSignal || [];
 
 /* side navigation */.alert {
 		        padding: 1px;
-		        background-color: ;
+		        background-color:white;
 		        color: black;
 		        opacity: 1;
 		        scrollbar: 0;
 		        transition: opacity 1s;
-		        width: 99%;
+		        width: 300px;
 		        height: 80%;
 		      }
 		      .alert.success {
@@ -197,7 +163,7 @@ var OneSignal = window.OneSignal || [];
              .belbtn1 {
 		        background-color: #09f;
 		        border: none;
-                        border-radius: 10px;
+                border-radius: 10px;
 		        color: white;
 		        padding: 12px;
 		        font-size: 12px;
@@ -214,8 +180,8 @@ var OneSignal = window.OneSignal || [];
                      
 		      body {
 		        font-family: "hind", sans-serif;
-		        margin: 0;
-		        font-size: 150%;
+		        margin: 100;
+		        font-size: 100%;
 		      }
 		      .header {
 		        font-family: "hind", sans-serif;
@@ -235,9 +201,9 @@ var OneSignal = window.OneSignal || [];
 		        background-color:yellow ;
 
 		      }
-		      @media screen and (min-width: 700px) {
+		      @media screen and (min-width: 600px) {
 		        .progress-container {
-		          height: 5px;
+		          height: 15px;
 		          align: center;
 		        }
 		      }
@@ -367,8 +333,8 @@ var OneSignal = window.OneSignal || [];
 		      }
 		      .sidenav {
 		        height: 100%;
-	   background-color: white;
-		        width: 0;
+	            background-color:white ;
+		        width:0;
 		        position: fixed;
 		        padding: 0px;
 		        z-index: 1;
@@ -388,7 +354,7 @@ var OneSignal = window.OneSignal || [];
 		      .sidenav .closebtn1 {
 		        position: absolute;
 		        top: 28;
-		        left: 85%;
+		        left: 243px;
 		        font-size: 54px;
 		        padding-top: 0px;
 		        margin-left: 12px;
@@ -438,8 +404,17 @@ var OneSignal = window.OneSignal || [];
 
 
 <br>
-<b><center> Donate Dev's Google Pay UPI </center></b>
-<img src="//i.ibb.co/YkB0ptm/Screenshot-2018-12-06-15-13-43-440-com-google-android-apps-nbu-paisa-user.png" style="width:99%" />
+
+<br>
+<b><center> 
+<center><b> Add TeaKadai to HomeScreen </b></center>
+</center></b>
+<hr>
+<img src="//i.ibb.co/2ZRwGm0/A2HS.jpg" style="width:250px" />
+<hr>
+<i><center> Donate Dev's Google Pay UPI </center></i>
+<b><center> Roobank1@okicici </center></b>
+
 
 <br>
 
@@ -471,8 +446,24 @@ var OneSignal = window.OneSignal || [];
           <b> powerd by TwitterAPI </b>
 			</center>
 		</button>
-	</div>
-	<br>
+	</div> </br>
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 	<div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn1" onclick="closeNav()">&times;
       </a>
 		<div class="alert"> <span class="closebtn">
@@ -505,7 +496,7 @@ var OneSignal = window.OneSignal || [];
 <button class="belbtn"><i class="material-icons">notifications</i>
 </i><b> </b>
 </button>
- <b> Subscribe to TeaKadai</b></a>.tk 
+ <b>Cartoon Your Photos </b></a>
 
 
 <style>
@@ -525,6 +516,8 @@ var OneSignal = window.OneSignal || [];
   <img class="mySlides" src="https://4.bp.blogspot.com/-s_160hRFXFM/WmbOGshH0HI/AAAAAAAAEzk/ipwIasSovB88lZOJtSAxL3jCsEYyio3tQCPcBGAYYCw/s400/3pic.jpg" style="width:100%">
 </a>
 
+
+<hr>
 </div>
 
 <script>
@@ -547,26 +540,18 @@ function carousel() {
 <center>
 
 
-<div id="disqus_thread"></div>
-<script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2&appId=504839786557699&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://teakadai.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<div class="fb-page" data-href="https://www.facebook.com/GravityNull/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GravityNull/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GravityNull/">GravityNull</a></blockquote></div>
+
+<div class="fb-comments" data-href="https://www.facebook.com/GravityNull/" data-width="100" data-numposts="5"></div>
                             
 
 
@@ -600,9 +585,7 @@ s.setAttribute('data-timestamp', +new Date());
 
 
 
-
-
-          <div class="progress-container">
+          <div class="progress-">
           <div class="progress-bar" id="myBar">
           </div>
           <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">
@@ -637,6 +620,18 @@ s.setAttribute('data-timestamp', +new Date());
       <div class="content">
 
 <center>
+
+
+
+
+
+
+
+
+
+
+
+
 
 <center>
 
@@ -677,8 +672,8 @@ s.setAttribute('data-timestamp', +new Date());
 <h3 class="ribbon">
    <strong class="ribbon-content">
 
-<hr>   
-<h2 class="accordion"><b> Cartoon Your Photo </b></h2>
+<hr><hr>   
+<h2 class="accordion"><b> Cartoon Your Photo with GravityNull</b></h2>
 <div class="panel">
 <picture>
 <source media="(min-width: 100%)">
@@ -702,7 +697,7 @@ s.setAttribute('data-timestamp', +new Date());
 
         <div id="Home" class="tabcontent">
 
-
+  
 <br>
 
 <center>
@@ -710,8 +705,8 @@ s.setAttribute('data-timestamp', +new Date());
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tamil" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
           </a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-          </script>        
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+          </script>                
 
 
 
@@ -725,8 +720,8 @@ s.setAttribute('data-timestamp', +new Date());
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tech" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
           </a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-          </script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+</script>
 .
 </div>
 
@@ -738,8 +733,8 @@ s.setAttribute('data-timestamp', +new Date());
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-cinema" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
           </a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-          </script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+</script>
 .
 </div>
 
@@ -749,8 +744,8 @@ s.setAttribute('data-timestamp', +new Date());
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-english" data-chrome="noheader" data-dnt="true" data-link-color="blue">
             Loading...
           </a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-          </script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">          
+</script>
 .        
 </div>
 
@@ -763,14 +758,14 @@ s.setAttribute('data-timestamp', +new Date());
 
 
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-social" data-chrome="noheader" data-dnt="true" data-link-color="blue">
-            Loading...
           </a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-          </script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">          
+</script>
 
-
-
-        </div>
+ </div>
+        
+        
+        
         <script>
           // When the user scrolls down 20px from the top of the document, show the button
           window.onscroll = function() {
@@ -815,7 +810,7 @@ s.setAttribute('data-timestamp', +new Date());
             document.getElementById("myBar").style.width = scrolled + "%";
           }
           function openNav() {
-            document.getElementById("mySidenav").style.width = "100%";
+            document.getElementById("mySidenav").style.width = "320px";
           }
           function closeNav() {
             document.getElementById("mySidenav").style.width = "0%";
@@ -843,57 +838,10 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
-
-
-
-
-
-   
-
         </script>
         
 
 
-
-<style>
-@media screen and (min-width: 700px) {
-   .sidenav {
-    height: 35%;
-    width: 100%;
-    position: fixed;
-    z-index: 10000000000;
-    top: 30%;
-    left:0;
-    border:10;
-    background-color: #212121;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    text-align:center;
-}
-}
-
-@media screen and (min-width: 700px) {
-   sdd att:after {
-        content: " " attr(dzz) " ";
-        font-size: 20px;
-        font-style: bold;
-        color: white;
-    }
-}
-
-#fixed {
-overflow: scroll;
--webkit-overflow-scrolling: touch;
-}
-
-</style>
-
-<div id="mySidenav" class="sidenav">
-<sdd><att dzz="Sorry :(" ></att></sdd>
-<i><b><sdd><br><att dzz="TeaKadai webUI works well only on mobile device, resize the tab (or) visit us on mobile" ></att></sdd></b></i>
-<br>
-</div>
 
 
 <!-- Composite Start -->
@@ -907,6 +855,7 @@ overflow: scroll;
     </script>
     </div>
 <!-- Composite End -->
+
 
 
         </body>
