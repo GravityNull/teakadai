@@ -8,29 +8,15 @@
 	    gtag('js', new Date());
 	    gtag('config', 'UA-112167797-2');
 </script>
-<script>
-  if ('serviceWorker' in navigator) {
-    console.log("Will the service worker register?");
-    navigator.serviceWorker.register('service-worker.js')
-      .then(function(reg){
-        console.log("Yes, it did.");
-      }).catch(function(err) {
-        console.log("No it didn't. This happened: ", err)
-      });
-  }
-</script>
 
 <head>
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
-    <link rel="manifest" href="manifest.json" />
-	<meta name="mobile-web-app-capable" content="yes">
-	<meta name="mobile-web-app-capable" content="yes" display="standalone">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
+<meta name="mobile-web-app-capable" content="yes" display="standalone">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
 	
-<link href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png" rel='icon' />
-<link rel=icon href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png" sizes="96x96" type="image/png">
-<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png"> 
+<link href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png" rel='icon' />
+<link rel=icon href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png" sizes="96x96" type="image/png">
+<link rel="shortcut icon" href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png"> 
 
 <title>TeaKadai</title>
 
@@ -47,9 +33,14 @@
 <meta property="og:url" content="https://www.teakadai.tk/">
 <meta property="og:description" content="Tamil flash news updates">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png">
+<meta property="og:image" content="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png">
 <meta property="og:type" content="product">
 <meta property="display" content="standalone">
+
+
+
+
+
 
 
 
@@ -66,27 +57,29 @@
 		        border: none;
 		        outline: none;
 		        background-color: #00e676;
-		        color: white;
+		        color: yellow;
 		        cursor: pointer;
 		        padding: 7.5px;
-                transition: .155s;
+                        transition: .155s;
+ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
                 }
 
    /* paytm button */ #ptBtn {
 		        font-family: 'hind', sans-serif;
 		        position: fixed;
 		        top: 0%;
-		        right: 36px;
+		        right: 39px;
 		        z-index: 99;
 		        font-size: 20px;
 		        border-radius: 0%;
 		        border: none;
 		        outline: none;
 		        background-color: #00e676;
-		        color: white;
+		        color: #ff00d4;
 		        cursor: pointer;
 		        padding: 7.5px;
-                transition: .155s;
+                        transition: .155s;
+ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.0);
 		      }
 
 
@@ -103,9 +96,10 @@
 		        color: white;
 		        cursor: pointer;
 		        padding: 7px;
+ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 
 		      }
-		      .logo {
+ /* fixed header */ .logo {
 		        font-family: 'acme', sans-serif;
 		        position: fixed;
 		        top: 0px;
@@ -115,14 +109,17 @@
 		        border-radius: 0%;
 		        border: 0;
 		        outline: 0;
-		        background-color: #448AFF;
+		        background-color: blue;
+                background-image: linear-gradient(to right, #35aee8, #354be8);
 		        color: white;
 		        cursor: pointer;
 		        padding: 11.5px;
 		        width: 100%;
 		        opacity: 1;
 		        filter: alpha(opacity=90);
+ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 		      }
+              
 
 /* side navigation */.alert {
 		        padding: 1px;
@@ -158,16 +155,18 @@
 		        padding: 10px;
 		        font-size: 15px;
 		        cursor: pointer;
+ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 		     }
              
              .belbtn1 {
 		        background-color: #09f;
 		        border: none;
-                border-radius: 10px;
+                        border-radius: 10px;
 		        color: white;
 		        padding: 12px;
 		        font-size: 12px;
 		        cursor: pointer;
+ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 		     }
                      .belbt1 {
 		        background-color: red;
@@ -176,12 +175,14 @@
 		        padding: 5px;
 		        font-size: 15px;
 		        cursor: pointer;
+ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 		     }
                      
 		      body {
 		        font-family: "hind", sans-serif;
 		        margin: 100;
 		        font-size: 100%;
+		        transition: opacity 1s;
 		      }
 		      .header {
 		        font-family: "hind", sans-serif;
@@ -212,16 +213,16 @@
 		        background-color:#009540 ;
 		        background: #red;
 		        width: 0%;
-  -webkit-transition-duration: 0.4s;
+                       -webkit-transition-duration: 0.4s;
 		      }
 		      @media screen and (min-width: 700px) {
-		        .progress-bar {
-		          height: 6px;
+		      .progress-bar {
+		        height: 6px;
 		        background-color:gold ;
-		          background: skyblue;
-		          width: 0%;
-
-  -webkit-transition-duration: 0.4s;		        }
+		        background: skyblue;
+		        width: 0%;
+                       -webkit-transition-duration: 0.4s;		        
+                      }
 		      }
 		      .content {
 		        font-family: "Acme", sans-serif;
@@ -232,9 +233,12 @@
 		      }
 		      @media screen and (min-width: 700px) {
 		        .content {
-		          padding: 20px 0;
+		        font-family: "Acme", sans-serif;
+		          padding: 0px 0;
 		          margin: 0px auto 0 auto;
-		          width: 66%;
+		          width: 46%;
+		        height: 80%;
+ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 		        }
 		      }
 		      * {
@@ -251,7 +255,8 @@
 		      .btt1 {
 		        font-family: "Acme", sans-serif;
 		        text-align: center;
-		        width: 80%;
+		        width: 60%;
+                        
 		      }
 		      .btt {
 		        font-family: "Acme", sans-serif;
@@ -275,6 +280,7 @@
 		        color: black;
 		        font-family: "Acme", sans-serif;
 		      }
+              
 		      /* Style tab links */
 		      .tablink {
 		        font-family: "Lato", sans-serif;
@@ -288,7 +294,9 @@
 		        font-size: 10px;
 		        width: 20%;
 		      }
-		      @media screen and (min-width: 600px) {
+              
+		      @media screen and (min-width: 600px) 
+              {
 		        .tablink {
 		          font-family: "Acme", sans-serif;
 		          background-color: black;
@@ -307,7 +315,7 @@
 		        background-color: white;
 		        font-family: "Acme", sans-serif;
 		      }
-		      /* Style the tab content (and add height:100% for full page content) */
+/* Style the tab content (and add height:100% for full page content) */
 		      .tabcontent {
 		        font-family: "Acme", sans-serif;
 		        color: ;
@@ -316,7 +324,8 @@
 
   -webkit-transition-duration: 0.75s;
 		      }
-		      @media screen and (min-width: 600px) {
+		      @media screen and (min-width: 600px) 
+              {
 		        .tabcontent {
 		          font-family: "hind", sans-serif;
 		          color: white;
@@ -327,11 +336,15 @@
 		        }
 		      }
 		      }
-		      body {
+		      body 
+              {
 		        font-family: "hind", sans-serif;
 		        font-size: 15px;
 		      }
-		      .sidenav {
+              
+/* Side navigation */             
+		      .sidenav 
+              {
 		        height: 100%;
 	            background-color:white ;
 		        width:0;
@@ -344,6 +357,7 @@
 		        transition: .25s;
 		        padding-top: 28px;
 		        font-size: 10px;
+ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 		      }
 		      .sidenav a {
 		        padding: 2px;
@@ -353,9 +367,9 @@
 		      }
 		      .sidenav .closebtn1 {
 		        position: absolute;
-		        top: 28;
-		        left: 243px;
-		        font-size: 54px;
+		        top: 28px;
+		        left: 260px;
+		        font-size: 50px;
 		        padding-top: 0px;
 		        margin-left: 12px;
 		        color: red;
@@ -370,11 +384,13 @@
 		{ display: none;position: fixed; z-index: 100; padding-top: 39px; 
 		left: 5%; top: 0; width: 88%;  -webkit-transition-duration: 0.75s;
 		overflow: auto; background-color: ; float: center;
+ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 		}
 		.ptmodal-content { background-color:white ; margin: auto; padding: 20px; border: 1px solid #888; width: 99%;font-size: 15px;
 -webkit-transition-duration: 0.75s;
+ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 		}
-		.close1 { color: red; float: right; font-size: 45px;  font-weight: bold;
+		.close1 { color: red; float: right; font-size: 45px;  font-weight:bold;
 		}
 		.close1:hover,
 		.close1:focus { color: #000; text-decoration: none; cursor: pointer;
@@ -385,7 +401,45 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }
+
+/* ribbon css starts here */
+
+.ribbon 
+{
+ font-size: 8.4px !important;
+ width: 85%;
+ position: relative;
+ background: #9900ab;
+ background-image: linear-gradient(to right, #8000ab, #9910ab);
+ color: yellow;
+ text-align: center;
+ margin: 1em auto 1em; 
+ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+}
+/* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+
+
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1.5em;
+ border: 1em solid #9900ab;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+
 
 
 	</style>
@@ -406,17 +460,17 @@
 <br>
 
 <br>
-<b><center> 
-<center><b> Add TeaKadai to HomeScreen </b></center>
-</center></b>
-<hr>
+
+
+<center> 
+
+<b> Add TeaKadai to HomeScreen </b></center>
 <img src="//i.ibb.co/2ZRwGm0/A2HS.jpg" style="width:250px" />
 <hr>
-<i><center> Donate Dev's Google Pay UPI </center></i>
-<b><center> Roobank1@okicici </center></b>
-
-
-<br>
+<center><i>Donate us  :: <b> 
+<a href="https://fb.com/roobenk" target="_blank">Roobank1@okicici</a> 
+</b></i></center>
+<hr>
 
 <center>
 </div>
@@ -433,87 +487,51 @@
 		btn.onclick = function() { ptmodal.style.display = "block"; }
 		span.onclick = function() { ptmodal.style.display = "none"; }
 		window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.display = "none"; } }
-	</script>
-	<button id="myBtnn" onclick="openNav()"> <i class="material-icons">
-        <b>menu</b>
-      </i>
-		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Tkbold.png/600px-Tkbold.png" style="width:25px;" alt="TeaKadai">
-	</button>
-	<div>
-		<button class="logo">
-			<left> 
-          <b> TeaKadai.tk </b> 
-          <b> powerd by TwitterAPI </b>
-			</center>
-		</button>
-	</div> </br>
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-	<div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn1" onclick="closeNav()">&times;
-      </a>
-		<div class="alert"> <span class="closebtn">
-          <left>
-              <style>
-                /* Slideshow container */
-                .slideshow-containerr {
-                  max-width: 150%;
-                }
-                /* The dots/bullets/indicators */
-                .dot {
-                  cursor: pointer;
-                  height: 15px;
-                  width: 15px;
-                  margin: 0 2px;
-                  background-color: red;
-                  border-radius: 50%;
-                  display: inline-block;
-                  transition: background-color 0.6s ease;
-                }
-                .active, .dot:hover {
-                  background-color: black;
-                }
-              </style>
-              <hr>
-              <a href="https://gravitynull.blogspot.in" target="blank">
-                <b>
-
-<a href="https://teakadai.os.tc/" target="blank">
-<button class="belbtn"><i class="material-icons">notifications</i>
-</i><b> </b>
+</script>
+<button id="myBtnn" onclick="openNav()"> <i class="material-icons">
+<b>menu</b>
+</i>
+<img src="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png" style="width:25px;" alt="TeaKadai">
 </button>
- <b>Cartoon Your Photos </b></a>
+<div>
+<button class="logo">
+<left> 
+<b> TeaKadai.tk </b> 
+<b> powerd by TwitterAPI </b>
+</center>
+</button>
+</div> </br>
 
 
-<style>
-.mySlides {display:none;}
-</style>
+
+<div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn1" onclick="closeNav()">&times;
+</a>
+<div class="alert"> <span class="closebtn">
+<left>
+
+<hr>
+<a href="https://gravitynull.blogspot.in" target="blank"> <b>
+
+<!-- FaceBook Login -->
+<div class="fb-login-button" data-size="medium" data-button-type="login_with" data-auto-logout-link="false" data-use-continue-as="true"></div>
+<!-- FaceBook Login -->
+
+
+
+
+
 
 <div class="w3-content w3-section" style="max-width:500px">
 <a href="https://fb.com/gravitynull" target="blank">
-<img class="mySlides" src="https://4.bp.blogspot.com/-iCqnLhr8et0/WmbOSYcx_XI/AAAAAAAAEzs/GOpl572RFCshs0unPvGf9outyADfe8_SgCPcBGAYYCw/s400/1pic.jpg" style="width:100%">
+<img class="mySlides" src="https://ik.imagekit.io/pdmwfs9ocxywc/1pic_Sy9kMbBLN.jpg" style="width:100%">
 </a>
 
 <a href="https://fb.com/gravitynull" target="blank">  
-  <img class="mySlides" src="https://2.bp.blogspot.com/-1WcGZ658_wo/WmbOOU3reWI/AAAAAAAAEzo/bfEqk_HX-BQgH0KMzBZ4xP34kzsmm97UgCPcBGAYYCw/s400/2pic.jpg" style="width:100%">
+<img class="mySlides" src="https://ik.imagekit.io/pdmwfs9ocxywc/2pic_BJsJzZrUE.jpg" style="width:100%">
 </a>
 
 <a href="https://fb.com/gravitynull" target="blank">
-  <img class="mySlides" src="https://4.bp.blogspot.com/-s_160hRFXFM/WmbOGshH0HI/AAAAAAAAEzk/ipwIasSovB88lZOJtSAxL3jCsEYyio3tQCPcBGAYYCw/s400/3pic.jpg" style="width:100%">
+<img class="mySlides" src="https://ik.imagekit.io/pdmwfs9ocxywc/3pic_r1qyfWSIN.jpg" style="width:100%">
 </a>
 
 
@@ -533,9 +551,10 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  setTimeout(carousel, 4000); // Change image every 2 seconds
 }
 </script>
+
 
 <center>
 
@@ -549,7 +568,7 @@ function carousel() {
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="fb-page" data-href="https://www.facebook.com/GravityNull/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GravityNull/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GravityNull/">GravityNull</a></blockquote></div>
+<div class="fb-page" data-href="https://www.facebook.com/GravityNull/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GravityNull/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GravityNull/"> ... </a></blockquote></div>
 
 <div class="fb-comments" data-href="https://www.facebook.com/GravityNull/" data-width="100" data-numposts="5"></div>
                             
@@ -561,124 +580,73 @@ function carousel() {
 <br>               
                 
 
- 
-                <center>
-                  <script async src="//www.googletagmanager.com/gtag/js?id=UA-112167797-1">
-                  </script>
-                  <script>
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){
-                      dataLayer.push(arguments);
-                    }
-                    gtag('js', new Date());
-                    gtag('config', 'UA-112167797-1');
-                  </script>
-                </center>
-                </center>
-              </centre>
-            </span>
-          </div>
-      </div>
-    </div>
-    <body bgcolor="white">
-      <div class="header">
+</center>
+</centre>
+</span>
+</div>
+</div>
+</div>
+<body bgcolor="white">
+<div class="header">
 
 
 
-          <div class="progress-">
-          <div class="progress-bar" id="myBar">
-          </div>
-          <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">
-            <i class="material-icons">place
-            </i>
-            <br>tamil
-          </button>
-         <center>
-            </center>
-          <button class="tablink" onclick="openPage('Tech', this, '#00C853')">
-            <i class="material-icons">devices
-            </i>
-            <br>tech
-          </button>
-          <button class="tablink" onclick="openPage('Cinema', this, '#FFC107')">
-            <i class="material-icons">local_movies
-            </i>
-            <br>cinema
-          </button>
-          <button class="tablink" onclick="openPage('World', this, '#1565C0')">
-            <i class="material-icons">public
-            </i>
-            <br>world
-          </button>
-          <button class="tablink" onclick="openPage('Chat', this, '#FF9800')">
-            <i class="material-icons">message
-            </i>
-            <br>social
-          </button>
-        </div>
-      </div>
-      <div class="content">
-
+<div class="progress-">
+<div class="progress-bar" id="myBar">
+</div>
+<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">
+<i class="material-icons">place
+</i>
+<br>tamil
+</button>
 <center>
+</center>
+          
+<button class="tablink" onclick="openPage('Tech', this, '#00C853')">           
+<i class="material-icons">devices            
+</i>            
+<br>tech          
+</button>          
+<button class="tablink" onclick="openPage('Cinema', this, '#FFC107')">   
+<i class="material-icons">local_movies
+</i>
+<br>cinema
+</button>
+          
+<button class="tablink" onclick="openPage('World', this, '#1565C0')">
+<i class="material-icons">public
+</i>
+<br>world
+</button>
+<button class="tablink" onclick="openPage('Chat', this, '#FF9800')">
+<i class="material-icons">message
+</i>
+<br>social
+</button>
+</div>
+</div>
 
 
+<div class="content">
 
+<center><center>
 
-
-
-
-
-
-
-
-
-
-<center>
-
-<style>
-.ribbon {
- font-size: 8.4px !important;
-
- width: 85%;
-    
- position: relative;
- background: #861982;
- color: gold;
- text-align: center;
- margin: 1em auto 1em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
-}
-.ribbon:before, .ribbon:after {
- content: "";
- position: absolute;
- display: block;
- bottom: -1.5em;
- border: 1em solid #751472;
- z-index: -1;
-}
-.ribbon:before {
- left: -2em;
- border-right-width: 1.5em;
- border-left-color: transparent;
-}
-.ribbon:after {
- right: -2em;
- border-left-width: 1.5em;
- border-right-color: transparent;
-}
-
-
-</style>
+<!-- ribbon starts here -->
 <b>
 <h3 class="ribbon">
-   <strong class="ribbon-content">
+<strong class="ribbon-content">
 
-<hr><hr>   
+
+
+<br> 
+
+  
 <h2 class="accordion"><b> Cartoon Your Photo with GravityNull</b></h2>
 <div class="panel">
 <picture>
 <source media="(min-width: 100%)">
 <a href="https://facebook.com/gravitynull" target="_blank">
-<img src="https://i.ibb.co/VHr4Jf2/Pics-Art-12-10-03-55-43.jpg" alt="GravityNull" style="width:100%;"> 
+<img src="https://ik.imagekit.io/pdmwfs9ocxywc/PicsArt_12-10-03.55.43_Hk7D-WrL4.jpg" alt="GravityNull" style="width:100%;"> 
 </a>
 </picture>
 
@@ -687,87 +655,63 @@ function carousel() {
 
 
 </div>
-   
-   </strong>
+</strong>
 </h1>
 
 
 
 
 
-        <div id="Home" class="tabcontent">
+<div id="Home" class="tabcontent">
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+</script> 
 
   
 <br>
-
 <center>
-
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tamil" data-chrome="noheader" data-dnt="true" data-link-color="blue">
-            Loading...
-          </a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-          </script>                
-
-
-
+</a>
 </div>
 
-        <div id="Tech" class="tabcontent">          
+
+
+<div id="Tech" class="tabcontent">          
 <br>          
-
 <center>
-
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tech" data-chrome="noheader" data-dnt="true" data-link-color="blue">
-            Loading...
-          </a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-</script>
-.
+</a>
 </div>
 
-        <div id="Cinema" class="tabcontent">          
+
+
+<div id="Cinema" class="tabcontent">          
 <br>
-
 <center>
-
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-cinema" data-chrome="noheader" data-dnt="true" data-link-color="blue">
-            Loading...
-          </a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-</script>
-.
+</a>
 </div>
 
-        <div id="World" class="tabcontent">          
+
+
+<div id="World" class="tabcontent">          
 <br>
-
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-english" data-chrome="noheader" data-dnt="true" data-link-color="blue">
-            Loading...
-          </a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">          
-</script>
-.        
+</a>       
 </div>
 
-        <div id="Chat" class="tabcontent">
-          <br>
-         
+
+
+<div id="Chat" class="tabcontent">
+<br>        
 <center>
-
-
-
-
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-social" data-chrome="noheader" data-dnt="true" data-link-color="blue">
-          </a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">          
-</script>
-
- </div>
+</a>
+</div>
         
         
         
-        <script>
-          // When the user scrolls down 20px from the top of the document, show the button
+<script> 
+// When the user scrolls down 20px from the top of the document, show the button
           window.onscroll = function() {
             scrollFunction()
           };
@@ -779,7 +723,7 @@ function carousel() {
               document.getElementById("myBtn").style.display = "none";
             }
           }
-          // When the user clicks on the button, scroll to the top of the document
+// When the user clicks on the button, scroll to the top of the document
           function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
@@ -816,9 +760,9 @@ function carousel() {
             document.getElementById("mySidenav").style.width = "0%";
           }
           window.addEventListener('beforeinstallprompt', (e) => {
-            // Prevent Chrome 67 and earlier from automatically showing the prompt
+// Prevent Chrome 67 and earlier from automatically showing the prompt
             e.preventDefault();
-            // Stash the event so it can be triggered later.
+// Stash the event so it can be triggered later.
             deferredPrompt = e;
           }
                                  );      
@@ -838,7 +782,8 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
-        </script>
+                
+</script>
         
 
 
@@ -857,6 +802,10 @@ for (i = 0; i < acc.length; i++) {
 <!-- Composite End -->
 
 
+      
+<b>Loading...</b>
+    
 
-        </body>
-      </html>
+    
+</body>   
+</html>
