@@ -1,15 +1,9 @@
 <html ⚡>
 
-<script>
-	window.dataLayer = window.dataLayer || [];
-	    function gtag(){
-	      dataLayer.push(arguments);
-	    }
-	    gtag('js', new Date());
-	    gtag('config', 'UA-112167797-2');
-</script>
 
 <head>
+
+
 <meta name="mobile-web-app-capable" content="yes" display="standalone">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    
@@ -182,7 +176,6 @@
 		        font-family: "hind", sans-serif;
 		        margin: 100;
 		        font-size: 100%;
-		        transition: opacity 1s;
 		      }
 		      .header {
 		        font-family: "hind", sans-serif;
@@ -196,34 +189,21 @@
 		        font-family: "hind", sans-serif;
 		        text-align: center;
 		      }
-		      .progress-container {
-		        width: 100%;
-		        height: 5px;
-		        background-color:yellow ;
-
-		      }
-		      @media screen and (min-width: 600px) {
-		        .progress-container {
-		          height: 15px;
-		          align: center;
-		        }
-		      }
-		      .progress-bar {
-		        height: 6px;
-		        background-color:#009540 ;
-		        background: #red;
-		        width: 0%;
-                       -webkit-transition-duration: 0.4s;
-		      }
-		      @media screen and (min-width: 700px) {
-		      .progress-bar {
-		        height: 6px;
-		        background-color:gold ;
-		        background: skyblue;
-		        width: 0%;
-                       -webkit-transition-duration: 0.4s;		        
+/* Scroll Bar */    .progress-container {
+                        width: 100%;
+                        height: 6px;
+                        background: yellow;
+                       -webkit-transition-duration: 0.5s;
                       }
+		      .progress-bar {
+		        height: 6px;
+		        background: #009540;
+		        width: 0%;
+                       -webkit-transition-duration: 0.5s;
 		      }
+		      
+		      }
+/* Twitter News Content */
 		      .content {
 		        font-family: "Acme", sans-serif;
 		        padding: 0px 0;
@@ -233,11 +213,11 @@
 		      }
 		      @media screen and (min-width: 700px) {
 		        .content {
-		        font-family: "Acme", sans-serif;
+		          font-family: "Acme", sans-serif;
 		          padding: 0px 0;
 		          margin: 0px auto 0 auto;
-		          width: 46%;
-		        height: 80%;
+		          width: 45%;
+		          height: 80%;
  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 		        }
 		      }
@@ -281,8 +261,7 @@
 		        font-family: "Acme", sans-serif;
 		      }
               
-		      /* Style tab links */
-		      .tablink {
+/* Style tab links */ .tablink {
 		        font-family: "Lato", sans-serif;
 		        background-color: black;
 		        color: white;
@@ -294,10 +273,10 @@
 		        font-size: 10px;
 		        width: 20%;
 		      }
-              
 		      @media screen and (min-width: 600px) 
-              {
-		        .tablink {
+                      {
+		        .tablink 
+                       {
 		          font-family: "Acme", sans-serif;
 		          background-color: black;
 		          color: white;
@@ -311,42 +290,45 @@
 		        }
 		      }
 		      }
-		      .tablink:hover {
+		      .tablink:hover 
+                     {
 		        background-color: white;
 		        font-family: "Acme", sans-serif;
 		      }
 /* Style the tab content (and add height:100% for full page content) */
-		      .tabcontent {
+		      .tabcontent 
+                      {
 		        font-family: "Acme", sans-serif;
-		        color: ;
+		        color:white ;
+                        align: center;
 		        display: none;
 		        padding: 0px;
-
-  -webkit-transition-duration: 0.75s;
+                       -webkit-transition-duration: 0.75s;
 		      }
 		      @media screen and (min-width: 600px) 
-              {
-		        .tabcontent {
+                      {
+		        .tabcontent 
+                       {
 		          font-family: "hind", sans-serif;
 		          color: white;
 		          display: none;
 		          padding: 0px 0px;
 		          height: 5%;
-  -webkit-transition-duration: 0.15s;
+                         -webkit-transition-duration: 0.15s;
 		        }
 		      }
 		      }
 		      body 
-              {
+                      {
 		        font-family: "hind", sans-serif;
 		        font-size: 15px;
 		      }
               
 /* Side navigation */             
 		      .sidenav 
-              {
+                     {
 		        height: 100%;
-	            background-color:white ;
+	                background-color:white ;
 		        width:0;
 		        position: fixed;
 		        padding: 0px;
@@ -359,42 +341,56 @@
 		        font-size: 10px;
  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 		      }
-		      .sidenav a {
+		      .sidenav a 
+                      {
 		        padding: 2px;
 		        text-decoration: none;
 		        font-size: 20px;
 		        color: black;
 		      }
-		      .sidenav .closebtn1 {
+		      .sidenav .closebtn1 
+                      {
 		        position: absolute;
-		        top: 28px;
-		        left: 260px;
-		        font-size: 50px;
+		        top: 30px;
+		        left: 255px;
+		        font-size: 55px;
 		        padding-top: 0px;
 		        margin-left: 12px;
-		        color: red;
+		        color: orange;
+                        background-color: ;
 		      }
 		      
 
 		      body 
-		      {font-family: hind, sans-serif;
--webkit-transition-duration: 0.5s;
-}
+		      {
+                       font-family: hind, sans-serif;
+                      -webkit-transition-duration: 0.5s;
+                      }
 		.ptmodal 
-		{ display: none;position: fixed; z-index: 100; padding-top: 39px; 
-		left: 5%; top: 0; width: 88%;  -webkit-transition-duration: 0.75s;
-		overflow: auto; background-color: ; float: center;
+		      { 
+                       display: none;position: fixed; z-index: 100; padding-top: 39px; 
+		       left: 5%; top: 0; width: 88%;  
+                      -webkit-transition-duration: 0.75s;
+		       overflow: auto; background-color: ; float: center;
  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-		}
-		.ptmodal-content { background-color:white ; margin: auto; padding: 20px; border: 1px solid #888; width: 99%;font-size: 15px;
--webkit-transition-duration: 0.75s;
+		       }
+		.ptmodal-content 
+                       { 
+                       background-color:white ; margin: auto; 
+                       padding: 20px; border: 1px solid #888; width: 
+                       99%;font-size: 15px;
+                      -webkit-transition-duration: 0.75s;
  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-		}
-		.close1 { color: red; float: right; font-size: 45px;  font-weight:bold;
-		}
+		       }
+		.close1 
+                       { 
+                        color: red; float: right; font-size: 45px;  font-weight:bold;
+                       }
 		.close1:hover,
-		.close1:focus { color: #000; text-decoration: none; cursor: pointer;
-		}
+		.close1:focus 
+                       { 
+                        color: #000; text-decoration: none; cursor: pointer;
+		       }
 
 .panel {
     padding: 0 2px;
@@ -408,6 +404,7 @@
 
 .ribbon 
 {
+ font-family: "hind", sans-serif;
  font-size: 8.4px !important;
  width: 85%;
  position: relative;
@@ -422,6 +419,7 @@
 
 
 .ribbon:before, .ribbon:after {
+ font-family: "hind", sans-serif;
  content: "";
  position: absolute;
  display: block;
@@ -449,6 +447,10 @@
 </head>
 
 <body>
+
+
+
+
 	<button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="material-icons">change_history
       </i>
 	</button>
@@ -489,96 +491,45 @@
 		window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.display = "none"; } }
 </script>
 <button id="myBtnn" onclick="openNav()"> <i class="material-icons">
-<b>menu</b>
+<m>menu</m>
 </i>
 <img src="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png" style="width:25px;" alt="TeaKadai">
 </button>
 <div>
 <button class="logo">
 <left> 
-<b> TeaKadai.tk </b> 
-<b> powerd by TwitterAPI </b>
+<b> TeaKadai.tk powerd by TwitterAPI </b>
 </center>
 </button>
 </div> </br>
-
 
 
 <div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn1" onclick="closeNav()">&times;
 </a>
 <div class="alert"> <span class="closebtn">
 <left>
-
 <hr>
+
 <a href="https://gravitynull.blogspot.in" target="blank"> <b>
 
-<!-- FaceBook Login -->
-<div class="fb-login-button" data-size="medium" data-button-type="login_with" data-auto-logout-link="false" data-use-continue-as="true"></div>
-<!-- FaceBook Login -->
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGravityNull%2F&tabs&width=340&height=200&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=504839786557699" width="100%" height="155" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
 
 
-
-
-
-<div class="w3-content w3-section" style="max-width:500px">
-<a href="https://fb.com/gravitynull" target="blank">
-<img class="mySlides" src="https://ik.imagekit.io/pdmwfs9ocxywc/1pic_Sy9kMbBLN.jpg" style="width:100%">
-</a>
-
-<a href="https://fb.com/gravitynull" target="blank">  
-<img class="mySlides" src="https://ik.imagekit.io/pdmwfs9ocxywc/2pic_BJsJzZrUE.jpg" style="width:100%">
-</a>
-
-<a href="https://fb.com/gravitynull" target="blank">
-<img class="mySlides" src="https://ik.imagekit.io/pdmwfs9ocxywc/3pic_r1qyfWSIN.jpg" style="width:100%">
-</a>
-
+<blockquote class="embedly-card" data-card-key="0cce2b7a99da4e6c8e5e029e9802a0a3" data-card-controls="0" data-card-branding="0" data-card-image="https://4.bp.blogspot.com/-FeWjhNw55_0/XEWiwP4Lj3I/AAAAAAAAF60/fsS1FHpwkqQsCabcANYOL8Hzt7H393kogCLcBGAs/s320/49199996_2055525354470376_1691861474152022016_o.jpg" data-card-type="article-full" data-card-align="left"><h4><a href="https://gravitynull.blogspot.com/">GravityNull தமிழ்</a></h4><p>Memes, Cartoons and even more...just for you :)</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+                  
 
 <hr>
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000); // Change image every 2 seconds
-}
-</script>
-
-
-<center>
-
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2&appId=504839786557699&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<div class="fb-page" data-href="https://www.facebook.com/GravityNull/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GravityNull/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GravityNull/"> ... </a></blockquote></div>
-
-<div class="fb-comments" data-href="https://www.facebook.com/GravityNull/" data-width="100" data-numposts="5"></div>
-                            
 
 
 
-
+            
+<br>               
+<br>                           
 </center>
 <br>               
-                
+</div>               
 
 </center>
 </centre>
@@ -591,7 +542,7 @@ function carousel() {
 
 
 
-<div class="progress-">
+<div class="progress-container">
 <div class="progress-bar" id="myBar">
 </div>
 <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">
@@ -641,13 +592,37 @@ function carousel() {
 <br> 
 
   
-<h2 class="accordion"><b> Cartoon Your Photo with GravityNull</b></h2>
+<h2 class="accordion">
+<b> Cartoon your photos with GavityNull just Rs 25/-
+</b></h2>
 <div class="panel">
 <picture>
 <source media="(min-width: 100%)">
 <a href="https://facebook.com/gravitynull" target="_blank">
 <img src="https://ik.imagekit.io/pdmwfs9ocxywc/PicsArt_12-10-03.55.43_Hk7D-WrL4.jpg" alt="GravityNull" style="width:100%;"> 
 </a>
+
+<h3><a href="https://m.me/GravityNull/" target="blank">
+
+
+<style>
+.contact {
+  font-family: "hind", sans-serif;
+  background-color: white; /*contact button*/
+  border: none;
+  border-radious: 5px;
+  color: black;
+  padding: 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
+<button class="contact">
+<b>contact us</b></button>
+
+</a></h3>
 </picture>
 
 
@@ -663,13 +638,14 @@ function carousel() {
 
 
 <div id="Home" class="tabcontent">
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+<script async src="https://platform.twitter.com/widgets.js">
 </script> 
 
   
 <br>
 <center>
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tamil" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+Loading...    
 </a>
 </div>
 
@@ -679,6 +655,7 @@ function carousel() {
 <br>          
 <center>
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tech" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+Loading...    
 </a>
 </div>
 
@@ -688,6 +665,7 @@ function carousel() {
 <br>
 <center>
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-cinema" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+Loading...
 </a>
 </div>
 
@@ -696,6 +674,7 @@ function carousel() {
 <div id="World" class="tabcontent">          
 <br>
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-english" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+Loading...
 </a>       
 </div>
 
@@ -704,7 +683,8 @@ function carousel() {
 <div id="Chat" class="tabcontent">
 <br>        
 <center>
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-social" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-reporters" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+Loading...
 </a>
 </div>
         
@@ -784,27 +764,7 @@ for (i = 0; i < acc.length; i++) {
 }
                 
 </script>
-        
-
-
-
-
-<!-- Composite Start -->
-<div id="M387201ScriptRootC312160">
-        <script>
-                (function(){
-            var D=new Date(),d=document,b='body',ce='createElement',ac='appendChild',st='style',ds='display',n='none',gi='getElementById',lp=d.location.protocol,wp=lp.indexOf('http')==0?lp:'https:';
-            var i=d[ce]('iframe');i[st][ds]=n;d[gi]("M387201ScriptRootC312160")[ac](i);try{var iw=i.contentWindow.document;iw.open();iw.writeln("<ht"+"ml><bo"+"dy></bo"+"dy></ht"+"ml>");iw.close();var c=iw[b];}
-            catch(e){var iw=d;var c=d[gi]("M387201ScriptRootC312160");}var dv=iw[ce]('div');dv.id="MG_ID";dv[st][ds]=n;dv.innerHTML=312160;c[ac](dv);
-            var s=iw[ce]('script');s.async='async';s.defer='defer';s.charset='utf-8';s.src=wp+"//jsc.mgid.com/t/e/teakadai.tk.312160.js?t="+D.getYear()+D.getMonth()+D.getUTCDate()+D.getUTCHours();c[ac](s);})();
-    </script>
-    </div>
-<!-- Composite End -->
-
-
-      
-<b>Loading...</b>
-    
+  
 
     
 </body>   
