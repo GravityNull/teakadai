@@ -1,9 +1,7 @@
-<html>
+<html ⚡>
 
 
 <head>
-<title> GravityNull TeaKadai </title>
-<meta name="description" content="All new latest Tamil flash news" />
 
 
 <meta name="mobile-web-app-capable" content="yes" display="standalone">
@@ -330,7 +328,7 @@
 		      .sidenav 
                      {
 		        height: 100%;
-	            background-color:white ;
+	                background-color:white ;
 		        width:0;
 		        position: fixed;
 		        padding: 0px;
@@ -353,12 +351,12 @@
 		      .sidenav .closebtn1 
                       {
 		        position: absolute;
-		        top: 25px;
+		        top: 30px;
 		        left: 255px;
 		        font-size: 55px;
 		        padding-top: 0px;
 		        margin-left: 12px;
-		        color: red;
+		        color: orange;
                         background-color: ;
 		      }
 		      
@@ -370,15 +368,15 @@
                       }
 		.ptmodal 
 		      { 
-                       display: none; z-index: 100; padding-top: 15px; 
-		       left: 5%; top: 0; width: 100%;   
+                       display: none; z-index: 100; padding-top: 39px; 
+		       left: 0%; top: 0; width: 100%;  
                       -webkit-transition-duration: 0.75s;
-		       overflow: auto; background-color: ; float: center; overflow: float;
+		       overflow: auto; background-color: ; float: center;
  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 		       }
 		.ptmodal-content 
                        { 
-                       background-color:white ; margin: auto; overflow: float;
+                       background-color:white ; margin: auto; 
                        padding: 20px; border: 1px solid #888; width: 
                        99%;font-size: 15px;
                       -webkit-transition-duration: 0.75s;
@@ -407,13 +405,13 @@
 .ribbon 
 {
  font-family: "hind", sans-serif;
- font-size: 9px !important;
- width: 90%;
+ font-size: 8.4px !important;
+ width: 85%;
  position: relative;
  background: #9900ab;
  background-image: linear-gradient(to right, #8000ab, #9910ab);
  color: yellow;
- text-align: middle;
+ text-align: center;
  margin: 1em auto 1em; 
  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }
@@ -425,18 +423,18 @@
  content: "";
  position: absolute;
  display: block;
- bottom: -1em;
+ bottom: -1.5em;
  border: 1em solid #9900ab;
  z-index: -1;
 }
 .ribbon:before {
- left: -1em;
- border-right-width: 1em;
+ left: -2em;
+ border-right-width: 1.5em;
  border-left-color: transparent;
 }
 .ribbon:after {
- right: -1em;
- border-left-width: 1em;
+ right: -2em;
+ border-left-width: 1.5em;
  border-right-color: transparent;
 }
 
@@ -458,10 +456,15 @@
 	</button>
 	<div id="ptModal" class="ptmodal">
 		<div class="ptmodal-content"> <span class="close1">&times;</span>
+			<center>
 
 
 <br>
 
+<br>
+
+
+<center> 
 
 
 <i>Type in <b>தமிழ்</b> to grab the exact results, </i>
@@ -469,7 +472,7 @@
 <!-- google custom search -->
 <script>
   (function() {
-    var cx = '003234057910183980416:a4phrgckgc4';
+    var cx = '003234057910183980416:geop3oezqse';
     var gcse = document.createElement('script');
     gcse.type = 'text/javascript';
     gcse.async = true;
@@ -482,8 +485,6 @@
 <!-- google custom search -->
 
 
-<center> 
-<center> 
 
 <b> Add TeaKadai to HomeScreen </b></center>
 <img src="//i.ibb.co/2ZRwGm0/A2HS.jpg" style="width:250px" />
@@ -498,7 +499,6 @@
 	</div>
 	<button onclick="topFunction()" id="ptBtn" title="Donate"> 
 <b><i class="material-icons" onclick="topFunction()">search</i></b>
-
 	</button>
 	<div id="ptModal" class="ptmodal"></div>
 	<script>
@@ -529,8 +529,11 @@
 <left>
 <hr>
 
+<a href="https://gravitynull.blogspot.in" target="blank"> <b>
 
 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGravityNull%2F&tabs&width=340&height=200&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=504839786557699" width="100%" height="155" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+
 
 <blockquote class="embedly-card" data-card-key="0cce2b7a99da4e6c8e5e029e9802a0a3" data-card-controls="0" data-card-branding="0" data-card-image="https://4.bp.blogspot.com/-FeWjhNw55_0/XEWiwP4Lj3I/AAAAAAAAF60/fsS1FHpwkqQsCabcANYOL8Hzt7H393kogCLcBGAs/s320/49199996_2055525354470376_1691861474152022016_o.jpg" data-card-type="article-full" data-card-align="left"><h4><a href="https://gravitynull.blogspot.com/">GravityNull தமிழ்</a></h4><p>Memes, Cartoons and even more...just for you :)</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
@@ -609,8 +612,6 @@
 
   
 <h2 class="accordion">
-
-
 <b> Cartoon your photos with GavityNull just Rs 25/-
 </b></h2>
 <div class="panel">
@@ -626,7 +627,7 @@
 <style>
 .contact {
   font-family: "hind", sans-serif;
-  background-color: gold; /*contact button*/
+  background-color: white; /*contact button*/
   border: none;
   border-radious: 5px;
   color: black;
@@ -634,14 +635,11 @@
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 4px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
 }
 </style>
 
 <button class="contact">
-<b>🎈 contact us</b></button>
+<b>contact us</b></button>
 
 </a></h3>
 </picture>
