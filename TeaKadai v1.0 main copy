@@ -1,6 +1,5 @@
 <html ⚡>
 
-
 <head>
 
 
@@ -12,7 +11,7 @@
 <link rel=icon href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png" sizes="96x96" type="image/png">
 <link rel="shortcut icon" href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png"> 
 
-<title>TeaKadai</title>
+<title>GravityNull TeaKadai</title>
 
 <meta content='notranslate' name='google' />
 <meta content='black' name='theme-color' />
@@ -356,51 +355,60 @@
 		        font-size: 55px;
 		        padding-top: 0px;
 		        margin-left: 12px;
-		        color: orange;
+		        color: red;
                         background-color: ;
 		      }
 		      
 
 		      body 
 		      {
-                       font-family: hind, sans-serif;
-                      -webkit-transition-duration: 0.5s;
-                      }
+                       
+               font-family: hind, sans-serif;
+              -webkit-transition-duration: 0.5s;
+               }
+               
+               
+        /* Search Box */             
 		.ptmodal 
 		      { 
-                       display: none; z-index: 100; padding-top: 39px; 
+               display: none; z-index: 100; 
+               padding-top: 39px; 
 		       left: 0%; top: 0; width: 100%;  
-                      -webkit-transition-duration: 0.75s;
-		       overflow: auto; background-color: ; float: center;
- box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+              -webkit-transition-duration: 0.75s;
+		       overflow: auto; background-color: ; 
+               position: fixed;
+               box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 		       }
 		.ptmodal-content 
-                       { 
-                       background-color:white ; margin: auto; 
-                       padding: 20px; border: 1px solid #888; width: 
-                       99%;font-size: 15px;
-                      -webkit-transition-duration: 0.75s;
- box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+               { 
+               background-color:white ; margin: auto; 
+               padding: 5px; border: 1px solid #888; width: 
+               99%;font-size: 15px;
+              -webkit-transition-duration: 0.75s; display: block;
+               box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 		       }
 		.close1 
-                       { 
-                        color: red; float: right; font-size: 45px;  font-weight:bold;
-                       }
+               { 
+               color: red; float: right; font-size: 45px;  font-weight:bold;
+               }
 		.close1:hover,
 		.close1:focus 
-                       { 
-                        color: #000; text-decoration: none; cursor: pointer;
-		       }
+               { 
+               color: #000; text-decoration: none; cursor: pointer;
+               }
 
-.panel {
+
+
+/* ribbon css starts here */
+
+.panel 
+{
     padding: 0 2px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-}
-
-/* ribbon css starts here */
+} 
 
 .ribbon 
 {
@@ -438,36 +446,31 @@
  border-right-color: transparent;
 }
 
-
-
-	</style>
+</style>
 
 
 
 </head>
-
 <body>
 
 
 
+<button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="material-icons">change_history
+</i>
+</button>
+<div id="ptModal" class="ptmodal">
+<div class="ptmodal-content"> <span class="close1">&times;</span>
+		
 
-	<button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="material-icons">change_history
-      </i>
-	</button>
-	<div id="ptModal" class="ptmodal">
-		<div class="ptmodal-content"> <span class="close1">&times;</span>
-			<center>
+
+
 
 
 <br>
 
-<br>
+<i> Type in <b>தமிழ்</b> to grab the exact search results, </i>
 
 
-<center> 
-
-
-<i>Type in <b>தமிழ்</b> to grab the exact results, </i>
 
 <!-- google custom search -->
 <script>
@@ -484,21 +487,16 @@
 <gcse:search></gcse:search>
 <!-- google custom search -->
 
+<center> 
+<center>
 
 
-<b> Add TeaKadai to HomeScreen </b></center>
-<img src="//i.ibb.co/2ZRwGm0/A2HS.jpg" style="width:250px" />
-<hr>
-<center><i>Donate us  :: <b> 
-<a href="https://fb.com/roobenk" target="_blank">Roobank1@okicici</a> 
-</b></i></center>
-<hr>
 
 <center>
 </div>
 	</div>
-	<button onclick="topFunction()" id="ptBtn" title="Donate"> 
-<b><i class="material-icons" onclick="topFunction()">search</i></b>
+	<button id="ptBtn" title="Donate"> 
+    <b><i class="material-icons">search</i></b>
 	</button>
 	<div id="ptModal" class="ptmodal"></div>
 	<script>
@@ -531,14 +529,26 @@
 
 <a href="https://gravitynull.blogspot.in" target="blank"> <b>
 
-<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGravityNull%2F&tabs&width=340&height=200&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=504839786557699" width="100%" height="155" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGravityNull%2F&tabs&width=340&height=200&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=504839786557699" width="100%" height="155" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
 
 
 <blockquote class="embedly-card" data-card-key="0cce2b7a99da4e6c8e5e029e9802a0a3" data-card-controls="0" data-card-branding="0" data-card-image="https://4.bp.blogspot.com/-FeWjhNw55_0/XEWiwP4Lj3I/AAAAAAAAF60/fsS1FHpwkqQsCabcANYOL8Hzt7H393kogCLcBGAs/s320/49199996_2055525354470376_1691861474152022016_o.jpg" data-card-type="article-full" data-card-align="left"><h4><a href="https://gravitynull.blogspot.com/">GravityNull தமிழ்</a></h4><p>Memes, Cartoons and even more...just for you :)</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-                  
 
+
+<hr>
+<i>We are using Twitter's LIST API to fetch the flash news updates & to enhance accuracy of the search results we integrate Google's CustomSearchEngine :)
+<b> 
+
+<br>-<br>
+<i>TeaKadai.tk v 1.0.28032019 
+<hr>  
+
+                
+<i>Support developer, we are using Google Pay / TEZ <br> UPI ID  :: <b> 
+<a href="https://fb.com/roobenk" target="_blank">Roobank1@okicici</a> 
+</b></i></center></i>
 <hr>
 
 
@@ -612,8 +622,9 @@
 
   
 <h2 class="accordion">
-<b> Cartoon your photos with GavityNull just Rs 25/-
-</b></h2>
+</i>
+<b> Cartoon your photos with GavityNull just Rs 25/- </b>
+</h2>
 <div class="panel">
 <picture>
 <source media="(min-width: 100%)">
