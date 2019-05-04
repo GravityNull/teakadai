@@ -1,21 +1,27 @@
-<html>
+<html ⚡>
 
-<meta property="og:title" content="TeaKadai">
-<meta property="og:site_name" content="TeaKadai.tk">
-<meta property="og:url" content="https://www.teakadai.tk/">
-<meta property="og:description" content="Tamil flash news updates">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png">
-<meta property="og:type" content="product">
+<!-- COMMON TAGS -->
+<meta charset="utf-8">
+<title>TeaKadai</title>
+
+<!-- Search Engine -->
+<meta name="description" content="Tamil flash news updates">
+
+<!-- Schema.org for FaceBook-->
+<meta property="og:url" content="https://www.teakadai.tk/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="TeaKadai" />
+<meta property="og:description" content="Tamil flash news updates" />
+<meta property="og:image" content="https://i.ibb.co/zHGBCXF/teakadai-thumbnail.jpg" />
+<meta property="fb:app_id" content="504839786557699" />
+ 
+ 
+ 
+
 
 <meta name="mobile-web-app-capable" content="yes" display="standalone">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   	
-<link href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png" rel='icon' />
-<link rel="shortcut icon" href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png"> 
 
-
-
+<!-- Schema.org for Google-->
 <meta content='notranslate' name='google' />
 <meta content='black' name='theme-color' />
 <meta content='yes' name='mobile-web-app-capable' />
@@ -24,474 +30,520 @@
 <meta content='black-translucent' name='apple-mobile-web-app-status-bar-style' />
 <meta content='standalone' name='display' />
 <meta content='width' name='MobileOptimized' />
-
 <meta property="display" content="standalone">
 
-<title>GravityNull TeaKadai</title>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png" rel='icon' />
+<link rel="shortcut icon" href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png"> 
 
 
 
 
-
-
-
-	<style>
+<style>
 		
-      /* go to top */ #myBtn {
-		        font-family: 'acme', sans-serif;
-		        position: fixed;
-		        top: 0%;
-		        right: 0%;
-		        z-index: 99;
-		        font-size: 12px;
-		        border-radius: 0%;
-		        border: none;
-		        outline: none;
-		        background-color: #00e676;
-		        color: yellow;
-		        cursor: pointer;
-		        padding: 7.5px;
-                        transition: .155s;
- box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-                }
+/* go to top */ 
+#myBtn 
+{
+font-family: 'acme', sans-serif;
+position: fixed;
+top: 0%;
+right: 0%;
+z-index: 99;
+font-size: 12px;
+border-radius: 0%;
+border: none;
+outline: none;
+background-color: #00e676;
+color: yellow;
+cursor: pointer;
+padding: 7.5px;
+transition: .155s;
+box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+}
+                
+                
+/* paytm button */ 
+#ptBtn 
+{
+font-family: 'hind', sans-serif;
+position: fixed;
+top: 0%;
+right: 39px;
+z-index: 99;
+font-size: 30px;
+border-radius: 0%;
+border: none;
+outline: none;
+background-color: #00e676;
+color: red;
+cursor: pointer;
+padding: 7.5px;
+transition: .155s;
+box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.0);
+}
 
-   /* paytm button */ #ptBtn {
-		        font-family: 'hind', sans-serif;
-		        position: fixed;
-		        top: 0%;
-		        right: 39px;
-		        z-index: 99;
-		        font-size: 20px;
-		        border-radius: 0%;
-		        border: none;
-		        outline: none;
-		        background-color: #00e676;
-		        color: #ff00d4;
-		        cursor: pointer;
-		        padding: 7.5px;
-                        transition: .155s;
- box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.0);
-		      }
+/* tk logo button */  
+#myBtnn 
+{
+position: fixed;
+top: 0%;
+left: 0%;
+z-index: 99;
+font-size: 1px;
+border-radius: none;
+border: none;
+outline: none;
+background-color: red;
+color: white;
+cursor: pointer;
+padding: 7px;
+box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+}
 
-
- /* tk logo button */  #myBtnn {
-		        position: fixed;
-		        top: 0%;
-		        left: 0%;
-		        z-index: 99;
-		        font-size: 1px;
-		        border-radius: none;
-		        border: none;
-		        outline: none;
-		        background-color: red;
-		        color: white;
-		        cursor: pointer;
-		        padding: 7px;
- box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-
-		      }
- /* fixed header */ .logo {
-		        font-family: 'acme', sans-serif;
-		        position: fixed;
-		        top: 0px;
-		        right: 5;
-		        z-index: 11;
-		        font-size: 13.5px;
-		        border-radius: 0%;
-		        border: 0;
-		        outline: 0;
-		        background-color: blue;
-                        background-image: linear-gradient(to right, #35aee8, #354be8);
-		        color: white;
-		        cursor: pointer;
-		        padding: 11.5px;
-		        width: 100%;
-		        opacity: 1;
-		        filter: alpha(opacity=90);
- box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-		      }
+/* fixed header */ 
+.logo 
+{
+font-family: 'acme', sans-serif;
+position: fixed;
+top: 0px;
+right: 5;
+z-index: 11;
+font-size: 13.5px;
+border-radius: 0%;
+border: 0;
+outline: 0;
+background-color: blue;
+background-image: linear-gradient(to right, #35aee8, #354be8);
+color: white;
+cursor: pointer;
+padding: 11.5px;
+width: 100%;
+opacity: 1;
+filter: alpha(opacity=90);
+box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+}
               
 
-/* side navigation */.alert {
-		        padding: 1px;
-		        background-color:white;
-		        color: black;
-		        opacity: 1;
-		        scrollbar: 0;
-		        transition: opacity 1s;
-		        width: 300px;
-		        height: 80%;
-		      }
-		      .alert.success {
-		        background-color: black;
-		      }
-		      .closebtn {
-		        font-size: 10px;
-		        line-height: 20px;
-		        cursor: pointer;
-		        transition: 1s;
-		      }
-		      .closebtn:hover {
-		        color: black;
-		      }
-		      a, u {
-		        text-decoration: none;
-		        Color: black;
-		      }
+/* side navigation */
+.alert 
+{
+padding: 1px;
+background-color:white;
+color: black;
+opacity: 1;
+scrollbar: 0;
+transition: opacity 1s;
+width: 300px;
+height: 80%;
+}
+
+.alert.success 
+{
+background-color: black;
+}
+
+.closebtn 
+{
+font-size: 10px;
+line-height: 20px;
+cursor: pointer;
+transition: 1s;
+}
+
+.closebtn:hover 
+{
+color: black;
+}
+a, u 
+{
+text-decoration: none;
+Color: black;
+}
 		     
-             .belbtn {
-		        background-color: red;
-		        border: none;
-		        color: white;
-		        padding: 10px;
-		        font-size: 15px;
-		        cursor: pointer;
- box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-		     }
-             
-             .belbtn1 {
-		        background-color: #09f;
-		        border: none;
-                        border-radius: 10px;
-		        color: white;
-		        padding: 12px;
-		        font-size: 12px;
-		        cursor: pointer;
- box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-		     }
-                     .belbt1 {
-		        background-color: red;
-		        border: none;
-		        color: white;
-		        padding: 5px;
-		        font-size: 15px;
-		        cursor: pointer;
- box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-		     }
+.belbtn 
+{
+background-color: red;
+border: none;
+color: white;
+padding: 10px;
+font-size: 15px;
+cursor: pointer;
+box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+}
+
+.belbtn1 
+{
+background-color: #09f;
+border: none;
+border-radius: 10px;
+color: white;
+padding: 12px;
+font-size: 12px;
+cursor: pointer;
+box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+}
+.belbt1 
+{
+background-color: red;
+border: none;
+color: white;
+padding: 5px;
+font-size: 15px;
+cursor: pointer;
+box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+}
                      
-		      body {
-		        font-family: "hind", sans-serif;
-		        margin: 100;
-		        font-size: 100%;
-                       -webkit-transition-duration: 1.5s;
-		      }
-		      .header {
-		        font-family: "hind", sans-serif;
-		        position:fixed ;
-		        bottom: 0;
-		        z-index: 1;
-		        width: 100%;
-		        background-color:white ;
-		      }
-		      .header h2 {
-		        font-family: "hind", sans-serif;
-		        text-align: center;
-		      }
-/* Scroll Bar */    .progress-container {
-                        width: 100%;
-                        height: 6px;
-                        background: yellow;
-                       -webkit-transition-duration: 0.5s;
-                      }
-		      .progress-bar {
-		        height: 6px;
-		        background: #009540;
-		        width: 0%;
-                       -webkit-transition-duration: 0.5s;
-		      }
+
+.header 
+{
+font-family: "hind", sans-serif;
+position:fixed ;
+bottom: 0;
+z-index: 1;
+width: 100%;
+background-color:white ;
+}
+
+.header h2 
+{
+font-family: "hind", sans-serif;
+text-align: center;
+}
+
+/* Scroll Bar */    
+.progress-container 
+{
+width: 100%;
+height: 6px;
+background: yellow;
+-webkit-transition-duration: 0.5s;
+}
+
+.progress-bar 
+{
+height: 6px;
+background: #009540;
+width: 0%;
+-webkit-transition-duration: 0.5s;
+}
 		      
-		      }
+}
 /* Twitter News Content */
-		      .content {		       
-		        padding: 0px 0;
-		        margin: 0px auto 0 auto;
-		        width: 99%;
-		        height: 80%;                      
-		      }
-		      @media screen and (min-width: 750px) {
-		        .content {
-		          padding: 0px 0;
-		          margin: 0px auto 0 auto;
-		          width: 55%;
-		          height: 80%;
-		        }
-		      }
-		      * {
-		        box-sizing: border-box
-		      }
-		      /* Set height of body and the document to 100% */
-		      body,
-		      html {
-		        font-family: "Acme", sans-serif;
-		        height: 100%;
-		        width: 100%;
-		        margin: 0;
-                       -webkit-transition-duration: 1.75s;
-		      }
-		      .btt1 {
-		        font-family: "Acme", sans-serif;
-		        text-align: center;
-		        width: 60%;
-                       -webkit-transition-duration: 1.75s; 
-		      }
-		      .btt {
-		        font-family: "Acme", sans-serif;
-		        background-color: red;
-		        color: white;
-		        border: 0;
-		        cursor: pointer;
-		        text-align: left;
-		        width: 8px;
-		        -webkit-transition-duration: 0.4s;
-		        /* Safari */
-		        transition-duration: 0.4s;
-		        text-decoration: none;
-		        overflow: hidden;
-		        cursor: pointer;
-		        border-radius: 4px;
-		        font-size: 15px;
-		      }
-		      .btt:hover {
-		        background-color: ;
-		        color: black;
-		        font-family: "Acme", sans-serif;
-		      }
+.content 
+{		       
+padding: 0px 0;
+margin: 0px auto 0 auto;
+width: 99%;
+height: 90%;  
+font-size: 100%;                    
+}
+@media screen and (min-width: 750px) {
+.content 
+{
+padding: 10px 0;
+margin: 0px auto 0 auto;
+width: 45%;
+height: 90%;
+font-size: 100%;
+}
+}
+ 
+{
+box-sizing: border-box
+}
+
+/* Set height of body and the document to 100% */
+body,
+html 
+{
+font-family: "Acme", sans-serif;
+height: 100%;
+width: 100%;
+margin: 0;
+-webkit-transition-duration: 1.75s;
+font-size: 100%;
+}
+
+.btt1 
+{
+font-family: "Acme", sans-serif;
+text-align: center;
+width: 60%;
+-webkit-transition-duration: 1.75s; 
+}
+
+.btt 
+{
+font-family: "Acme", sans-serif;
+background-color: red;
+color: white;
+border: 0;
+cursor: pointer;
+text-align: left;
+width: 8px;
+-webkit-transition-duration: 0.4s;
+/* Safari */
+transition-duration: 0.4s;
+text-decoration: none;
+overflow: hidden;
+cursor: pointer;
+border-radius: 4px;
+font-size: 15px;
+}
+
+.btt:hover 
+{
+background-color: ;
+color: black;
+font-family: "Acme", sans-serif;
+}
               
-/* Style tab links */ .tablink {
-		        font-family: "Lato", sans-serif;
-		        background-color: black;
-		        color: white;
-		        align: center;
-		        float: left;
-		        border: none;
-		        outline: none;
-		        padding: 6px;
-		        font-size: 10px;
-		        width: 20%;
-                       -webkit-transition-duration: .5s;
-		      }
-		      @media screen and (min-width: 600px) 
-                      {
-		        .tablink 
-                       {
-		          font-family: "Acme", sans-serif;
-		          background-color: black;
-		          color: white;
-		          align: center;
-		          float: left;
-		          border: none;
-		          outline: none;
-		          padding: 6px;
-		          font-size: 12px;
-		          width: 20%;
-                         -webkit-transition-duration: .5s;
-		        }
-		      }
-		      }
-		      .tablink:hover 
-                     {
-		        background-color: white;
-		        font-family: "Acme", sans-serif;
-		      }
+/* Style tab links */ 
+.tablink 
+{
+font-family: "Lato", sans-serif;
+background-color: black;
+color: white;
+align: center;
+float: left;
+border: none;
+outline: none;
+padding: 6px;
+font-size: 10px;
+width: 20%;
+-webkit-transition-duration: .5s;
+}
+
+@media screen and (min-width: 600px) 
+
+{
+.tablink 
+{
+font-family: "Acme", sans-serif;
+background-color: black;
+color: white;
+align: center;
+float: left;
+border: none;
+outline: none;
+padding: 8px;
+font-size: 12px;
+width: 20%;
+-webkit-transition-duration: .5s;
+}
+}
+}
+
+.tablink:hover 
+{
+background-color: white;
+font-family: "Acme", sans-serif;
+}
+
 /* Style the tab content (and add height:100% for full page content) */
-		      .tabcontent 
-                      {
-		        font-family: "Acme", sans-serif;
-		        color:white ;
-                        align: center;
-		        display: none;
-		        padding: 0px;
-                       -webkit-transition-duration: 0.75s;
-		      }
-		      @media screen and (min-width: 600px) 
-                      {
-		        .tabcontent 
-                       {
-		          font-family: "hind", sans-serif;
-		          color: white;
-		          display: none;
-		          padding: 0px 0px;
-		          height: 5%;
-                         -webkit-transition-duration: 0.15s;
-		        }
-		      }
-		      }
-		      body 
-                      {
-		        font-family: "hind", sans-serif;
-		        font-size: 15px;
-                       -webkit-transition-duration: 1.75s;
-		      }
+.tabcontent 
+{
+font-family: "Acme", sans-serif;
+color:white ;
+align: center;
+display: none;
+padding: 0px;
+-webkit-transition-duration: 0.75s;
+}
+@media screen and (min-width: 600px) 
+{
+.tabcontent 
+{
+font-family: "hind", sans-serif;
+color: white;
+display: none;
+padding: 0px 0px;
+height: 5%;
+-webkit-transition-duration: 0.15s;
+}
+}
+}
+
+body 
+{
+font-family: "hind", sans-serif;
+font-size: 15px;
+-webkit-transition-duration: 1.75s;
+}
               
 /* Side navigation */             
-		      .sidenav 
-                     {
-		        height: 100%;
-	                background-color:white ;
-		        width:0;
-		        position: fixed;
-		        padding: 0px;
-		        z-index: 1;
-		        top: 0;
-		        left: 0;
-		        overflow-x: hidden;
-		        transition: .25s;
-		        padding-top: 28px;
-		        font-size: 10px;
-                        left: 5px;
-		      }
-		      .sidenav a 
-                      {
-		        padding: 1px;
-		        text-decoration: none;
-		        font-size: 12px;
-		        color: #2c90f7;
-		      }
-		      .sidenav .closebtn1 
-                      {
-		        position: absolute;
-		        top: 30px;
-		        left: 255px;
-		        font-size: 55px;
-		        padding-top: 0px;
-		        margin-left: 12px;
-		        color: red;
-                        background-color: ;
-		      }
-		      
+.sidenav 
+{
+height: 100%;
+background-color:white ;
+width:0;
+position: fixed;
+padding: 0px;
+z-index: 1;
+top: 1;
+left: 10;
+overflow-x: hidden;
+transition: .25s;
+padding-top: 28px;
+font-size: 10px;
+left: 5px;
+}
 
-		      
+.sidenav a 
+{
+padding: 1px;
+left: 10;
+text-decoration: none;
+font-size: 12px;
+color: #2c90f7;
+}
+
+.sidenav .closebtn1 
+{
+position: absolute;
+top: 30px;
+left: 255px;
+font-size: 55px;
+padding-top: 0px;
+margin-left: 12px;
+color: red;
+background-color: ;
+}
+		      		                    
                
-               
-        /* Search Box */             
-		.ptmodal 
-		      { 
-               display: none; z-index: 100; 
-               padding-top: 39px; 
-	       right: 0%; top: 0; width: 100%;  
-              -webkit-transition-duration: 1.75s;
-	       overflow: auto; background-color: ; 
-               position: fixed;
-		       }
-               @media screen and (min-width: 600px) 
-                      {
-         .ptmodal 
-		      { 
-               display: none; z-index: 100; 
-               padding-top: 39px; 
-	       right: 15%; top: 0; width: 70%;  
-              -webkit-transition-duration: 1.75s;
-	       overflow: auto; background-color: ; 
-               position: fixed;
-		       }
-                       }
-		.ptmodal-content 
-               { 
-               background-color:white ; margin: auto; 
-               padding: 5px; border: 1px solid #888; width: 
-               99%;font-size: 15px;
-              -webkit-transition-duration: 1.75s; display: block;
-               box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-		       }
-		.close1 
-               { 
-               color: red; float: right; font-size: 45px;  font-weight:bold;
-               }
-		.close1:hover,
-		.close1:focus 
-               { 
-               color: #000; text-decoration: none; cursor: pointer;
-               }
+/* Search Box */             
+.ptmodal 
+{ 
+display: none; z-index: 100; 
+padding-top: 0px; 
+right: 0%; top: 0; width: 100%; height: 90%;  
+-webkit-transition-duration: 1.75s;
+overflow: auto; background-color:  ; 
+position: fixed;
+
+}
+@media screen and (min-width: 600px) 
+{
+.ptmodal 
+{ 
+display: none; z-index: 100; 
+padding-top: 5px; 
+right: 0%; top: 0; width: 375px; height: 100%;
+-webkit-transition-duration: 1.75s;
+overflow: auto; background-color: ; 
+position: fixed;
+}
+}
+.ptmodal-content 
+{ 
+background-color:white ; margin: auto; 
+padding: 1px; border: 0.5px solid #888; width: 
+99%;font-size: 14px;
+-webkit-transition-duration: 1.75s; display: block;
+}
+.close1 
+{ 
+color: red; float: right ; font-size: 45px;  font-weight:bold;  top: 5;
+}
+.close1:hover,
+.close1:focus 
+{ 
+color: #000; text-decoration: none; cursor: pointer;
+}
 
 
 
 /* ribbon css starts here */
-
 .panel 
 {
-    padding: 0 2px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
- box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+padding: 0 2px;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 } 
 
 
 .ribbon 
 {
- top: 20px;
- left: 8%;
- font-family: "hind", sans-serif;
- font-size: 8.4px !important;
- width: 85%;
- position: fixed;
- background: #9900ab;
- background-image: linear-gradient(to right, #8000ab, #9910ab);
- color: yellow;
- text-align: center;
- margin: 1em auto 1em; 
- box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+top: 20px;
+left: 8%;
+font-family: "hind", sans-serif;
+font-size: 8.4px !important;
+width: 85%;
+position: fixed;
+background: #9900ab;
+background-image: linear-gradient(to right, #8000ab, #ad02cc);
+color: yellow;
+text-align: center;
+margin: 1em auto 1em; 
+box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }
 
 @media screen and (min-width: 650px) 
 {
 .ribbon 
 {
- top: 20px;
- left: 25%;
- font-family: "hind", sans-serif;
- font-size: 8.4px !important;
- width: 50%;
- position: fixed;
- background: #9900ab;
- background-image: linear-gradient(to right, #8000ab, #9910ab);
- color: yellow;
- text-align: center;
- margin: 1em auto 1em; 
- box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+top: 20px;
+left: 25%;
+font-family: "hind", sans-serif;
+font-size: 8.4px !important;
+width: 50%;
+position: fixed;
+background: #9900ab;
+background-image: linear-gradient(to right, #8000ab, #ad02cc);
+color: yellow;
+text-align: center;
+margin: 1em auto 1em;  
+box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }
 }
 /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
 
 
-.ribbon:before, .ribbon:after {
- font-family: "hind", sans-serif;
- content: "";
- position: absolute;
- display: block;
- bottom: -1.5em;
- border: 1em solid #9900ab;
- z-index: -1;
+.ribbon:before, .ribbon:after 
+{
+font-family: "hind", sans-serif;
+content: " ";
+position: absolute;
+display: block;
+bottom: -1em;
+border: 1em solid #9900ab;
+z-index: 100000;
 }
 
 
-.ribbon:before {
- left: -2em;
- border-right-width: 1.5em;
- border-left-color: transparent;
+.ribbon:before 
+{
+left: -2em;
+border-right-width: 1.5em;
+border-left-color: transparent;
 }
-.ribbon:after {
- right: -2em;
- border-left-width: 1.5em;
- border-right-color: transparent;
+.ribbon:after 
+{
+right: -2em;
+border-left-width: 1.5em;
+border-right-color: transparent;
 }
 
-.contact {
-  font-family: "hind", sans-serif;
-  background-color: white; /*contact button*/
-  border: none;
-  border-radious: 5px;
-  color: black;
-  padding: 3px 10px;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
+.contact 
+{
+font-family: "hind", sans-serif;
+background-color: white; /*contact button*/
+border: none;
+border-radious: 5px;
+color: black;
+padding: 3px 10px;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
 }
 
 .shadow 
 {
- background-color: white;
- color: black;
+background-color: white;
+color: black;
 }
 
 </style>
@@ -506,34 +558,37 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="material-icons">flight
 </i>
 </button>
+
+
 <div id="ptModal" class="ptmodal">
 <div class="ptmodal-content"> <span class="close1">&times;</span>
 		
-
-
-
-
-
 <br>
 
+
+<center>
 <i> Type in <b>தமிழ்</b> to grab the exact search results, </i>
-
-
+</center>
 
 <!-- google custom search -->
 <script>
-  (function() {
-    var cx = '003234057910183980416:geop3oezqse';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
+(function() {
+var cx = '003234057910183980416:geop3oezqse';
+var gcse = document.createElement('script');
+gcse.type = 'text/javascript';
+gcse.async = true;
+gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(gcse, s);
+})();
 </script>
 <gcse:search></gcse:search>
+
 <!-- google custom search -->
+<a class="weatherwidget-io" href="https://forecast7.com/en/11d1378d66/tamil-nadu/" data-label_1="தமிழ்நாடு" data-label_2="வானிலை" data-font="Roboto" data-icons="Climacons Animated" data-mode="Current" data-theme="blank" data-location="yes"></a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
 
 <center> 
 <center>
@@ -542,19 +597,21 @@
 
 <center>
 </div>
-	</div>
-	<button id="ptBtn" title="Donate"> 
-    <b><i class="material-icons">search</i></b>
-	</button>
-	<div id="ptModal" class="ptmodal"></div>
-	<script>
-		var ptmodal = document.getElementById('ptModal');
-		var btn = document.getElementById("ptBtn");
-		var span = document.getElementsByClassName("close1")[0];
-		btn.onclick = function() { ptmodal.style.display = "block"; }
-		span.onclick = function() { ptmodal.style.display = "none"; }
-		window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.display = "none"; } }
+</div>
+<button id="ptBtn" title="Donate"> 
+<b><i class="material-icons">search</i></b>
+</button>
+<div id="ptModal" class="ptmodal"></div>
+<script>
+var ptmodal = document.getElementById('ptModal');
+var btn = document.getElementById("ptBtn");
+var span = document.getElementsByClassName("close1")[0];
+btn.onclick = function() { ptmodal.style.display = "block"; }
+span.onclick = function() { ptmodal.style.display = "none"; }
+window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.display = "none"; } }
 </script>
+
+
 <button id="myBtnn" onclick="openNav()"> <i class="material-icons">
 <m>menu</m>
 </i>
@@ -579,19 +636,25 @@
   
 <h2 class="accordion">
 </i>
-<b> Cartoon your photos with GavityNull just Rs 25/- </b>
+<b> Cartoon your photos just Rs 75/- </b> 
 </h2>
 <div class="panel">
+
 <picture>
 <source media="(min-width: 90%)">
 <a href="https://facebook.com/gravitynull" target="_blank">
-<img src="https://i.ibb.co/6bcP4mB/Webp-net-compress-image-1.jpg" alt="GravityNull" style="width:90%;"> 
+<img src="https://i.ibb.co/6bcP4mB/Webp-net-compress-image-1.jpg" alt="GravityNull" style="width:300px;"> 
 </a>
 
 <h3><a href="https://m.me/GravityNull/" target="blank">
 <button class="contact">
 <b>Fb.com/GravityNull</b></button>
 </a></h3>
+
+
+
+
+
 </div>
 </strong>
 </h1>
@@ -611,6 +674,9 @@
 </center>
 
 
+
+
+
 <hr>
 
 <h2><b>#GravityNull 's Curated Articles</b></h2>
@@ -622,6 +688,7 @@
 <img src="https://i.ibb.co/CWn2dTk/Webp-net-compress-image.jpg" alt="GravityNull" style="width:55%;"> 
 <p>பெண்களுக்கு எதிரான குற்றங்களில் நமக்கு பங்கில்லையா ??</p>
 </a>
+
 
 
 
@@ -644,16 +711,18 @@
 <i>Support developer, we are using Google Pay / TEZ <br> UPI ID  :: <b> 
 <a href="https://fb.com/roobenk" target="_blank">Roobank1@okicici</a> 
 </b></i></center></i>
-<hr><br><br><br><br>
+<hr>
 
 
 
-            
+<br>            
 <br>               
 <br>                           
 </center>
 <br>               
 </div>               
+
+
 
 </center>
 </centre>
@@ -677,7 +746,7 @@
 <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">
 <i class="material-icons">place
 </i>
-<br>tamil
+<br>Tamil
 </button>
 <center>
 </center>
@@ -685,18 +754,18 @@
 <button class="tablink" onclick="openPage('Tech', this, '#00C853')">           
 <i class="material-icons">devices            
 </i>            
-<br>tech          
+<br>Tech          
 </button>          
-<button class="tablink" onclick="openPage('Cinema', this, '#FFC107')">   
+<button class="tablink" onclick="openPage('Cinema', this, '#00aba4')">   
 <i class="material-icons">local_movies
 </i>
-<br>cinema
+<br>Cinema
 </button>
           
 <button class="tablink" onclick="openPage('World', this, '#1565C0')">
 <i class="material-icons">public
 </i>
-<br>world
+<br>World
 </button>
 <button class="tablink" onclick="openPage('Chat', this, '#FF9800')">
 <i class="material-icons">message
@@ -711,36 +780,28 @@
 <br>
 <center><center>
 
-<script async src="https://platform.twitter.com/widgets.js"></script> 
+
 
 <br> <br> <br> 
 
-<center>
 
 
-</center>
+
+
 
 
 <div id="Home" class="tabcontent">
-          
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tamil" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+<script async src="https://platform.twitter.com/widgets.js"></script>     
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tamil" data-chrome="noheader">
 <div class="shadow">Loading...</div>    
-</a>
+</a>  
 </div>
 </center>
 
 <center>
-<div id="Tech" class="tabcontent">                   
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tech" data-chrome="noheader" data-dnt="true" data-link-color="blue">
-<div class="shadow">Loading...</div>    
-</a>
-</div>
-</center>
-
-
-<center>
-<div id="Cinema" class="tabcontent">                 
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-cinema" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+<div id="Tech" class="tabcontent">    
+   
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tech" data-chrome="noheader">
 <div class="shadow">Loading...</div>    
 </a>
 </div>
@@ -748,8 +809,19 @@
 
 
 <center>
-<div id="World" class="tabcontent">               
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-english" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+<div id="Cinema" class="tabcontent">   
+    
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-cinema" data-chrome="noheader">
+<div class="shadow">Loading...</div>    
+</a>
+</div>
+</center>
+
+
+<center>
+<div id="World" class="tabcontent">    
+    
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-english" data-chrome="noheader">
 <div class="shadow">Loading...</div>    
 </a>       
 </div>
@@ -757,8 +829,9 @@
 
 
 <center>
-<div id="Chat" class="tabcontent">         
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-reporters" data-chrome="noheader" data-dnt="true" data-link-color="blue">
+<div id="Chat" class="tabcontent">     
+    
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-reporters" data-chrome="noheader">
 <div class="shadow">Loading...</div>    
 </a>
 </div>
@@ -767,75 +840,99 @@
         
 <script> 
 // When the user scrolls down 20px from the top of the document, show the button
-          window.onscroll = function() {
-            scrollFunction()
-          };
-          function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-              document.getElementById("myBtn").style.display = "block";
-            }
-            else {
-              document.getElementById("myBtn").style.display = "none";
-            }
-          }
+window.onscroll = function() {
+scrollFunction()
+};
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+document.getElementById("myBtn").style.display = "block";
+}
+else {
+document.getElementById("myBtn").style.display = "none";
+}
+}
 // When the user clicks on the button, scroll to the top of the document
-          function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-          }
-          function openPage(pageName, elmnt, color) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-              tabcontent[i].style.display = "";
-            }
-            tablinks = document.getElementsByClassName("tablink");
-            for (i = 0; i < tablinks.length; i++) {
-              tablinks[i].style.backgroundColor = "";
-            }
-            document.getElementById(pageName).style.display = "block";
-            elmnt.style.backgroundColor = color;
-          }
-          // Get the element with id="defaultOpen" and click on it
-          document.getElementById("defaultOpen").click();
-          // When the user scrolls the page, execute myFunction 
-          window.onscroll = function() {
-            myFunction()
-          };
-          function myFunction() {
-            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            var scrolled = (winScroll / height) * 100;
-            document.getElementById("myBar").style.width = scrolled + "%";
-          }
-          function openNav() {
-            document.getElementById("mySidenav").style.width = "320px";
-          }
-          function closeNav() {
-            document.getElementById("mySidenav").style.width = "0%";
-          }
-          window.addEventListener('beforeinstallprompt', (e) => {
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+function openPage(pageName, elmnt, color) {
+var i, tabcontent, tablinks;
+tabcontent = document.getElementsByClassName("tabcontent");
+for (i = 0; i < tabcontent.length; i++) {
+tabcontent[i].style.display = "";
+}
+tablinks = document.getElementsByClassName("tablink");
+for (i = 0; i < tablinks.length; i++) {
+tablinks[i].style.backgroundColor = "";
+}
+document.getElementById(pageName).style.display = "block";
+elmnt.style.backgroundColor = color;
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {
+myFunction()
+};
+function myFunction() {
+var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+var scrolled = (winScroll / height) * 100;
+document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+
+function openNav() {
+document.getElementById("mySidenav").style.width = "320px";
+}
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0%";
+}
+window.addEventListener('beforeinstallprompt', (e) => {
 // Prevent Chrome 67 and earlier from automatically showing the prompt
-            e.preventDefault();
+e.preventDefault();
 // Stash the event so it can be triggered later.
-            deferredPrompt = e;
-          }
-                                 );      
+deferredPrompt = e;
+}
+);
+
+
+
+
+function openNav1() {
+document.getElementById("mySidenav1").style.width = "320px";
+}
+function closeNav1() {
+document.getElementById("mySidenav1").style.width = "0%";
+}
+window.addEventListener('beforeinstallprompt', (e) => {
+// Prevent Chrome 67 and earlier from automatically showing the prompt
+e.preventDefault();
+// Stash the event so it can be triggered later.
+deferredPrompt = e;
+}
+);
+
+
+
+
+      
 
 
 var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
+acc[i].addEventListener("click", function() {
+this.classList.toggle("inactive");
+var panel = this.nextElementSibling;
+if (panel.style.maxHeight){
+panel.style.maxHeight = null;
+} else {
+panel.style.maxHeight = panel.scrollHeight + "px";
+} 
+});
 }
                 
 </script>
