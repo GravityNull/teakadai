@@ -751,7 +751,7 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 <b> 
 
 <br>-<br>
-<i>TeaKadai.tk v 1.0.12042019
+<i>TeaKadai.tk v 1.0.14052019
 <hr>  
 
                 
@@ -790,6 +790,8 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 
 <div class="progress-bar" id="myBar"></div>
 
+
+
 <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">
 <i class="material-icons">place
 </i>
@@ -802,7 +804,8 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 <i class="material-icons">devices            
 </i>            
 <br>Tech          
-</button>          
+</button>   
+
 <button class="tablink" onclick="openPage('Cinema', this, '#00aba4')">   
 <i class="material-icons">local_movies
 </i>
@@ -814,88 +817,85 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 </i>
 <br>World
 </button>
+
 <button class="tablink" onclick="openPage('Chat', this, '#FF9800')">
 <i class="material-icons">message
 </i>
 <br>social
 </button>
+
 </div>
 </div>
 
 
 <div class="content">
+
 <br>
-<center><center>
-
-
-
-<br><br><br>
-
-
+<br>
+<br>
+<br>
 
 
 
 
+<center>
 <div id="Home" class="tabcontent">
 <script async src="https://platform.twitter.com/widgets.js"></script>     
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tamil" data-chrome="noheader">
 <div class="shadow">
-
 <img src="https://cdn.dribbble.com/users/940782/screenshots/3533101/plane-loader-slower.gif" width="99%">
-
 </div>    
 </a>  
 </div>
-</center>
+</centre>
+
 
 <center>
-<div id="Tech" class="tabcontent">    
-   
+<div id="Tech" class="tabcontent">   
+<script async src="https://platform.twitter.com/widgets.js"></script>     
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-tech" data-chrome="noheader">
-
 <div class="shadow">
-</i>loading..
-</div>   
- 
-</a>
-</div>
-</center>
-
-
-<center>
-<div id="Cinema" class="tabcontent">   
-    
-<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-cinema" data-chrome="noheader">
-<div class="shadow">
-</i>loading..
+<img src="https://cdn.dribbble.com/users/940782/screenshots/3533101/plane-loader-slower.gif" width="99%">
 </div>    
 </a>
 </div>
-</center>
+</centre>
+
+
+<center>
+<div id="Cinema" class="tabcontent">    
+<script async src="https://platform.twitter.com/widgets.js"></script>     
+<a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-cinema" data-chrome="noheader">
+<div class="shadow">
+<img src="https://cdn.dribbble.com/users/940782/screenshots/3533101/plane-loader-slower.gif" width="99%">
+</div>    
+</a>
+</div>
+</centre>
 
 
 <center>
 <div id="World" class="tabcontent">    
-    
+<script async src="https://platform.twitter.com/widgets.js"></script>     
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-english" data-chrome="noheader">
 <div class="shadow">
-</i>loading..
+<img src="https://cdn.dribbble.com/users/940782/screenshots/3533101/plane-loader-slower.gif" width="99%">
 </div>    
 </a>       
 </div>
-</center>
+</centre>
 
 
 <center>
-<div id="Chat" class="tabcontent">     
-    
+<div id="Chat" class="tabcontent">    
+<script async src="https://platform.twitter.com/widgets.js"></script>     
 <a class="twitter-timeline" href="https://twitter.com/roobank1/lists/teakadai-reporters" data-chrome="noheader">
 <div class="shadow">
-</i>loading..
+<img src="https://cdn.dribbble.com/users/940782/screenshots/3533101/plane-loader-slower.gif" width="99%">
 </div>    
 </a>
 </div>
-</center>        
+</centre>
         
         
 <script> 
