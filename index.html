@@ -14,15 +14,6 @@
 <meta property="og:description" content="Tamil flash news updates" />
 <meta property="og:image" content="https://i.ibb.co/zHGBCXF/teakadai-thumbnail.jpg" />
 <meta property="fb:app_id" content="504839786557699" />
- 
- 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-1167157945611257",
-    enable_page_level_ads: true
-  });
-</script>
 
 
 
@@ -687,7 +678,8 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 <hr>
 
 
-<style>#M387202ScriptRootC326019 {min-height: 350px;}</style>
+
+
 <!-- Composite Start -->
 <div id="M387202ScriptRootC326019">
         <div id="M387202PreloadC326019">
@@ -718,6 +710,10 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 </center>
 
 <hr>
+  
+  <button onclick="install()">
+  Install
+</button>
 
 <h2><b>#GravityNull 's Curated Articles</b></h2>
 
@@ -731,36 +727,34 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 
 
 <a href="https://gravitynull.blogspot.com/2019/01/cinema-pongal.html" target=_blank">
-<img src="https://4.bp.blogspot.com/-FeWjhNw55_0/XEWiwP4Lj3I/AAAAAAAAF60/fsS1FHpwkqQsCabcANYOL8Hzt7H393kogCLcBGAs/s1600/49199996_2055525354470376_1691861474152022016_o.jpg" alt="GravityNull" style="width:65%;"> 
+<img src="https://i.ibb.co/rQMNdTf/49199996-2055525354470376-1691861474152022016-o.jpg" alt="GravityNull" style="width:65%;"> 
 <p>சினிமா பொங்கல் 2019 ஒரு சிறப்பு பார்வை </p>
 </a>
 
 
 
-
-
-
-
-
 <hr>
-<h2>
-<a href="http://www.gravitynull.xyz/p/blog-page_91.html" target="_blank">About us</a> 
-</h2>
+
+
+
 
 <i>We are using Twitter's LIST API to fetch the flash news updates & to enhance accuracy of the search results we integrate Google's CustomSearchEngine :)
 <b> 
 
-<br>-<br>
-<i>TeaKadai.tk v 1.0.14052019
-<hr>  
+  
+<br>    
 
-                
-<i>Support developer, we are using Google Pay / TEZ <br> UPI ID  :: <b> 
-<a href="https://fb.com/roobenk" target="_blank">Roobank1@okicici</a> 
-</b></i></center></i>
 <hr>
 
+</i>
 
+<a href="https://gravitynull.blogspot.com/p/blog-page_91.html" target="_blank">
+About us </a> 
+::
+<a href="https://github.com/GravityNull/blog/blob/master/TeaKadai%20v1.0%20main%20copy" target="_blank">
+TeaKadai.tk v 1.0.14052019 </a>
+
+<hr>
 
 <br>            
 <br>               
@@ -994,7 +988,79 @@ panel.style.maxHeight = panel.scrollHeight + "px";
 } 
 });
 }
-                
+
+  
+
+window.addEventListener('beforeinstallprompt', saveBeforeInstallPromptEvent);
+deferredInstallPrompt = evt;
+installButton.removeAttribute('hidden');
+// CODELAB: Add code show install prompt & hide the install button.
+deferredInstallPrompt.prompt();
+// Hide the install button, it can't be called twice.
+evt.srcElement.setAttribute('hidden', true);
+// CODELAB: Log user response to prompt.
+deferredInstallPrompt.userChoice
+    .then((choice) => {
+      if (choice.outcome === 'accepted') {
+        console.log('User accepted the A2HS prompt', choice);
+      } else {
+        console.log('User dismissed the A2HS prompt', choice);
+      }
+      deferredInstallPrompt = null;
+    });
+window.addEventListener('appinstalled', logAppInstalled);
+console.log('Weather App was installed.', evt);
+
+// This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
+
+// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
+
+// Check compatibility for the browser we're running this in
+if ("serviceWorker" in navigator) {
+  if (navigator.serviceWorker.controller) {
+    console.log("[PWA Builder] active service worker found, no need to register");
+  } else {
+    // Register the service worker
+    navigator.serviceWorker
+      .register("pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+      });
+  }
+}
+
+
+    let deferredPrompt = null;
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Prevent Chrome 67 and earlier from automatically showing the prompt
+  e.preventDefault();
+  // Stash the event so it can be triggered later.
+  deferredPrompt = e;
+});
+
+async function install() {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    console.log(deferredPrompt)
+    deferredPrompt.userChoice.then(function(choiceResult){
+
+      if (choiceResult.outcome === 'accepted') {
+      console.log('Your PWA has been installed');
+    } else {
+      console.log('User chose to not install your PWA');
+    }
+
+    deferredPrompt = null;
+
+    });
+
+
+  }
+} 
+  
 </script>
 
 
