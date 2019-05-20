@@ -30,533 +30,17 @@
 <meta content='width' name='MobileOptimized' />
 <meta property="display" content="standalone">
 
-
+<link rel="stylesheet" href="/style.css">
+<link rel="manifest" href="/manifest.json">
+   
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png" rel='icon' />
-<link rel="shortcut icon" href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png"> 
-
-
-
-
-<style>
-		
-/* go to top */ 
-#myBtn 
-{
-font-family: 'acme', sans-serif;
-position: fixed;
-top: 0%;
-right: 0%;
-z-index: 99;
-font-size: 12px;
-border-radius: 0%;
-border: none;
-outline: none;
-background-color: #00e676;
-color: yellow;
-cursor: pointer;
-padding: 7.5px;
-transition: .155s;
-box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-}
-                
-                
-/* paytm button */ 
-#ptBtn 
-{
-font-family: 'hind', sans-serif;
-position: fixed;
-top: 0%;
-right: 39px;
-z-index: 99;
-font-size: 30px;
-border-radius: 0%;
-border: none;
-outline: none;
-background-color: #00e676;
-color: red;
-cursor: pointer;
-padding: 7.5px;
-transition: .155s;
-box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.0);
-}
-
-/* tk logo button */  
-#myBtnn 
-{
-position: fixed;
-top: 0%;
-left: 0%;
-z-index: 99;
-font-size: 1px;
-border-radius: none;
-border: none;
-outline: none;
-background-color: red;
-color: white;
-cursor: pointer;
-padding: 7px;
-box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-}
-
-/* fixed header */ 
-.logo 
-{
-font-family: 'acme', sans-serif;
-position: fixed;
-top: 0px;
-right: 5;
-z-index: 11;
-font-size: 13.5px;
-border-radius: 0%;
-border: 0;
-outline: 0;
-background-color: blue;
-background-image: linear-gradient(to right, #35aee8, #354be8);
-color: white;
-cursor: pointer;
-padding: 11.5px;
-width: 100%;
-opacity: 1;
-filter: alpha(opacity=90);
-box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-}
-              
-
-/* side navigation */
-.alert 
-{
-padding: 1px;
-background-color:white;
-color: black;
-opacity: 1;
-scrollbar: 0;
-width: 300px;
-height: 80%;
-z-index: 1100000000;
-
-}
-
-.alert.success 
-{
-background-color: black;
-}
-
-.closebtn 
-{
-font-size: 10px;
-line-height: 20px;
-cursor: pointer;
-transition: 1s;
-}
-
-.closebtn:hover 
-{
-color: black;
-}
-a, u 
-{
-text-decoration: none;
-Color: black;
-}
-		     
-.belbtn 
-{
-background-color: red;
-border: none;
-color: white;
-padding: 10px;
-font-size: 15px;
-cursor: pointer;
-box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-}
-
-.belbtn1 
-{
-background-color: #09f;
-border: none;
-border-radius: 10px;
-color: white;
-padding: 12px;
-font-size: 12px;
-cursor: pointer;
-box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-}
-.belbt1 
-{
-background-color: red;
-border: none;
-color: white;
-padding: 5px;
-font-size: 15px;
-cursor: pointer;
-box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-}
-                     
-
-.header 
-{
-font-family: "hind", sans-serif;
-position:fixed ;
-bottom: 0;
-z-index: 1;
-width: 100%;
-background-color:white ;
-}
-
-.header h2 
-{
-font-family: "hind", sans-serif;
-text-align: center;
-}
-
-/* Scroll Bar */    
-.progress-container 
-{
-width: 100%;
-height: 6px;
-background: yellow;
--webkit-transition-duration: 0.5s;
-}
-
-.progress-bar 
-{
-height: 6px;
-background: #009540;
-width: 0%;
--webkit-transition-duration: 0.5s;
-}
-		      
-}
-/* Twitter News Content */
-.content 
-{		       
-padding: 0px 0;
-margin: 0px auto 0 auto;
-width: 99%;
-height: 90%;  
-font-size: 100%;                    
-}
-@media screen and (min-width: 750px) {
-.content 
-{
-padding: 10px 0;
-margin: 0px auto 0 auto;
-width: 45%;
-height: 90%;
-font-size: 100%;
-}
-}
- 
-{
-box-sizing: border-box
-}
-
-/* Set height of body and the document to 100% */
-body,
-html 
-{
-font-family: "Acme", sans-serif;
-height: 100%;
-width: 100%;
-margin: 0;
--webkit-transition-duration: 1.75s;
-font-size: 100%;
-}
-
-.btt1 
-{
-font-family: "Acme", sans-serif;
-text-align: center;
-width: 60%;
--webkit-transition-duration: 1.75s; 
-}
-
-.btt 
-{
-font-family: "Acme", sans-serif;
-background-color: red;
-color: white;
-border: 0;
-cursor: pointer;
-text-align: left;
-width: 8px;
--webkit-transition-duration: 0.4s;
-/* Safari */
-transition-duration: 0.4s;
-text-decoration: none;
-overflow: hidden;
-cursor: pointer;
-border-radius: 4px;
-font-size: 15px;
-}
-
-.btt:hover 
-{
-background-color: ;
-color: black;
-font-family: "Acme", sans-serif;
-}
-              
-/* Style tab links */ 
-.tablink 
-{
-font-family: "Lato", sans-serif;
-background-color: black;
-color: white;
-align: center;
-float: left;
-border: none;
-outline: none;
-padding: 6px;
-font-size: 10px;
-width: 20%;
--webkit-transition-duration: .5s;
-}
-
-@media screen and (min-width: 600px) 
-
-{
-.tablink 
-{
-font-family: "Acme", sans-serif;
-background-color: black;
-color: white;
-align: center;
-float: left;
-border: none;
-outline: none;
-padding: 8px;
-font-size: 12px;
-width: 20%;
--webkit-transition-duration: .5s;
-}
-}
-}
-
-.tablink:hover 
-{
-background-color: white;
-font-family: "Acme", sans-serif;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent 
-{
-font-family: "Acme", sans-serif;
-color:white ;
-align: center;
-display: none;
-padding: 0px;
--webkit-transition-duration: 0.75s;
-}
-@media screen and (min-width: 600px) 
-{
-.tabcontent 
-{
-font-family: "hind", sans-serif;
-color: white;
-display: none;
-padding: 0px 0px;
-height: 5%;
--webkit-transition-duration: 0.15s;
-}
-}
-}
-
-body 
-{
-font-family: "hind", sans-serif;
-font-size: 15px;
--webkit-transition-duration: 1.75s;
-}
-              
-/* Side navigation */             
-.sidenav 
-{
-height: 100%;
-background-color:white ;
-width:0;
-position: fixed;
-padding: 0px;
-z-index: 1;
-top: 1;
-left: 10;
-overflow-x: hidden;
-transition: .25s;
-padding-top: 28px;
-font-size: 10px;
-left: 5px;
-}
-
-.sidenav a 
-{
-padding: 1px;
-left: 10;
-text-decoration: none;
-font-size: 12px;
-color: #2c90f7;
-}
-
-.sidenav .closebtn1 
-{
-position: absolute;
-top: 30px;
-left: 255px;
-font-size: 55px;
-padding-top: 0px;
-margin-left: 12px;
-color: red;
-background-color: ;
-}
-		      		                    
-               
-/* Search Box */             
-.ptmodal 
-{ 
-display: none; z-index: 100; 
-padding-top: 0px; 
-right: 0%; top: 0; width: 100%; height: 90%;  
--webkit-transition-duration: 1.75s;
-overflow: auto; background-color:  ; 
-position: fixed;
-
-}
-@media screen and (min-width: 600px) 
-{
-.ptmodal 
-{ 
-display: none; z-index: 100; 
-padding-top: 5px; 
-right: 0%; top: 0; width: 375px; height: 100%;
--webkit-transition-duration: 1.75s;
-overflow: auto; background-color: ; 
-position: fixed;
-}
-}
-.ptmodal-content 
-{ 
-background-color:white ; margin: auto; 
-padding: 1px; border: 0.5px solid #888; width: 
-99%;font-size: 14px;
--webkit-transition-duration: 1.75s; display: block;
-}
-.close1 
-{ 
-color: red; float: right ; font-size: 45px;  font-weight:bold;  top: 5;
-}
-.close1:hover,
-.close1:focus 
-{ 
-color: #000; text-decoration: none; cursor: pointer;
-}
-
-
-
-/* ribbon css starts here */
-.panel 
-{
-padding: 0 2px;
-max-height: 0;
-overflow: hidden;
-transition: max-height 0.2s ease-out;
-box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-} 
-
-
-.ribbon 
-{
-top: 20px;
-left: 8%;
-font-family: "hind", sans-serif;
-font-size: 8.4px !important;
-width: 85%;
-position: fixed;
-background: #9900ab;
-background-image: linear-gradient(to right, #8000ab, #ad02cc);
-color: yellow;
-text-align: center;
-margin: 1em auto 1em; 
-box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-}
-
-@media screen and (min-width: 650px) 
-{
-.ribbon 
-{
-top: 20px;
-left: 25%;
-font-family: "hind", sans-serif;
-font-size: 8.4px !important;
-width: 50%;
-position: fixed;
-background: #9900ab;
-background-image: linear-gradient(to right, #8000ab, #ad02cc);
-color: yellow;
-text-align: center;
-margin: 1em auto 1em;  
-box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-}
-}
-/* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
-
-
-.ribbon:before, .ribbon:after 
-{
-font-family: "hind", sans-serif;
-content: " ";
-position: absolute;
-display: block;
-bottom: -1em;
-border: 1em solid #9900ab;
-z-index: 100000;
-}
-
-
-.ribbon:before 
-{
-left: -2em;
-border-right-width: 1.5em;
-border-left-color: transparent;
-}
-.ribbon:after 
-{
-right: -2em;
-border-left-width: 1.5em;
-border-right-color: transparent;
-}
-
-.contact 
-{
-font-family: "hind", sans-serif;
-background-color: white; /*contact button*/
-border: none;
-border-radious: 5px;
-color: black;
-padding: 3px 10px;
-text-align: center;
-text-decoration: none;
-cursor: pointer;
-}
-
-.shadow 
-{
-background-color: white;
-color: black;
-}
-
-</style>
-
-
+<link rel="shortcut icon" href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png">   
+  
+  
 
 </head>
 <body>
-
-
-
-<button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="material-icons">flight
-</i>
-</button>
 
 
 <div id="ptModal" class="ptmodal">
@@ -630,6 +114,13 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 
 
 
+<button onclick="topFunction()" id="myBtn" title="Go to top"> 
+<i class="material-icons"> flight </i>
+</i>
+</button>
+  
+  
+  
 <!-- ribbon starts here -->
 <b>
 <h3 class="ribbon">
@@ -676,10 +167,35 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGravityNull%2F&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=504839786557699" width="340" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
 <hr>
+<a id="hide"><button> <b> Hide Ads </b> </button></a>
+::
+<a id="show"><button> <b> Show Ads </b> </button></a>
+<hr>
 
 
+<!-- Show Hide Ads Composite End -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  
+    $("#show").click(function(){
+        $("add").show();
+    });
+  
+    $("#hide").click(function(){
+        $("add").hide();
+    });
 
+});
+</script>
+</head>
+<body>
+<center>
+<add>
+<style="max-width:400px>
+        
+        
 <!-- Composite Start -->
 <div id="M387202ScriptRootC326019">
         <div id="M387202PreloadC326019">
@@ -696,20 +212,36 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 
 <!-- Composite Start -->
 <div id="M387202ScriptRootC323358">
-        <script>
-                (function(){
-            var D=new Date(),d=document,b='body',ce='createElement',ac='appendChild',st='style',ds='display',n='none',gi='getElementById',lp=d.location.protocol,wp=lp.indexOf('http')==0?lp:'https:';
-            var i=d[ce]('iframe');i[st][ds]=n;d[gi]("M387202ScriptRootC323358")[ac](i);try{var iw=i.contentWindow.document;iw.open();iw.writeln("<ht"+"ml><bo"+"dy></bo"+"dy></ht"+"ml>");iw.close();var c=iw[b];}
-            catch(e){var iw=d;var c=d[gi]("M387202ScriptRootC323358");}var dv=iw[ce]('div');dv.id="MG_ID";dv[st][ds]=n;dv.innerHTML=323358;c[ac](dv);
-            var s=iw[ce]('script');s.async='async';s.defer='defer';s.charset='utf-8';s.src=wp+"//jsc.mgid.com/g/r/gravitynull.ga.323358.js?t="+D.getYear()+D.getMonth()+D.getUTCDate()+D.getUTCHours();c[ac](s);})();
-    </script>
-    </div>
-<!-- Composite End -->
+  
+  
+<script>
+
+(function(){
+ var D=new Date(),d=document,b='body',ce='createElement',ac='appendChild',st='style',ds='display',n='none',gi='getElementById',lp=d.location.protocol,wp=lp.indexOf('http')==0?lp:'https:';
+var i=d[ce]('iframe');i[st][ds]=n;d[gi]("M387202ScriptRootC323358")[ac](i);try{var iw=i.contentWindow.document;iw.open();iw.writeln("<ht"+"ml><bo"+"dy></bo"+"dy></ht"+"ml>");iw.close();var c=iw[b];}
+catch(e){var iw=d;var c=d[gi]("M387202ScriptRootC323358");}var dv=iw[ce]('div');dv.id="MG_ID";dv[st][ds]=n;dv.innerHTML=323358;c[ac](dv);
+var s=iw[ce]('script');s.async='async';s.defer='defer';s.charset='utf-8';s.src=wp+"//jsc.mgid.com/g/r/gravitynull.ga.323358.js?t="+D.getYear()+D.getMonth()+D.getUTCDate()+D.getUTCHours();c[ac](s);})();
+
+</script>
+
+</div>
+
+<hr>
+    
+</style="max-width:400px></add>
+
+
+  
+</center>
+ 
+ <!-- Show Hide Ads Composite End -->
+
+  
 
 
 </center>
 
-<hr>
+
   
 <center>
 
@@ -889,8 +421,11 @@ TeaKadai v1.19052019 </a>
 </div>
 </centre>
         
-        
-<script> 
+  
+  
+<script>
+  
+
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {
 scrollFunction()
@@ -966,10 +501,7 @@ deferredPrompt = e;
 }
 );
 
-
-
-
-      
+    
 
 
 var acc = document.getElementsByClassName("accordion");
@@ -989,27 +521,7 @@ panel.style.maxHeight = panel.scrollHeight + "px";
 
   
 
-window.addEventListener('beforeinstallprompt', saveBeforeInstallPromptEvent);
-deferredInstallPrompt = evt;
-installButton.removeAttribute('hidden');
-// CODELAB: Add code show install prompt & hide the install button.
-deferredInstallPrompt.prompt();
-// Hide the install button, it can't be called twice.
-evt.srcElement.setAttribute('hidden', true);
-// CODELAB: Log user response to prompt.
-deferredInstallPrompt.userChoice
-    .then((choice) => {
-      if (choice.outcome === 'accepted') {
-        console.log('User accepted the A2HS prompt', choice);
-      } else {
-        console.log('User dismissed the A2HS prompt', choice);
-      }
-      deferredInstallPrompt = null;
-    });
-window.addEventListener('appinstalled', logAppInstalled);
-console.log('Weather App was installed.', evt);
-
-// This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
+// This is the "Offline page" service worker
 
 // Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
 
@@ -1029,37 +541,11 @@ if ("serviceWorker" in navigator) {
   }
 }
 
-
-    let deferredPrompt = null;
-
-window.addEventListener('beforeinstallprompt', (e) => {
-  // Prevent Chrome 67 and earlier from automatically showing the prompt
-  e.preventDefault();
-  // Stash the event so it can be triggered later.
-  deferredPrompt = e;
-});
-
-async function install() {
-  if (deferredPrompt) {
-    deferredPrompt.prompt();
-    console.log(deferredPrompt)
-    deferredPrompt.userChoice.then(function(choiceResult){
-
-      if (choiceResult.outcome === 'accepted') {
-      console.log('Your PWA has been installed');
-    } else {
-      console.log('User chose to not install your PWA');
-    }
-
-    deferredPrompt = null;
-
-    });
+   
+</script>       
 
 
-  }
-} 
-  
-</script>
+
 
 
     
