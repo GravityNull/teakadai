@@ -483,10 +483,11 @@ border-left-width: 1.5em;
 border-right-color: transparent;
 }
 
+/*contact button in ribbon*/
 .contact 
 {
 font-family: "hind", sans-serif;
-background-color: white; /*contact button*/
+background-color: white; 
 border: none;
 border-radious: 5px;
 color: black;
@@ -500,4 +501,33 @@ cursor: pointer;
 {
 background-color: white;
 color: black;
+}
+
+/*ad close button*/
+.adclose 
+{
+font-family: "hind", sans-serif;
+background-color: red; 
+width: 100%;
+padding: 5px 44px;
+border: none;
+border-radious: none;
+color: white;
+text-align: center;
+text-decoration: bold;
+cursor: pointer;
+}
+
+.adopen 
+{
+font-family: "hind", sans-serif;
+background-color: green; 
+width: 100%;
+padding: 5px 44px;
+border: none;
+border-radious: none;
+color: white;
+text-align: center;
+text-decoration: bold;
+cursor: pointer;
 }

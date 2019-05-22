@@ -2,9 +2,9 @@
 
 <!-- COMMON TAGS -->
 <meta charset="utf-8">
-<title>TeaKadai</title>
+<title>TeaKadai</title> 
 
-<!-- Search Engine -->
+<!-- Search Engine -->   
 <meta name="description" content="Tamil flash news updates">
 
 <!-- Schema.org for FaceBook-->
@@ -30,8 +30,27 @@
 <meta content='width' name='MobileOptimized' />
 <meta property="display" content="standalone">
 
+<link rel="canonical" href="https://teakadai.glitch.me/">
 <link rel="stylesheet" href="/style.css">
 <link rel="manifest" href="/manifest.json">
+
+  
+  
+  <script src="/server.js" defer></script>
+
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }    
+  </script>
+
    
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png" rel='icon' />
@@ -164,17 +183,30 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 
 <center>
 
-<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGravityNull%2F&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=504839786557699" width="340" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-
-<hr>
-<a id="hide"><button> <b> Hide Ads </b> </button></a>
-::
-<a id="show"><button> <b> Show Ads </b> </button></a>
-<hr>
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGravityNull%2F&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=504839786557699" width="340" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> 
 
 
+</center>
+  
+  
+  
+
+  
+  
+  <h3>
+Hi friend, support us by reading the below contents :)  
+</h3>
+  
 <!-- Show Hide Ads Composite End -->
-
+ 
+<center>
+<hr>  
+<a id="hide"><lable class="adclose"> Hide Ads </lable></a>
+<a id="show"><lable class="adopen"> Show Ads </lable></a>  
+<hr>
+</center>  
+  
+  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -193,9 +225,9 @@ $(document).ready(function(){
 <body>
 <center>
 <add>
-<style="max-width:400px>
-        
-        
+  
+  
+  
 <!-- Composite Start -->
 <div id="M387202ScriptRootC326019">
         <div id="M387202PreloadC326019">
@@ -210,38 +242,9 @@ $(document).ready(function(){
     </div>
 <!-- Composite End -->
 
-<!-- Composite Start -->
-<div id="M387202ScriptRootC323358">
-  
-  
-<script>
-
-(function(){
- var D=new Date(),d=document,b='body',ce='createElement',ac='appendChild',st='style',ds='display',n='none',gi='getElementById',lp=d.location.protocol,wp=lp.indexOf('http')==0?lp:'https:';
-var i=d[ce]('iframe');i[st][ds]=n;d[gi]("M387202ScriptRootC323358")[ac](i);try{var iw=i.contentWindow.document;iw.open();iw.writeln("<ht"+"ml><bo"+"dy></bo"+"dy></ht"+"ml>");iw.close();var c=iw[b];}
-catch(e){var iw=d;var c=d[gi]("M387202ScriptRootC323358");}var dv=iw[ce]('div');dv.id="MG_ID";dv[st][ds]=n;dv.innerHTML=323358;c[ac](dv);
-var s=iw[ce]('script');s.async='async';s.defer='defer';s.charset='utf-8';s.src=wp+"//jsc.mgid.com/g/r/gravitynull.ga.323358.js?t="+D.getYear()+D.getMonth()+D.getUTCDate()+D.getUTCHours();c[ac](s);})();
-
-</script>
-
-</div>
-
-<hr>
-    
-</style="max-width:400px></add>
-
-
-  
-</center>
+  </add>
  
- <!-- Show Hide Ads Composite End -->
-
-  
-
-
-</center>
-
-
+<!-- Show Hide Ads Composite End -->  
   
 <center>
 
@@ -255,6 +258,7 @@ var s=iw[ce]('script');s.async='async';s.defer='defer';s.charset='utf-8';s.src=w
 <br>பெண்களுக்கு எதிரான குற்றங்களில் நமக்கு பங்கில்லையா ??
 </a>
 
+<hr>
 
 <a href="https://gravitynull.blogspot.com/2019/01/cinema-pongal.html" target=_blank">
 <img src="https://i.ibb.co/rQMNdTf/49199996-2055525354470376-1691861474152022016-o.jpg" alt="GravityNull" style="width:65%;"> 
@@ -266,7 +270,10 @@ var s=iw[ce]('script');s.async='async';s.defer='defer';s.charset='utf-8';s.src=w
 <hr>
 
 <br>
-  
+ 
+
+
+
 
 
 <i>We are using Twitter's LIST API to fetch the flash news updates & to enhance accuracy of the search results we integrate Google's CustomSearchEngine 
@@ -360,6 +367,13 @@ TeaKadai v1.19052019 </a>
 <br>
 
 
+  
+  
+  
+
+  
+  
+  
 
 
 <center>
