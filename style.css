@@ -508,8 +508,8 @@ color: black;
 {
 font-family: "hind", sans-serif;
 background-color: red; 
-width: 100%;
-padding: 5px 44px;
+width: 50%;
+padding: 5px 10px;
 border: none;
 border-radious: none;
 color: white;
@@ -522,8 +522,8 @@ cursor: pointer;
 {
 font-family: "hind", sans-serif;
 background-color: green; 
-width: 100%;
-padding: 5px 44px;
+width: 50%;
+padding: 5px 10px;
 border: none;
 border-radious: none;
 color: white;

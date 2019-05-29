@@ -3,7 +3,7 @@
     if ("serviceWorker" in navigator) {
 
         // we register our service worker                             						
-        const registration = await navigator.serviceWorker.register('/sw.js');
+        const registration = await navigator.serviceWorker.register('https://teakadai.glitch.me/sw.js');
 
         // when our service worker is updated
         registration.onupdatefound = () => {
