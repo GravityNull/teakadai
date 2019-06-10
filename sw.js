@@ -1,3 +1,7 @@
+<meta name="robots" content="noindex">
+
+
+
 self.addEventListener("fetch", event => console.log(`[ServiceWorker] Fetch ${event.request.url}`)) 
 
 

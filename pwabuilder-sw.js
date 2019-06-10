@@ -1,3 +1,6 @@
+<meta name="robots" content="noindex">
+
+
 // This is the "Offline page" service worker
 
 const CACHE = "pwabuilder-page";

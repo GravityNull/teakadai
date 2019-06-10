@@ -1,3 +1,6 @@
+<meta name="robots" content="noindex">
+
+
 (async () => {
 
     if ("serviceWorker" in navigator) {
