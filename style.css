@@ -551,14 +551,14 @@ position: fixed;
 bottom: 0%;
 right: 0%;
 z-index: 99;
-font-size: 12px;
+font-size: 18px;
 border-radius: 0%;
 border: none;
 outline: none;
 background-color: #00e676;
-color: black;
+color: cayan;
 cursor: pointer;
-padding: 7.5px;
+padding: 7px;
 transition: .155s;
 }
 

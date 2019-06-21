@@ -8,7 +8,6 @@
   "theme_color": "black",
   "background_color": "white",
   "display": "standalone",
-  "Scope": "apk",
   "start_url": "https://teakadai.glitch.me/index.html",
   "description" : "Tamil flash news updates",
   "prompt_message": "Tamil flash news updates",
