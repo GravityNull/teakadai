@@ -1,7 +1,3 @@
-<meta name="robots" content="noindex">
-
-
-
 self.addEventListener("fetch", event => console.log(`[ServiceWorker] Fetch ${event.request.url}`)) 
 
 
@@ -13,9 +9,9 @@ const offlineHTML = `
 
   <head>
       <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-      <title>My site | Offline </title>
-      <meta name="description" content="">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>GravityNull TeaKadai</title>
+      <meta name="Tamil Flash News Web App" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
@@ -37,7 +33,7 @@ const offlineHTML = `
   </style>
 
   <body>
-    <h1>You are offline :| </h1>
+    <h1>You are offline :/ </h1>
   </body>
 
   </html>
@@ -53,7 +49,3 @@ self.addEventListener("fetch", event => {
     );
 
 });
-        
-        
-        
-        

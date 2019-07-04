@@ -104,7 +104,7 @@ background-color: black;
 .closebtn 
 {
 font-size: 10px;
-line-height: 20px;
+line-height: 10px;
 cursor: pointer;
 transition: 1s;
 }
@@ -118,7 +118,46 @@ a, u
 text-decoration: none;
 Color: black;
 }
-		     
+	
+/* Side navigation */             
+.sidenav 
+{
+height: 100%;
+background-color:white ;
+width:0;
+position: fixed;
+padding: 0px;
+z-index: 1;
+top: 0px;
+left: 0px;
+overflow-x: hidden;
+transition: .25s;
+padding-top: 28px;
+font-size: 10px;
+left: 5px;
+}
+
+.sidenav a 
+{
+padding: 1px;
+left: 10;
+text-decoration: none;
+font-size: 12px;
+color: #2c90f7;
+}
+
+.sidenav .closebtn1 
+{
+position: absolute;
+top: 30px;
+left: 255px;
+font-size: 55px;
+padding-top: 0px;
+margin-left: 12px;
+color: red;
+background-color: ;
+}
+
 .belbtn 
 {
 background-color: red;
@@ -192,7 +231,7 @@ width: 0%;
 {		       
 padding: 10px 0;
 margin: 0px auto 0 auto;
-width: 50%;
+width: 40%;
 height: 90%;  
   }
 
@@ -211,9 +250,9 @@ font-size: 100%;
 {
 padding: 10px 0;
 margin: 0px auto 0 auto;
-width: 45%;
+width: 35%;
 height: 90%;
-font-size: 100%;
+font-size: 10px;
 }
 }
  
@@ -339,44 +378,7 @@ font-size: 15px;
 -webkit-transition-duration: 1.75s;
 }
               
-/* Side navigation */             
-.sidenav 
-{
-height: 100%;
-background-color:white ;
-width:0;
-position: fixed;
-padding: 0px;
-z-index: 1;
-top: 0px;
-left: 0px;
-overflow-x: hidden;
-transition: .25s;
-padding-top: 28px;
-font-size: 10px;
-left: 5px;
-}
 
-.sidenav a 
-{
-padding: 1px;
-left: 10;
-text-decoration: none;
-font-size: 12px;
-color: #2c90f7;
-}
-
-.sidenav .closebtn1 
-{
-position: absolute;
-top: 30px;
-left: 255px;
-font-size: 55px;
-padding-top: 0px;
-margin-left: 12px;
-color: red;
-background-color: ;
-}
 		      		                    
                
 /* Search Box */             
