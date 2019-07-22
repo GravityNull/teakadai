@@ -18,6 +18,27 @@ padding: 7.5px;
 transition: .155s;
 box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }
+#myBtn:after {
+  content: "";
+  background: white;
+  display: block;
+  position: absolute;
+  padding-top: 150%;
+  padding-left: 200%;
+  margin-left: -8px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.75s
+}
+
+#myBtn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+
 
 /* paytm button */ 
 #ptBtn 
@@ -39,6 +60,11 @@ transition: .155s;
 box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.0);
 }
 
+
+
+
+
+
 /* tk logo button */  
 #myBtnn 
 {
@@ -56,6 +82,31 @@ cursor: pointer;
 padding: 7px;
 box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }
+#myBtnn:after {
+  content: "";
+  background: white;
+  display: block;
+  position: absolute;
+  padding-top: 120%;
+  padding-left: 120%;
+  margin-left: -8px!important;
+  margin-top: -100%;
+  opacity: 0;
+  transition: all 0.75s
+}
+
+#myBtnn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+
+
+
+
+
 
 /* fixed header */ 
 .logo 
@@ -318,6 +369,26 @@ font-size: 10px;
 width: 20%;
 -webkit-transition-duration: .5s;
 }
+.tablink:after {
+  content: "";
+  background: white;
+  display: block;
+  position: absolute;
+  padding-top: 100px;
+  padding-left: 20%;
+  margin-left: -5px!important;
+  margin-top: -50px;
+  opacity: 0;
+  transition: all 0.75s
+}
+
+.tablink:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
 
 @media screen and (min-width: 600px) 
 
@@ -336,6 +407,28 @@ font-size: 12px;
 width: 20%;
 -webkit-transition-duration: .5s;
 }
+.tablink:after {
+  content: "";
+  background: white;
+  display: block;
+  position: absolute;
+  padding-top: 100px;
+  padding-left: 20%;
+  margin-left: -5px!important;
+  margin-top: -50px;
+  opacity: 0;
+  transition: all 0.75s
+}
+
+.tablink:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}  
+  
+  
+  
 }
 }
 
@@ -514,12 +607,15 @@ height: 30px;
 /*Ads. support button*/
 .ads {
   position: relative;
-  background-color: #4CAF50;
-  border: none;
+  background-color: yellow;
+  border: 1;
+  border-color: black;
   font-size: 13px;
-  color: #FFFFFF;
-  padding: 10px 10px;
-  width: 200px;
+  color: black;
+  top: 12px;
+  left: 1%;
+  padding: 7px 7px;
+  width: 250px;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -530,7 +626,7 @@ height: 30px;
 
 .ads:after {
   content: "";
-  background: #90EE90;
+  background: yellow;
   display: block;
   position: absolute;
   padding-top: 300%;
