@@ -371,7 +371,7 @@ width: 20%;
 }
 .tablink:after {
   content: "";
-  background: white;
+  background: silver;
   display: block;
   position: absolute;
   padding-top: 100px;
@@ -379,7 +379,7 @@ width: 20%;
   margin-left: -5px!important;
   margin-top: -50px;
   opacity: 0;
-  transition: all 0.75s
+  transition: all 0.5s
 }
 
 .tablink:active:after {
@@ -417,7 +417,7 @@ width: 20%;
   margin-left: -5px!important;
   margin-top: -50px;
   opacity: 0;
-  transition: all 0.75s
+  transition: all 0.5s
 }
 
 .tablink:active:after {
@@ -594,20 +594,20 @@ border-right-color: transparent;
 font-family: "hind", sans-serif;
 background-color: white; 
 border: none;
-border-radious: 5px;
+border-radious: 55px;
 color: black;
-font-size: 15px;
+font-size: 12px;
 padding: 5px 10px;
 text-align: center;
 text-decoration: none;
 cursor: pointer;
-height: 30px;
+height: 25px;
 }
 
 /*Ads. support button*/
 .ads {
   position: relative;
-  background-color: yellow;
+  background-color: white;
   border: 1;
   border-color: black;
   font-size: 13px;
@@ -626,7 +626,7 @@ height: 30px;
 
 .ads:after {
   content: "";
-  background: yellow;
+  background: silver;
   display: block;
   position: absolute;
   padding-top: 300%;
@@ -768,7 +768,8 @@ width: 100%;
 
 /* blog post Content */
 .post 
-{		       
+{	
+font-family: "hind", sans-serif;  
 padding: 20px;
 line-height: 20pt;
 background-color:white;
