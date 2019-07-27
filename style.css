@@ -325,7 +325,7 @@ html
 {
 height: 99%;
 width: 99%;
-margin: 1px;
+margin: 0px;
 align: center;  
 -webkit-transition-duration: 1.75s;
 }
@@ -509,8 +509,8 @@ position: fixed;
 font-family: "hind", sans-serif;  
 right: 100%; top: 30px;  
 background-color:white ; margin: auto; 
-padding: 1px; border: 1px solid #888; width: 
-96%;font-size: 9px;
+padding: 1px; border: 1px solid #888; 
+width: 99%;font-size: 9px;
 -webkit-transition-duration: 1.75s; display: block;
 }
 .close1 
