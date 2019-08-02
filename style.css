@@ -325,6 +325,7 @@ html
 {
 height: 99%;
 width: 99%;
+font-size: 10px;  
 margin: 0px;
 align: center;  
 -webkit-transition-duration: 1.75s;
@@ -487,7 +488,7 @@ font-size: 15px;
 { 
 display: none; z-index: 100; 
 padding-top: 0px; 
-right: 0%; top: 0; width: 100%; height: 90%;  
+right: 0%; top: 0; width: 100%; height: 100%;  
 -webkit-transition-duration: 1.75s;
 overflow: auto; background-color:  ; 
 position: fixed;
@@ -498,7 +499,7 @@ position: fixed;
 { 
 display: none; z-index: 100; 
 padding-top: 5px; 
-right: 0%; top: 0; width: 375px; height: 100%;
+right: 0%; top: 0; width: 400px; height: 100%;
 -webkit-transition-duration: 1.75s;
 overflow: auto; background-color: ; 
 position: fixed;
@@ -688,30 +689,18 @@ color: black;
 .adclose 
 {
 font-family: "hind", sans-serif;
-background-color: red; 
-width: 50%;
-padding: 5px 10px;
+background-color: white; 
+width: 80%;
+padding: 3px 3px;
 border: none;
 border-radious: none;
-color: white;
-text-align: center;
+color: black;
+text-align: left;
 text-decoration: bold;
 cursor: pointer;
 }
 
-.adopen 
-{
-font-family: "hind", sans-serif;
-background-color: green; 
-width: 50%;
-padding: 5px 10px;
-border: none;
-border-radious: none;
-color: white;
-text-align: center;
-text-decoration: bold;
-cursor: pointer;
-}
+
 
 
 
@@ -812,3 +801,52 @@ scrollbar: 0;
 font-size: 12px;                    
 }
 
+.goback 
+{
+font-family: "hind", sans-serif;
+background-color: red; 
+width: 15%;
+padding: 7px ; 
+border: none;
+border-radious: none;
+color: white;
+text-align: center;
+text-decoration: bold;
+cursor: pointer;
+text-decoration: none;  
+}
+
+  
+
+
+.labl1 
+{
+font-family: "hind", sans-serif;
+background-color: white; 
+width: 80%;
+padding: 3px ; 
+border: none;
+border-radious: none;
+color: black;
+text-align: center;
+text-decoration: bold;
+cursor: pointer;
+text-decoration: none;  
+font-size: 10px;  
+}
+
+.goback 
+{
+font-family: "hind", sans-serif;
+background-color: red; 
+width: 10%;
+padding: 7px ;  
+border: none;
+border-radious: none;
+color: white;
+text-align: center;
+text-decoration: bold;
+cursor: pointer;
+}
+  
+  
