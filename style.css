@@ -305,7 +305,7 @@ text-align: center;
 @media screen and (min-width: 750px) {
 .content 
 {
-padding: 10px 0;
+padding: 20px 0;
 margin: 0px auto 0 auto;
 width: 40%;
 height: 90%;
@@ -645,10 +645,10 @@ height: 25px;
   border-color: black;
   font-size: 13px;
   color: black;
-  top: 20px; 
-  left: 1%;
+  top: 11px; 
+  left: 2%;
   padding: 7px 7px;
-  width: 250px;
+  width: 50%;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -690,7 +690,7 @@ color: black;
 {
 font-family: "hind", sans-serif;
 background-color: white; 
-width: 80%;
+width: 90%;
 padding: 3px 3px;
 border: none;
 border-radious: none;
