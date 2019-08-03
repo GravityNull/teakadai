@@ -851,3 +851,17 @@ cursor: pointer;
 }
   
   
+/*ad close button*/
+.whatsapp 
+{
+font-family: "hind", sans-serif;
+background-color: green; 
+width: 20px;
+padding: 3px 3px;
+border: none;
+border-radious: none;
+color: white;
+text-align: left;
+text-decoration: bold;
+cursor: pointer;
+}
