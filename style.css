@@ -488,7 +488,7 @@ font-size: 15px;
 { 
 display: none; z-index: 100; 
 padding-top: 0px; 
-right: 0%; top: 2px; width: 100%; height: 99%;  
+right: 0%; top: 0px; width: 100%; height: 99%;  
 -webkit-transition-duration: 1.75s;
 overflow: auto; background-color:  ; 
 position: fixed;
@@ -498,7 +498,7 @@ position: fixed;
 .ptmodal 
 { 
 display: none; z-index: 100; 
-padding-top: 5px; 
+padding-top: 0px; 
 right: 0%; top: -5; width: 400px; height: 90%;
 -webkit-transition-duration: 1.75s;
 overflow: auto; background-color: ; 
