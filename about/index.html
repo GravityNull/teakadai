@@ -71,22 +71,26 @@
 
 <!-- google custom search -->
 
-<button class="adclose"><b> Tamil flash News, </b> type in tamil for accurate results</button> 
+<button class="adclose"><b> Find Your News, </b> type in tamil for accurate results</button> 
 <br>
 <hr>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<lable class="labl1"> 
+* Powered by Google CSE
+</lable>
+  
 <script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("#div1").load("/search");
-  });
-});
+(function() {
+var cx = '003234057910183980416:geop3oezqse';
+var gcse = document.createElement('script');
+gcse.type = 'text/javascript';
+gcse.async = true;
+gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(gcse, s);
+})();
 </script>
-
-<div id="div1"> data loading...</div>    
-
-<!-- google custom search -->
-
+<gcse:search linktarget="_blank"></gcse:search>
+<!-- google custom search --> 
 
 
 
