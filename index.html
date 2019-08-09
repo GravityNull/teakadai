@@ -3,7 +3,7 @@
     
 <!-- COMMON TAGS -->
 <title>GravityNull TeaKadai</title> 
-
+<link rel="manifest" href="/manifest.json">
   
 
   
@@ -21,7 +21,6 @@
 <meta content='notranslate' name='google' />
 <meta content='black' name='theme-color' />
 <meta content='yes' name='mobile-web-app-capable' />
-<meta content='yes' name='mobile-web-app-capable' />
 <meta content='black-translucent' name='apple-mobile-web-app-status-bar-style' />
 <meta content='standalone' name='display' />
 <meta content='width' name='MobileOptimized' />
@@ -38,13 +37,30 @@
 <link href="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Ftk%20bold.png" rel='icon' />
 <link rel="shortcut icon" href="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Ftk%20bold.png">   
   
-<script src="/server.js"></script>
+<script src="/script.js"></script>
 
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }    
+  </script>
   
-
-  
-
-  
+<intent-filter>
+  <action android:name="android.intent.action.VIEW" />
+  <category android:name="android.intent.category.DEFAULT" />
+  <category android:name="android.intent.category.BROWSABLE" />
+  <data
+    android:scheme="https"
+    android:host="teakadai.tk"
+    android:pathPrefix="/" />
+</intent-filter>
   
 
 </head>

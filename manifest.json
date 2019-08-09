@@ -31,5 +31,12 @@
       "type": "image/png"
     }
   ],
-  "splash_pages": null
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "black",
+  "start_url": "/",  
+  "scope": "/app/",
+  "start_url": "/app/",
+  "display": "standalone",
+}
 }
