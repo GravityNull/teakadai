@@ -541,10 +541,10 @@ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 .ribbon 
 {
 top: 20px;
-left: 8%;
+left: 10%;
 font-family: "hind", sans-serif;
 font-size: 8.4px !important;
-width: 85%;
+width: 80%;
 position: fixed;
 background: #9900ab;
 background-image: linear-gradient(to right, #8000ab, #ad02cc);
@@ -560,10 +560,10 @@ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 .ribbon 
 {
 top: 20px;
-left: 35%;
+left: 20%;
 font-family: "hind", sans-serif;
 font-size: 8.4px !important;
-width: 30%;
+width: 60%;
 position: fixed;
 background: #9900ab;
 background-image: linear-gradient(to right, #8000ab, #ad02cc);
@@ -793,7 +793,7 @@ width: 100%;
 /* blog post Content */
 .post 
 {	
-font-family: "hind", sans-serif;  
+font-family: "acme", sans-serif;  
 padding: 20px;
 line-height: 20pt;
 background-color:white;
