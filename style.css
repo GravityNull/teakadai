@@ -71,6 +71,7 @@ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.0);
 position: fixed;
 top: 0%;
 left: 0%;
+width:77px;  
 z-index: 99;
 font-size: 1px;
 text-align: center;  
@@ -115,9 +116,9 @@ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 font-family: 'acme', sans-serif;
 position: fixed;
 top: -2px;
-right: 5px;
+right: px;
 z-index: 11;
-font-size: 13px;
+font-size: 14px;
 border-radius: 0%;
 border: 0;
 outline: 0;
@@ -131,7 +132,7 @@ opacity: 1;
 filter: alpha(opacity=90);
 box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }
-              
+
 
 /* side navigation */
 .alert 
@@ -560,10 +561,11 @@ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 .ribbon 
 {
 top: 20px;
-left: 20%;
+left: 25%;
+right: 25%;  
 font-family: "hind", sans-serif;
 font-size: 8.4px !important;
-width: 60%;
+width: 300px;
 position: fixed;
 background: #9900ab;
 background-image: linear-gradient(to right, #8000ab, #ad02cc);
