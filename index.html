@@ -6,8 +6,6 @@
 <link rel="manifest" href="/manifest.json">
   
 <meta property="fb:pages" content="982534371769485" />
-
-
   
 <!-- Schema.org for FaceBook-->
 
@@ -31,28 +29,29 @@
   
   
 <link rel="stylesheet" href="/style.css">
-<link rel="manifest" href="/manifest.json">
-
+<link rel='manifest' href='/manifest.json'>
 <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Ftk%20bold.png" rel='icon' />
 <link rel="shortcut icon" href="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Ftk%20bold.png">   
   
-<script src="/script.js"></script>
 
-  <script>
-    // This is just to force HTTPS (can't do it statically on glitch)
-    if(location.protocol == 'http:') location.protocol = 'https:';
-    if('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js')
-        .then(reg => console.log('Service Worker registered', reg))
-        .catch(err => console.error('Service Worker **not** registered', err));
-    }
-    else {
-      console.warn('Service Worker not supported in this browser');
-    }    
-  </script>
+<script>
+
+   if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+
+</script>
   
 <intent-filter>
   <action android:name="android.intent.action.VIEW" />
@@ -86,7 +85,7 @@
 <br>
 <hr>
 <lable class="labl1"> 
-* Seach results are powered by Google custom search engine
+Seach results are powered by Google custom search engine
 </lable>
   
 <script>
@@ -100,7 +99,9 @@ var s = document.getElementsByTagName('script')[0];
 s.parentNode.insertBefore(gcse, s);
 })();
 </script>
-<gcse:search linktarget="_blank"></gcse:search>
+
+<div class="gcse-search" linktarget="_blank" enableAutoComplete="true"></div>
+  
 <!-- google custom search --> 
 
 
@@ -170,16 +171,18 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 <picture>
 <source media="(min-width: 90%)">
 <a href="/cartoons" target="_top">
-<img src="https://i.ibb.co/6bcP4mB/Webp-net-compress-image-1.jpg" alt=" " style="width:300px;"> 
+<img src="https://i.ibb.co/6bcP4mB/Webp-net-compress-image-1.jpg" alt=" " style="width:275px;"> 
 </a> <br>
 <h3>
 <a href="/cartoons" target="_top">  
 <button class="contact">
 <b>
-<i class="em em-smile_cat"></i>
-Fb.com/GravityNull 
-<i class="em em-mega"></i>
-</b></button>
+  
+<i class="em em-flag-in"></i>
+  Fb.com/GravityNull 
+<i class="em em-loudspeaker"></i>
+
+  </b></button>
 </a></h3>
 
 

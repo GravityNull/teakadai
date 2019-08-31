@@ -1,51 +1,16 @@
-self.addEventListener("fetch", event => console.log(`[ServiceWorker] Fetch ${event.request.url}`)) 
-
-
-
-const offlineHTML = `
-
-  <!DOCTYPE html>
-  <html class="no-js">
-
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>My site | Offline </title>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-
-  <style>
-    body {
-      font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-      margin: 2em;
-    }
-
-    h1 {
-      font-style: italic;
-      color: #373fff;
-    }
-
-    img{
-      display:block;
-      margin:auto;
-    }
-  </style>
-
-  <body>
-    <h1>You are offline :/ </h1>
-  </body>
-
-  </html>
-
-`;
-
-
-self.addEventListener("fetch", event => {
-
-    event.respondWith(
-        fetch(event.request)
-        .catch( () => new Response(offlineHTML, { headers : {"Content-Type": "text/html;charset=utf-8"}}))
-    );
-
+self.addEventListener('install', async event => {
+  console.log('install event')
 });
+
+self.addEventListener('fetch', async event => {
+  console.log('fetch event')
+});
+
+
+const cacheName = 'pwa-conf-v1';
+const staticAssets = [
+  './',
+  './index.html',
+  './app.js',
+  './styles.css'
+];
