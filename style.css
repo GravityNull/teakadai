@@ -542,10 +542,11 @@ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 .ribbon 
 {
 top: 20px;
-left: 10%;
+left: 11%;
+right: 10%; 
 font-family: "hind", sans-serif;
 font-size: 8.4px !important;
-width: 80%;
+width: 350px;
 position: fixed;
 background: #9900ab;
 background-image: linear-gradient(to right, #8000ab, #ad02cc);
@@ -628,9 +629,9 @@ height: 25px;
   font-size: 13px;
   color: black;
   top: 10px; 
-  left: 1%;
+  left:1.5%;
   padding: 7px 7px;
-  width: 250px;
+  width: 295px;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -639,19 +640,19 @@ height: 25px;
   cursor: pointer;
 }
 
-@media screen and (min-width: 650px) 
+@media screen and (min-width: 950px) 
 {
-  .ads {
+.ads {
   position: relative;
   background-color: white;
   border: 1;
   border-color: black;
   font-size: 13px;
   color: black;
-  top: 11px; 
-  left: 2%;
+  top: 10px; 
+  left:2.5%;
   padding: 7px 7px;
-  width: 50%;
+  width: 295px;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -659,7 +660,10 @@ height: 25px;
   overflow: hidden;
   cursor: pointer;
 }
+  
 }
+
+
 
 .ads:after {
   content: "";
