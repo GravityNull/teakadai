@@ -282,6 +282,8 @@ width: 0%;
 @media screen and (min-width: 100px) {
 .content 
 {
+position: relative;
+align: center;
 padding: 20px 0px;
 margin: 0px auto 0 auto;
 height: 100%;
@@ -294,10 +296,12 @@ text-align: center;
 @media screen and (min-width: 650px) {
 .content 
 {
+position: relative;
+align: center;  
 padding: 20px 0px;
 margin: 0px auto 0 auto;
 width: 55%;
-height: 90%;
+height: 100%;
 font-size: 10px; 
 align: center;  
 text-align: center;   
@@ -307,10 +311,12 @@ text-align: center;
 @media screen and (min-width: 950px) {
 .content 
 {
+position: relative;
+align: center;  
 padding: 20px 0;
 margin: 0px auto 0 auto;
 width: 40%;
-height: 90%;
+height: 100%;
 font-size: 10px;
 align: center;  
 text-align: center;   
@@ -630,7 +636,7 @@ height: 25px;
   top: 10px; 
   left:1.5%;
   padding: 7px 7px;
-  width: 295px;
+  width: 275px;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
