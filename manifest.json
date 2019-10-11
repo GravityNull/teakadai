@@ -36,7 +36,7 @@
   "theme_color": "black",
   "start_url": "/",  
   "scope": "/app/",
-  "start_url": "/app/",
+  "start_url": "/index.html/",
   "display": "standalone",
 }
 }
