@@ -897,3 +897,43 @@ cursor: pointer;
   overflow: hidden;
   cursor: pointer;
 }
+
+.chat {
+  background-color: red;
+  color: white;
+  position: fixed;
+  bottom: 9%;
+  left: 77%;
+  cursor: pointer;
+  padding: 5px;
+  width: 80px;
+  border: none;
+  text-align: center;
+  outline: 0;
+  font-size: 15px;
+  transition: 0.4s;
+  z-index: 1;
+}
+
+.chat:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.chatpanel {
+  padding: 5px;
+  position: fixed;
+  right: 1px;
+  bottom: 85px;
+  display: none;
+  background-color: ivory;
+  overflow: hidden;
+  
+}

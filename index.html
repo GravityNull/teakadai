@@ -439,7 +439,33 @@ order your cartoon just at ₹25 /- <i class="em em-coffee"> </i> !
   
   
 
-  
+<button class="chat">Live TV</button>
+<div class="chatpanel">
+<!-- Start HTML Code -->
+
+<embed src="/tv" width="330px" height="260px" frameborder="no" style="overflow:hidden" >
+
+<!-- End HTML Code -->
+</div>
+
+
+
+<script>
+var acc = document.getElementsByClassName("chat");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>  
   
   
   
