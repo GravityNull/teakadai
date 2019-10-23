@@ -1,4 +1,42 @@
 
+<style>
+* {box-sizing: border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 7px;
+  margin-top: -18px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: red;
+  border-radius: 5px;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}/* Position the "next button" to the right */
+
+.prev {
+  left: 0;
+}
+
 .aa {
   font-family: "hind", sans-serif;
   background-color: gold;
@@ -11,6 +49,7 @@
   border-color: black;
   font-size: 11px;
   text-align: center;
+  border-radius: 5px;
 }
   
 .bb {
@@ -24,6 +63,7 @@
   border-radius: 2px;
   border-color: black;
   font-size: 11px;
+  border-radius: 5px;
 }   
   
 .cc {
@@ -37,4 +77,49 @@
   border-radius: 2px;
   border-color: black;
   font-size: 11px;
-}    
+  border-radius: 5px;
+} 
+
+.aa1 {
+  font-family: "hind", sans-serif;
+  background-color: gold;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  border-color: black;
+  font-size: 11px;
+  text-align: center;
+  border-radius: 5px;
+}
+  
+.bb1 {
+  font-family: "hind", sans-serif;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  border-color: black;
+  font-size: 11px;
+  border-radius: 5px;
+}   
+  
+.cc1 {
+  font-family: "hind", sans-serif;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  border-color: black;
+  font-size: 11px;
+  border-radius: 5px;
+}  
+</style>

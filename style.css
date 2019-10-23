@@ -913,6 +913,7 @@ cursor: pointer;
   font-size: 15px;
   transition: 0.4s;
   z-index: 1;
+  border-radius: 2px;
 }
 
 .chat:after {
@@ -935,5 +936,6 @@ cursor: pointer;
   display: none;
   background-color: black;
   overflow: hidden;
+  border-radius: 5px;
   
 }
