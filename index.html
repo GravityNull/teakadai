@@ -221,84 +221,10 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
   
 
   
-<center>  
-
- 
-  
-  
-  
-  
-  
-  
-
-    <div style="display:none;">
-      <script type="text/javascript" src="https://connect.facebook.net/en_US/fbadnw60-tag.js" async></script>
-      <script type="text/javascript">
-        window.ADNW = window.ADNW || {};
-        window.ADNW.v60 = window.ADNW.v60 || {};
-        window.ADNW.v60.slots = window.ADNW.v60.slots || [];
-        window.ADNW.v60.slots.push({
-          rootElement: document.currentScript.parentElement,
-          placementid: '655892051517737_798878200552454',
-          format: '300x250',
-          testmode: false,
-          onAdLoaded: function(rootElement) {
-            console.log('Audience Network [655892051517737_798878200552454] ad loaded');
-            rootElement.style.display = 'block';
-          },
-          onAdError: function(errorCode, errorMessage) {
-            console.log('Audience Network [655892051517737_798878200552454] error (' + errorCode + ') ' + errorMessage);
-           [PASSBACK_CODE]
-          }
-        });
-      </script>
-    </div>
 
   
   
-  <script>
-var adUnits = [{
-  code: 'div-gpt-ad-1486479040361-0',
-  sizes: [[300, 250]],
-  bids: [{
-    bidder: 'audienceNetwork',
-    params: {
-     placementId: '655892051517737_798878200552454',
-     }
-   }]
- },];
-</script>
-    
-  
-  
-  
-  
-  
-<script>
-var w = window;for (i = 0; i < 10; i++) {
-w = w.parent;
-  if (w.pbjs) {
-    try {
-      w.pbjs.renderAd(document, '%%PATTERN:hb_adid%%');
-      break;
-    } catch (e) {
-      continue;
-    }
-  }
-}
-</script>
-  
-  
-  
-
-  
-  
-  
-
-  
-</body>    
-  
-</center>
+  
 
   
   
@@ -354,7 +280,7 @@ w = w.parent;
 <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">
 <i class="material-icons">local_florist
 </i>
-  <br><b>Politics</b>
+  <br><b>Tamil</b>
 </button>
 <center>
 </center>
@@ -382,7 +308,7 @@ w = w.parent;
 <button class="tablink" onclick="openPage('Chat', this, '#9900ab')">
 <i class="material-icons">message
 </i>
-<br><b>social</b>
+<br><b>Social</b>
 </button>
 
 </div>
@@ -421,7 +347,7 @@ order your cartoon just at ₹25 /- <i class="em em-coffee"> </i> !
 <meta name="viewport" content="width=105%, initial-scale=1">
 <bo>
 <div>
-<embed src="/cartoons/order.html" width="100%" height="2000px" frameborder="no" style="overflow:hidden" >
+<embed src="/cartoons/order.html" width="100%" height="1000px" frameborder="no" style="overflow:hidden" >
 </div> 
 </bo>
   
@@ -444,23 +370,11 @@ order your cartoon just at ₹25 /- <i class="em em-coffee"> </i> !
 </div>
 
 
-
-<script>
-var acc = document.getElementsByClassName("chat");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-</script>  
+ 
+ 
+  
+  
+  
   
   
   
@@ -523,6 +437,21 @@ for (i = 0; i < acc.length; i++) {
   
 <script>
   
+// Live TV open close js  
+ var acc = document.getElementsByClassName("chat");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+} 
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {
