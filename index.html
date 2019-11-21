@@ -32,87 +32,67 @@
   
 <link rel="stylesheet" href="/style.css">
 <link rel='manifest' href='/manifest.json'>
-<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+<link href="/emoji.css" rel="stylesheet">
   
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Ftk%20bold.png" rel='icon' />
 <link rel="shortcut icon" href="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Ftk%20bold.png">   
+
   
-
-<script>
-
-   if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-}
-
-</script>
   
-<intent-filter>
-  <action android:name="android.intent.action.VIEW" />
-  <category android:name="android.intent.category.DEFAULT" />
-  <category android:name="android.intent.category.BROWSABLE" />
-  <data
-    android:scheme="https"
-    android:host="teakadai.tk"
-    android:pathPrefix="/" />
-</intent-filter>
+  
+  
+  <script src="/script.js" defer></script>
+
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }    
+  </script>
+  
   
 
 </head>
 <body>
 
 
+  
 <div id="ptModal" class="ptmodal">
 <div class="ptmodal-content"> <span class="close1">&times;</span>
-		
-
-
-
- 
-
- 
 
 
 <!-- google custom search -->
+  
 <button class="adclose"><b> Find Your News, </b> type in தமிழ் for accurate results</button> 
 <br>
 <hr>
 <lable class="labl1"> 
 Seach results are powered by Google custom search engine
 </lable>
+   
   
-<script>
-(function() {
-var cx = '003234057910183980416:geop3oezqse';
-var gcse = document.createElement('script');
-gcse.type = 'text/javascript';
-gcse.async = true;
-gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-var s = document.getElementsByTagName('script')[0];
-s.parentNode.insertBefore(gcse, s);
-})();
-</script>
-
-<gcse:search newWindow="true"></gcse:search>
+<style> bo { overflow-y: hidden; } </style>
+<meta name="viewport" content="width=105%, initial-scale=1">
+<bo>
+<div>
+<embed src="https://www.teakadai.tk/search" width="100%" height="90%" frameborder="no" style="overflow:hidden" >
+</div> 
+</bo>
   
 <!-- google custom search --> 
 
 
-
-
-  
 </div>
 </div>
 <button id="ptBtn" title="Donate"> 
-<b><i class="material-icons">search</i></b>
+<b><i class="material-icons"> search </i></b>
 </button>
 <div id="ptModal" class="ptmodal"></div>
 <script>
@@ -126,7 +106,7 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 
 
 <button id="myBtnn" onclick="openNav()"> <i class="material-icons">
-<m>menu</m>
+<m> menu </m>
 </i>
 <img src="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Ftk%20bold.png" style="width:25px;" alt="TeaKadai">
 </button>
@@ -142,7 +122,7 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 
 
 <button onclick="topFunction()" id="myBtn" title="Go to top"> 
-<i class="material-icons"> flight </i>
+<i class="material-icons"> arrow_upward </i>
 </i>
 </button>
   
@@ -210,11 +190,7 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 
   
 
-<link rel="canonical" href="https://www.teakadai.tk">
-<link rel="stylesheet" href="/style.css">
-<link rel="manifest" href="/manifest.json">
 
-<meta name="viewport" content="width=105%, initial-scale=1">
  
   
 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGravityNull%2F&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=504839786557699" width="340" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> 
@@ -240,7 +216,7 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 <meta name="viewport" content="width=125%, initial-scale=0">
 <bo>
 <div>
-<embed src="/sidenav.html" width="100%" height="300%" frameborder="no" style="overflow:hidden" >
+<embed src="/sidenav.html" width="100%" height="1450px" frameborder="no" style="overflow:hidden" >
 </div> 
 </bo>
 
@@ -333,7 +309,14 @@ order your cartoon just at ₹25 /- <i class="em em-coffee"> </i> !
   
  
   
- 
+<button class="chat"><b>Live TV</b></button>
+<div class="chatpanel">
+<!-- Start HTML Code -->
+
+<embed src="/tv/pt.html" width="330px" height="260px" frameborder="no" style="overflow:hidden" >
+
+<!-- End HTML Code -->
+</div>
   
   
 
@@ -360,14 +343,7 @@ order your cartoon just at ₹25 /- <i class="em em-coffee"> </i> !
   
   
 
-<button class="chat"><b>Live TV</b></button>
-<div class="chatpanel">
-<!-- Start HTML Code -->
 
-<embed src="/tv/pt.html" width="330px" height="260px" frameborder="no" style="overflow:hidden" >
-
-<!-- End HTML Code -->
-</div>
 
 
  

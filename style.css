@@ -898,12 +898,16 @@ cursor: pointer;
   cursor: pointer;
 }
 
+
+
+
+
 .chat {
   background-color: red;
   color: white;
   position: fixed;
-  bottom: 9%;
-  left: 77%;
+  bottom: 57px;
+  right: 5px;
   cursor: pointer;
   padding: 5px;
   width: 80px;
@@ -915,7 +919,6 @@ cursor: pointer;
   z-index: 1;
   border-radius: 2px;
 }
-
 .chat:after {
   content: '\002B';
   color: white;
@@ -931,11 +934,59 @@ cursor: pointer;
 .chatpanel {
   padding: 5px;
   position: fixed;
-  right: 1px;
+  right: 5px;
   bottom: 85px;
+  display: none;
+  background-color: black;
+  overflow: hidden;
+  border-radius: 5px; 
+}
+
+@media screen and (min-width: 600px) 
+{
+.chat {
+  background-color: red;
+  color: white;
+  position: fixed;
+  bottom: 65px;
+  right: 5px;
+  cursor: pointer;
+  padding: 5px;
+  width: 80px;
+  border: none;
+  text-align: center;
+  outline: 0;
+  font-size: 15px;
+  transition: 0.4s;
+  z-index: 1;
+  border-radius: 2px;
+}  
+.chat:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.chatpanel {
+  padding: 5px;
+  position: fixed;
+  right: 5px;
+  bottom: 92px;
   display: none;
   background-color: black;
   overflow: hidden;
   border-radius: 5px;
   
+}   
 }
+
+
+
+
+
