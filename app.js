@@ -1,16 +1,15 @@
-window.addEventListener('load', e => {
-  new PWAConfApp();
-  registerSW(); 
-});
-
-async function registerSW() { 
-  if ('serviceWorker' in navigator) { 
-    try {
-      await navigator.serviceWorker.register('./sw.js'); 
-    } catch (e) {
-      alert('ServiceWorker registration failed. Sorry about that.'); 
-    }
-  } else {
-    document.querySelector('.alert').removeAttribute('hidden'); 
-  }
+if (!('caches' in window)) {
+  return null;
 }
+const url = `${window.location.origin}/forecast/${coords}`;
+return caches.match(url)
+    .then((response) => {
+      if (response) {
+        return response.json();
+      }
+      return null;
+    })
+    .catch((err) => {
+      console.error('Error getting data from cache', err);
+      return null;
+    });

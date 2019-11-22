@@ -5,7 +5,8 @@
 <!-- COMMON TAGS -->
 <title>GravityNull TeaKadai</title> 
 <link rel="manifest" href="/manifest.json">
-<link rel='manifest' href='/manifest.webmanifest'>  
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
   
 <meta content='982534371769485' property='fb:pages'/>
 
@@ -17,7 +18,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:title" content="GravityNull TeaKadai" />
 <meta property="og:description" content="Tamil flash news updates" />
-<meta property="og:image" content="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Fteakadai-thumbnail%20(1).jpg" />    
+<meta property="og:image" content="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Fteakadai-thumbnail%20(1).jpg" />
 
 <!-- Schema.org for Google-->
 <meta content='notranslate' name='google' />
@@ -25,38 +26,23 @@
 <meta content='yes' name='mobile-web-app-capable' />
 <meta content='black-translucent' name='apple-mobile-web-app-status-bar-style' />
 <meta content='standalone' name='display' />
-<meta content='width' name='MobileOptimized' />
-
-  
-  
+<meta content='width' name='MobileOptimized' /> 
   
 <link rel="stylesheet" href="/style.css">
 <link rel='manifest' href='/manifest.json'>
 <link href="/emoji.css" rel="stylesheet">
   
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Ftk%20bold.png" rel='icon' />
-<link rel="shortcut icon" href="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Ftk%20bold.png">   
+<link href="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Ftk%20bold.png" rel="icon" />
+<link rel="shortcut icon" href="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Ftk%20bold.png">  
+<link rel=”apple-touch-icon” sizes=”57x57" href=”https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Ftk%20bold.png” >  
+  
 
+<script src="/script.js" defer></script>  
   
   
-  
-  
-  <script src="/script.js" defer></script>
 
-  <script>
-    // This is just to force HTTPS (can't do it statically on glitch)
-    if(location.protocol == 'http:') location.protocol = 'https:';
-    if('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js')
-        .then(reg => console.log('Service Worker registered', reg))
-        .catch(err => console.error('Service Worker **not** registered', err));
-    }
-    else {
-      console.warn('Service Worker not supported in this browser');
-    }    
-  </script>
-  
+
   
 
 </head>
