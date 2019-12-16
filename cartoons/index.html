@@ -202,13 +202,9 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 <hr>
   
 
-<style> bo { overflow-y: hidden; } </style>
-<meta name="viewport" content="width=105%, initial-scale=1">
-<bo>
 <div>
-<embed src="/sidenav.html" width="100%" height="1450px" frameborder="no" style="overflow:hidden" >
-</div> 
-</bo>
+<embed src="/sidenav.html" width="340px" height="85%" frameborder="0" allowTransparency="true" scrolling="no" scrollbar="no">
+</div>
 
   
 </head>
@@ -288,131 +284,5 @@ arrow_left
 
 
 
-<script>
-  
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {
-scrollFunction()
-};
-function scrollFunction() {
-if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-document.getElementById("myBtn").style.display = "block";
-}
-else {
-document.getElementById("myBtn").style.display = "none";
-}
-}
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-document.body.scrollTop = 0;
-document.documentElement.scrollTop = 0;
-}
-function openPage(pageName, elmnt, color) {
-var i, tabcontent, tablinks;
-tabcontent = document.getElementsByClassName("tabcontent");
-for (i = 0; i < tabcontent.length; i++) {
-tabcontent[i].style.display = "";
-}
-tablinks = document.getElementsByClassName("tablink");
-for (i = 0; i < tablinks.length; i++) {
-tablinks[i].style.backgroundColor = "";
-}
-document.getElementById(pageName).style.display = "block";
-elmnt.style.backgroundColor = color;
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {
-myFunction()
-};
-function myFunction() {
-var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-var scrolled = (winScroll / height) * 100;
-document.getElementById("myBar").style.width = scrolled + "%";
-}
-
-
-function openNav() {
-document.getElementById("mySidenav").style.width = "320px";
-}
-function closeNav() {
-document.getElementById("mySidenav").style.width = "0%";
-}
-window.addEventListener('beforeinstallprompt', (e) => {
-// Prevent Chrome 67 and earlier from automatically showing the prompt
-e.preventDefault();
-// Stash the event so it can be triggered later.
-deferredPrompt = e;
-}
-);
-
-
-
-
-function openNav1() {
-document.getElementById("mySidenav1").style.width = "320px";
-}
-function closeNav1() {
-document.getElementById("mySidenav1").style.width = "0%";
-}
-window.addEventListener('beforeinstallprompt', (e) => {
-// Prevent Chrome 67 and earlier from automatically showing the prompt
-e.preventDefault();
-// Stash the event so it can be triggered later.
-deferredPrompt = e;
-}
-);
-
-    
-
-
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-acc[i].addEventListener("click", function() {
-this.classList.toggle("inactive");
-var panel = this.nextElementSibling;
-if (panel.style.maxHeight){
-panel.style.maxHeight = null;
-} else {
-panel.style.maxHeight = panel.scrollHeight + "px";
-} 
-});
-}
-
-  
-
-// This is the "Offline page" service worker
-
-// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-// Check compatibility for the browser we're running this in
-if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("[PWA Builder] active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-
-   
-</script>       
-
-
-
-
-
-    
 </body>   
 </html>

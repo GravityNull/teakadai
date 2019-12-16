@@ -89,3 +89,101 @@ const readyToInstall = () => {
 };
 
 performance.mark('form-loaded');
+
+
+
+
+
+  
+// Live TV open close js  
+ var acc = document.getElementsByClassName("chat");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+} 
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
+scrollFunction()
+};
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+document.getElementById("myBtn").style.display = "block";
+}
+else {
+document.getElementById("myBtn").style.display = "none";
+}
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+function openPage(pageName, elmnt, color) {
+var i, tabcontent, tablinks;
+tabcontent = document.getElementsByClassName("tabcontent");
+for (i = 0; i < tabcontent.length; i++) {
+tabcontent[i].style.display = "";
+}
+tablinks = document.getElementsByClassName("tablink");
+for (i = 0; i < tablinks.length; i++) {
+tablinks[i].style.backgroundColor = "";
+}
+document.getElementById(pageName).style.display = "block";
+elmnt.style.backgroundColor = color;
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {
+myFunction()
+};
+function myFunction() {
+var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+var scrolled = (winScroll / height) * 100;
+document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+
+function openNav() {
+document.getElementById("mySidenav").style.width = "345px";
+}
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0%";
+}
+window.addEventListener('beforeinstallprompt', (e) => {
+// Prevent Chrome 67 and earlier from automatically showing the prompt
+e.preventDefault();
+// Stash the event so it can be triggered later.
+deferredPrompt = e;
+}
+);
+
+    
+
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+this.classList.toggle("inactive");
+var panel = this.nextElementSibling;
+if (panel.style.maxHeight){
+panel.style.maxHeight = null;
+} else {
+panel.style.maxHeight = panel.scrollHeight + "px";
+} 
+});
+}
+  

@@ -178,14 +178,14 @@ background-color:white ;
 width:0;
 position: fixed;
 padding: 0px;
-z-index: 1;
-top: 0px;
+top: -30px;
 left: 0px;
 overflow-x: hidden;
 transition: .25s;
 padding-top: 28px;
 font-size: 10px;
-left: 5px;
+left: 0px;
+z-index: 10000;  
 }
 
 .sidenav a 
@@ -200,8 +200,8 @@ color: #2c90f7;
 .sidenav .closebtn1 
 {
 position: absolute;
-top: 30px;
-left: 255px;
+top: 15px;
+left: 290px;
 font-size: 55px;
 padding-top: 0px;
 margin-left: 12px;
@@ -629,14 +629,15 @@ height: 25px;
 .ads {
   position: relative;
   background-color: white;
-  border: 1;
+  border: 0;
   border-color: black;
   font-size: 13px;
   color: black;
-  top: 10px; 
-  left:1.2%;
-  padding: 7px 7px;
-  width: 275px;
+  top: 20px; 
+  
+  padding: 5px 5px;
+  width: 100%;
+  left: 1%;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -645,19 +646,19 @@ height: 25px;
   cursor: pointer;
 }
 
-@media screen and (min-width: 950px) 
+@media screen and (min-width: 650px) 
 {
 .ads {
   position: relative;
   background-color: white;
-  border: 1;
+  border: 0;
   border-color: black;
   font-size: 13px;
   color: black;
-  top: 10px; 
-  left:1%;
-  padding: 7px 7px;
-  width: 255px;
+top: 10px;
+
+  padding: 5px 5px;
+  width: 100%;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -672,7 +673,7 @@ height: 25px;
 
 .ads:after {
   content: "";
-  background: silver;
+  background: ;
   display: block;
   position: absolute;
   padding-top: 300%;
