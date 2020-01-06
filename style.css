@@ -113,7 +113,6 @@ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 /* fixed header */ 
 .logo 
 {
-font-family: 'acme', sans-serif;
 position: fixed;
 top: -2px;
 right: px;
@@ -911,7 +910,7 @@ cursor: pointer;
   right: 5px;
   cursor: pointer;
   padding: 5px;
-  width: 80px;
+  width: 95px;
   border: none;
   text-align: center;
   outline: 0;
@@ -936,7 +935,7 @@ cursor: pointer;
   padding: 5px;
   position: fixed;
   right: 5px;
-  bottom: 85px;
+  bottom: 90px;
   display: none;
   background-color: black;
   overflow: hidden;
@@ -953,7 +952,7 @@ cursor: pointer;
   right: 5px;
   cursor: pointer;
   padding: 5px;
-  width: 80px;
+  width: 95px;
   border: none;
   text-align: center;
   outline: 0;

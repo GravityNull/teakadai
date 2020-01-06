@@ -90,7 +90,7 @@
   display: inline-block;
   border-radius: 2px;
   border-color: black;
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
   border-radius: 5px;
 }
@@ -105,7 +105,7 @@
   display: inline-block;
   border-radius: 2px;
   border-color: black;
-  font-size: 11px;
+  font-size: 12px;
   border-radius: 5px;
 }   
   
@@ -119,7 +119,49 @@
   display: inline-block;
   border-radius: 2px;
   border-color: black;
-  font-size: 11px;
+  font-size: 12px;
   border-radius: 5px;
 }  
+
+.radio {
+  font-family: "hind", sans-serif;
+  background-color: #2B2B2B;
+  color: black;
+  position: fixed;
+  bottom: 5px;
+  right: 0px;
+  cursor: pointer;
+  padding: 5px;
+  width: 236px;
+  border: 10;
+  border-color: white;
+  text-align: center;
+  outline: 0;
+  font-size: 15px;
+  transition: 0.4s;
+  z-index: 1;
+  border-radius: 2px;
+}
+
+
+.play {
+  font-family: "hind", sans-serif;
+  background-color: ;
+  color: white;
+  position: fixed;
+  bottom: 40px;
+  left: -13px;
+  cursor: pointer;
+  padding: 7px;
+  width: 250px;
+  border: none;
+  text-align: center;
+  align: center;
+  outline: 0;
+  font-size: 15px;
+  transition: 0.4s;
+  z-index: 1;
+  border-radius: 2px;
+}
+
 </style>
