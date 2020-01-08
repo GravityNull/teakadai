@@ -199,13 +199,16 @@ color: #2c90f7;
 .sidenav .closebtn1 
 {
 position: absolute;
-top: 15px;
-left: 290px;
-font-size: 55px;
-padding-top: 0px;
-margin-left: 12px;
-color: red;
-background-color: ;
+  background-color: red;
+  text-align: center;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  left: 90%;
+  top: 33px;
+  width: 25px;
+  border-radius: 5px;
 }
 
 .belbtn 
@@ -910,7 +913,7 @@ cursor: pointer;
   right: 5px;
   cursor: pointer;
   padding: 5px;
-  width: 95px;
+  width: 105px;
   border: none;
   text-align: center;
   outline: 0;
@@ -937,9 +940,9 @@ cursor: pointer;
   right: 5px;
   bottom: 90px;
   display: none;
-  background-color: black;
+  background-color: #2B2B2B;
   overflow: hidden;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 600px) 
@@ -977,9 +980,9 @@ cursor: pointer;
   padding: 5px;
   position: fixed;
   right: 5px;
-  bottom: 92px;
+  bottom: 99px;
   display: none;
-  background-color: black;
+  background-color: #2B2B2B;
   overflow: hidden;
   border-radius: 5px;
   
