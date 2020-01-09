@@ -199,16 +199,16 @@ color: #2c90f7;
 .sidenav .closebtn1 
 {
 position: absolute;
-  background-color: red;
+  background-color: ;
   text-align: center;
-  border: none;
-  color: white;
-  font-size: 20px;
+  border: 1;
+  color: red;
+  font-size: 50px;
   cursor: pointer;
-  left: 90%;
-  top: 33px;
-  width: 25px;
-  border-radius: 5px;
+  left: 299px;
+  top: 15px;
+  width: 33px;
+  border-radius: 35px;
 }
 
 .belbtn 
