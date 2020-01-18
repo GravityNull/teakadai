@@ -205,7 +205,7 @@ position: absolute;
   color: red;
   font-size: 50px;
   cursor: pointer;
-  left: 299px;
+  left: 309px;
   top: 15px;
   width: 33px;
   border-radius: 35px;
@@ -428,6 +428,25 @@ font-size: 12px;
 width: 20%;
 -webkit-transition-duration: .5s;
 }
+  
+.tablink:hover {
+  content: "";
+  background: white;
+  color: black;
+}    
+  
+.tablink:after {
+  content: "";
+  background: white;
+  display: block;
+  position: absolute;
+  padding-top: 100px;
+  padding-left: 20%;
+  margin-left: -5px!important;
+  margin-top: -50px;
+  opacity: 0;
+  transition: all 0.5s
+}  
 .tablink:after {
   content: "";
   background: white;
