@@ -142,7 +142,7 @@ color: black;
 opacity: 1;
 scrollbar: 0;
 width: 300px;
-height: 80%;
+height: 85%;
 z-index: 1100000000;
 }
 
@@ -199,16 +199,16 @@ color: #2c90f7;
 .sidenav .closebtn1 
 {
 position: absolute;
-  background-color: ;
+  background-color: ivory;
   text-align: center;
   border: 1;
   color: red;
   font-size: 50px;
   cursor: pointer;
-  left: 309px;
+  left: 300px;
   top: 15px;
   width: 33px;
-  border-radius: 35px;
+  border-radius: 55px;
 }
 
 .belbtn 
