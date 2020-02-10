@@ -156,7 +156,7 @@ document.getElementById("myBar").style.width = scrolled + "%";
 
 
 function openNav() {
-document.getElementById("mySidenav").style.width = "345px";
+document.getElementById("mySidenav").style.width = "355px";
 }
 function closeNav() {
 document.getElementById("mySidenav").style.width = "0%";
