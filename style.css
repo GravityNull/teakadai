@@ -1065,3 +1065,41 @@ cursor: pointer;
 
 
 
+.power {
+  background-color: white;
+  color: black;
+  position: fixed;
+  bottom: 56px;
+  left: -5px;
+  cursor: pointer;
+  padding: 5px;
+  width: 125px;
+  border: 0;
+  text-align: center;
+  outline: 0;
+  font-size: 9px;
+  transition: 0.4s;
+  z-index: 1;
+  border-radius: 5px;
+}  
+
+@media screen and (min-width: 600px) 
+{
+.power {
+  background-color: white;
+  color: black;
+  position: fixed;
+  bottom: 61px;
+  left: -5px;
+  cursor: pointer;
+  padding: 5px;
+  width: 125px;
+  border: 0;
+  text-align: center;
+  outline: 0;
+  font-size: 9px;
+  transition: 0.4s;
+  z-index: 1;
+  border-radius: 5px;
+}  
+}
