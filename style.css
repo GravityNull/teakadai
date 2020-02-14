@@ -1073,14 +1073,14 @@ cursor: pointer;
   left: -5px;
   cursor: pointer;
   padding: 5px;
-  width: 125px;
+  width: 99%;
   border: 0;
   text-align: center;
   outline: 0;
   font-size: 9px;
   transition: 0.4s;
   z-index: 1;
-  border-radius: 5px;
+  border-radius: 0px;
 }  
 
 @media screen and (min-width: 600px) 
@@ -1093,13 +1093,13 @@ cursor: pointer;
   left: -5px;
   cursor: pointer;
   padding: 5px;
-  width: 125px;
+  width: 99%;
   border: 0;
   text-align: center;
   outline: 0;
   font-size: 9px;
   transition: 0.4s;
   z-index: 1;
-  border-radius: 5px;
+  border-radius: 0px;
 }  
 }
