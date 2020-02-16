@@ -2,13 +2,13 @@
 /* go to top */ 
 #myBtn 
 {
-font-family: 'acme', sans-serif;
 position: fixed;
 top: 0%;
 right: 0%;
 z-index: 99;
 font-size: 12px;
 border-radius: 0%;
+  
 border: none;
 outline: none;
 background-color: #00e676;
