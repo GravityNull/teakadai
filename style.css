@@ -9,8 +9,9 @@ z-index: 99;
 font-size: 12px;
 border-radius: 0%;
   
-border: none;
+border: 0;
 outline: none;
+  
 background-color: #00e676;
 color: yellow;
 cursor: pointer;
@@ -21,6 +22,7 @@ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 #myBtn:after {
   content: "";
   background: white;
+  
   display: block;
   position: absolute;
   padding-top: 150%;
@@ -789,16 +791,6 @@ cursor: pointer;
 }
 
 
-
-
-
-
-
-
-
-
-
-
  /* next button */ 
 #NxtBtn 
 {
@@ -1070,12 +1062,12 @@ cursor: pointer;
   color: black;
   position: fixed;
   bottom: 56px;
-  left: -5px;
+  left: 5px;
   cursor: pointer;
-  padding: 5px;
-  width: 99%;
+  padding: 2px;
+  width: 105%;
   border: 0;
-  text-align: center;
+  text-align: left;
   outline: 0;
   font-size: 9px;
   transition: 0.4s;
@@ -1090,12 +1082,12 @@ cursor: pointer;
   color: black;
   position: fixed;
   bottom: 61px;
-  left: -5px;
+  left: 5px;
   cursor: pointer;
-  padding: 5px;
-  width: 99%;
+  padding: 3px;
+  width: 105%;
   border: 0;
-  text-align: center;
+  text-align: left;
   outline: 0;
   font-size: 9px;
   transition: 0.4s;
