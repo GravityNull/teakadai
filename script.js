@@ -127,6 +127,10 @@ document.getElementById("myBtn").style.display = "none";
 function topFunction() {
 document.body.scrollTop = 0;
 document.documentElement.scrollTop = 0;
+  
+var x = document.getElementById("snackbar");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);  
 }
 function openPage(pageName, elmnt, color) {
 var i, tabcontent, tablinks;
