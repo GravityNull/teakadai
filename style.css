@@ -629,7 +629,7 @@ left: 5%;right:5%;
 font-family: "hind", sans-serif;
 font-size: 8.4px !important;
 width: 85%;
-position: fixed;
+position: absolute; /* float - for floating ribbon */
 background: #9900ab;
 background-image: linear-gradient(to right, #8000ab, #ad02cc);
 color: yellow;
@@ -649,7 +649,7 @@ right: 23%;
 font-family: "hind", sans-serif;
 font-size: 8.4px !important;
 width: 300px;
-position: fixed;
+position: absolute; /* float - for floating ribbon */
 background: #9900ab;
 background-image: linear-gradient(to right, #8000ab, #ad02cc);
 color: yellow;
