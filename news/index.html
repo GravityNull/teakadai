@@ -1,0 +1,34 @@
+<script type="text/javascript">
+function flash() {
+var e = document.getElementById("fmode");
+var newSrc = e.options[e.selectedIndex].value;
+document.getElementById("newsframe").src=newSrc;
+}
+
+function lite() {
+var e = document.getElementById("lmode");
+var newSrc = e.options[e.selectedIndex].value;
+document.getElementById("newsframe").src=newSrc;
+}
+</script>
+<style type="text/css">
+option {color:white;}
+</style>
+    
+    
+    
+<center>    
+<iframe src="https://teakadai.tk/news/tamil.html" style="width:99%;height:92%;overflow:scroll;border:0;" id="newsframe"></iframe>
+<br>
+<button onClick="flash();">Flash Mode</button>
+<select id="fmode">
+<option value="https://teakadai.tk/news/tech.html" ></option>
+</select>
+
+<button onClick="lite();">Lite Mode</button>
+<select id="lmode">
+<option value="https://teakadai.tk/news/tamil.html"></option> 
+</select>
+
+
+
