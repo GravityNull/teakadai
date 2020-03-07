@@ -1061,8 +1061,7 @@ cursor: pointer;
 
 .power {
   font-family: "hind", sans-serif;
-  background-color: white;
-  color: black;
+  background-color: ivory;
   position: fixed;
   bottom: 55.5px;
   left: 5px;
@@ -1083,7 +1082,6 @@ cursor: pointer;
 .power {
   font-family: "hind", sans-serif;
   background-color: white;
-  color: black;
   position: fixed;
   bottom: 61.5px;
   left: 5px;
@@ -1113,8 +1111,8 @@ cursor: pointer;
   padding: 7.5px;
   position: fixed;
   z-index: 99999;
-
   font-size: 15px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }
 
 #snackbar.show {
