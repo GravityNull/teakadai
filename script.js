@@ -111,6 +111,8 @@ for (i = 0; i < acc.length; i++) {
   });
 } 
 
+
+
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {
 scrollFunction()
@@ -123,6 +125,9 @@ else {
 document.getElementById("myBtn").style.display = "none";
 }
 }
+
+
+
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
 document.body.scrollTop = 0;
@@ -132,6 +137,10 @@ var x = document.getElementById("snackbar");
   x.className = "show";
   setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);  
 }
+
+
+
+
 function openPage(pageName, elmnt, color) {
 var i, tabcontent, tablinks;
 tabcontent = document.getElementsByClassName("tabcontent");
@@ -145,8 +154,15 @@ tablinks[i].style.backgroundColor = "";
 document.getElementById(pageName).style.display = "block";
 elmnt.style.backgroundColor = color;
 }
+
+
+
+
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+
+
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {
 myFunction()
@@ -166,8 +182,14 @@ function closeNav() {
 document.getElementById("mySidenav").style.width = "0%";
 }
 window.addEventListener('beforeinstallprompt', (e) => {
+  
+  
+  
 // Prevent Chrome 67 and earlier from automatically showing the prompt
 e.preventDefault();
+  
+  
+  
 // Stash the event so it can be triggered later.
 deferredPrompt = e;
 }

@@ -85,6 +85,8 @@ background-color: #ff3a3a;
 color: white;
 cursor: pointer;
 padding: 7px;
+opacity: 1;
+filter: alpha(opacity=10);  
 box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }
 #myBtnn:after {
@@ -130,8 +132,6 @@ color: white;
 cursor: pointer;
 padding: 12.5px;
 width: 100%;
-opacity: 1;
-filter: alpha(opacity=90);
 box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }
 
@@ -385,7 +385,10 @@ outline: none;
 padding: 6px;
 font-size: 10px;
 width: 20%;
--webkit-transition-duration: .5s;
+webkit-transition-duration: .5s;
+opacity: 0.9;
+filter: alpha(opacity=10);
+box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);  
 }
 
 .tablink:after {
@@ -424,7 +427,10 @@ outline: none;
 padding: 8px;
 font-size: 12px;
 width: 20%;
--webkit-transition-duration: .5s;
+webkit-transition-duration: .5s;
+opacity: 0.9;
+filter: alpha(opacity=10);
+box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);  
 }
   
 .tablink:hover {
@@ -627,7 +633,7 @@ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 top: 20px;
 left: 5%;right:5%;
 font-family: "hind", sans-serif;
-font-size: 8.4px !important;
+font-size: 9px !important;
 width: 85%;
 position: absolute; /* float - for floating ribbon */
 background: #9900ab;
@@ -1061,7 +1067,7 @@ cursor: pointer;
 
 .power {
   font-family: "hind", sans-serif;
-  background-color: ivory;
+  background-color: white;
   position: fixed;
   bottom: 55.5px;
   left: 5px;
@@ -1075,6 +1081,9 @@ cursor: pointer;
   transition: 0.4s;
   z-index: 1;
   border-radius: 0px;
+  opacity: 0.9;
+  filter: alpha(opacity=10);
+  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }  
 
 @media screen and (min-width: 600px) 
@@ -1094,7 +1103,10 @@ cursor: pointer;
   font-size: 9px;
   transition: 0.4s;
   z-index: 1;
-  border-radius: 0px;
+  border-radius: 0px;  
+  opacity: 0.9;
+  filter: alpha(opacity=10);
+  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }  
 }
 
