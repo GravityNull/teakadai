@@ -12,7 +12,7 @@
   
 <meta name="mobile-web-app-capable" content="yes" display="standalone">
   
-<meta property="og:url" content="https://www.teakadai.tk/" />
+<meta property="og:url" content="https://www.gravitynull.tk/" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="GravityNull TeaKadai" />
 <meta property="og:description" content="Tamil flash news updates" />
@@ -29,7 +29,7 @@
 <meta content="width" name="MobileOptimized" />
 <meta property="display" content="standalone">
 
-<link rel="canonical" href="https://teakadai.tk/">
+<link rel="canonical" href="https://www.gravitynull.tk/">
 <link rel="stylesheet" href="/style.css">
 <link rel="manifest" href="/manifest.json">
 
@@ -56,7 +56,7 @@
     // This is just to force HTTPS (can't do it statically on glitch)
     if(location.protocol == 'http:') location.protocol = 'https:';
     if('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('https://teakadai.glitch.me/sw.js')
+      navigator.serviceWorker.register('/sw.js')
         .then(reg => console.log('Service Worker registered', reg))
         .catch(err => console.error('Service Worker **not** registered', err));
     }
@@ -91,7 +91,7 @@ Seach results are powered by Google custom search engine
 <meta name="viewport" content="width=105%, initial-scale=1">
 <bo>
 <div>
-<embed src="https://www.teakadai.tk/search" width="100%" height="85%" frameborder="no" style="overflow:hidden" >
+<embed src="/search" width="100%" height="85%" frameborder="no" style="overflow:hidden" >
 </div> 
 </bo>
 

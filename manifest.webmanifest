@@ -2,12 +2,12 @@
 
 {
   "dir" : "ltr",
-  "name": "TeaKadai",
-  "short_name": "TeaKadai",
+  "name": "GravityNull TeaKadai",
+  "short_name": "GravityNull TeaKadai",
   "theme_color": "black",
   "background_color": "white",
   "display": "standalone",
-  "start_url": "https://teakadai.glitch.me/index.html",
+  "start_url": "/index.html",
   "description" : "Tamil flash news updates",
   "prompt_message": "Tamil flash news updates",
   "related_applications" : "",
