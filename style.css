@@ -286,13 +286,14 @@ align: center;
 padding: 20px 0px;
 margin: 0px auto 0 auto;
 height: 100%;
+width: 300px;  
 font-size: 10px; 
 align: center;  
 text-align: center;    
 }
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 650px) {
 .content 
 {
 position: relative;
