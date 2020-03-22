@@ -292,7 +292,7 @@ text-align: center;
 }
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 550px) {
 .content 
 {
 position: relative;
