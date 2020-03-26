@@ -911,12 +911,12 @@ text-decoration: none;
 {
 font-family: "hind", sans-serif;
 background-color: white; 
-width: 80%;
+width: 99%;
 padding: 3px ; 
 border: none;
 border-radious: none;
 color: black;
-text-align: center;
+text-align: left;
 text-decoration: bold;
 cursor: pointer;
 text-decoration: none;  
