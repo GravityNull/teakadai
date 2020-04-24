@@ -115,9 +115,30 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
   
 <div id="snackbar">
 <a href="#" onclick="window.location.reload(true);">
-<b>Click here for the latest News updates</b>
+
+<script type="text/javascript">
+var todayDate=new Date();
+var hours=todayDate.getHours();
+var minutes=todayDate.getMinutes();
+var seconds=todayDate.getSeconds();
+var format ="AM";
+if(hours>11)
+{format="PM";}
+if (hours   > 12) { hours = hours - 12; }
+if (hours   == 0) { hours = 12; }  
+if (minutes < 10){ minutes = "0" + minutes;}
+document.write("This page was loaded at - " + hours + ":" + minutes + ":" + seconds + " " +format);
+</script>
+
+<center>
+<hr>
+</center>  
+  
+<b>Click here for the latest News updates</b>   
+
 </a>
 </div> 
+
   
   
 
@@ -133,7 +154,7 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 <br> 
   
 <h2 class="accordion">
-<b>  Support us by ordering a cartoon just at ₹25/- </b> 
+<b>  Support our cartoon works, just at ₹25/- </b> 
 </h2>
   
 <div class="panel">
@@ -152,18 +173,15 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 
 <center>  
 
-click here :D
+order now :D
 
 </button>
 </a></h3>
 
-
-
-
-
 </div>
 </strong>
 </h1>
+<!-- ribbon starts here -->
 
 
   
