@@ -127,8 +127,25 @@ window.onclick = function(event) { if (event.target == ptmodal) { ptmodal.style.
 <div id="snackbar">
 <a href="#" onclick="window.location.reload(true);">
 
-Click here for the latest News updates 
 
+<b>Click here for the latest News updates</b> 
+<hr>
+
+
+<script type="text/javascript">
+var todayDate=new Date();
+var hours=todayDate.getHours();
+var minutes=todayDate.getMinutes();
+var seconds=todayDate.getSeconds();
+var format ="AM";
+if(hours>11)
+{format="PM";}
+if (hours   > 12) { hours = hours - 12; }
+if (hours   == 0) { hours = 12; }  
+if (minutes < 10){ minutes = "0" + minutes;}
+document.write("this page was loaded at - " + hours + ":" + minutes + ":" + seconds + " " +format);
+</script>
+  
 
 </a>
 </div> 
@@ -298,26 +315,14 @@ click here :D
 <button class="power">
 <a href="/flash.html"> 
 <b> Switch to FLASH mode </b><br>
-<b>Click here </b>to start the automatic News updates & more tweets</a>  
+<b>Click here </b>to start the automatic News updates & more tweets 
+</a>  
   
   
 
- <script type="text/javascript">  
-     var before_loadtime = new Date().getTime();  
-     window.onload = Pageloadtime;  
-     function Pageloadtime() {  
-         var aftr_loadtime = new Date().getTime();  
-         // Time calculating in seconds  
-         pgloadtime = (aftr_loadtime - before_loadtime) / 1000  
-  
-         document.getElementById("loadtime").innerHTML = " <font color='red'><b>" + pgloadtime + "</b></font> Seconds";  
-     }  
-</script>  
+     
 
-<div>  
-<span id="loadtime"></span>  
-  
-</div>  
+
 
   
   
