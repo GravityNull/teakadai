@@ -1,37 +1,99 @@
+<html ⚡>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'hind', sans-serif;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: white;
+  color: black;
+  float: center;
+  border: 1;
+  outline: none;
+  cursor: pointer;
+  padding: 7px 7px;
+  font-size: 17px;
+  width: 34%;
+}
+
+.tablink:hover {
+  background-color: white;
+  color:black;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 1px 20px;
+  height: 300px;
+}
+
+#Home {background-color: ;}
+#News {background-color: ;}
+
+</style>
+</head>
+<body>
+
+<center>
+
+<button class="tablink" onclick="openPage('All', this, 'yellow')">
+All Cartoons</button>
+::
+<button class="tablink" onclick="openPage('Social', this,'yellow' )" id="defaultOpen">
+Social Cartoons</button>
+
+</center>
+
+
+<div id="All" class="tabcontent">
+  <p>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT2j9OZ0snAjhPUM9GD1-DdtxDoUPS87s0sIL4cICr-V8KGcV_hDfMvn0N8savAiYuukd3WoSp6GGje/embed?start=true&loop=true&delayms=3000" frameborder="0" width="99%" height="321px"></iframe>
+
+  </p>
+</div>
+
+<div id="Social" class="tabcontent">
+  <p>
+
+<iframe src="https://docs.google.com/presentation/d/1u45y6pOuK7m4F-8vOhgWwmvoM0DylpZ8bi964mvnmLs/embed?start=true&loop=true&delayms=3000" frameborder="0" width="99%" height="321px"></iframe>  
+
+  </p> 
+</div>
 
 
 
-<div class="post">
 
 
-  
-<center>  
-  
-<iframe src="https://docs.google.com/presentation/d/1u45y6pOuK7m4F-8vOhgWwmvoM0DylpZ8bi964mvnmLs/embed?start=true&loop=true&delayms=3000" frameborder="0" width="350px" height="260px"></iframe> 
-  
-  
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT2j9OZ0snAjhPUM9GD1-DdtxDoUPS87s0sIL4cICr-V8KGcV_hDfMvn0N8savAiYuukd3WoSp6GGje/embed?start=true&loop=true&delayms=3000" frameborder="0" width="350px" height="260px"></iframe>
-  
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
    
-
-  
-<script type="text/javascript" src="https://form.jotform.me/jsform/71551172738458"></script>
-  
-<br /> <hr>
-
-
-
-
-
-<a href="https://www.gravitynull.tk" target="_top" >
-  
-<img border="0" data-original-height="319" data-original-width="800" height="127" src="https://image.ibb.co/cB2eS0/Pics-Art-10-24-12-29-14-01.jpg" width="320" />
-</a>
-
- 
-
-
-  
-
-
-        
+</body>
+</html> 
