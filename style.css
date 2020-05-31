@@ -1191,7 +1191,7 @@ cursor: pointer;
   font-family: "hind", sans-serif;
   background-color: white;
   position: fixed;
-  bottom: 36px;
+  bottom: 35px;
   left: 1px;
   cursor: pointer;
   padding: 9px;
@@ -1203,8 +1203,6 @@ cursor: pointer;
   transition: 0.4s;
   z-index: 1;
   border-radius: 0px;
-  opacity: 0.9;
-  filter: alpha(opacity=10);
   box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }  
 
