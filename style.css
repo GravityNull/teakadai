@@ -1,3 +1,78 @@
+.blue {
+  font-family: "hind", sans-serif;
+  background-image: linear-gradient(to right, #35aee8, #354be8);
+  color: white;
+  text-decoration: none;
+  padding: 4px 6px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  border-color:white ;
+  font-size: 11px;
+  text-align: center;
+  border-radius: 5px;
+}
+.red {
+  font-family: "hind", sans-serif;
+  background-image: linear-gradient(to right, #F44336, #D32F2F);
+  color: white;
+  text-decoration: none;
+  padding: 4px 6px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  border-color:white ;
+  font-size: 11px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.green {
+  font-family: "hind", sans-serif;
+  background-image: linear-gradient(to right, #26A69A, #00897B);
+  color: white;
+  text-decoration: none;
+  padding: 3px 6px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  border-color:white ;
+  font-size: 11px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.yellow {
+  font-family: "hind", sans-serif;
+  background-image: linear-gradient(to right, #FFCA28, #FFB300);
+  color: black;
+  text-decoration: none;
+  padding: 3px 6px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  border-color:white ;
+  font-size: 11px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.purple {
+  font-family: "hind", sans-serif;
+  background-image: linear-gradient(to right, #AB47BC, #E040FB);
+  color: white;
+  text-decoration: none;
+  padding: 3px 6px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  border-color:white ;
+  font-size: 11px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
 
 
 /* go to top */ 
@@ -1074,7 +1149,7 @@ cursor: pointer;
   left: 1px;
   cursor: pointer;
   padding: 6px;
-  width: 105%;
+  width: 96%;
   border: 0;
   text-align: left;
   outline: 0;
@@ -1084,8 +1159,7 @@ cursor: pointer;
   border-radius: 0px;
   opacity: 0.9;
   filter: alpha(opacity=10);
-  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-}  
+  }  
 
 @media screen and (min-width: 600px) 
 {
@@ -1110,6 +1184,35 @@ cursor: pointer;
   box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }  
 }
+
+
+
+.searchtag {
+  font-family: "hind", sans-serif;
+  background-color: white;
+  position: fixed;
+  bottom: 39px;
+  left: 1px;
+  cursor: pointer;
+  padding: 9px;
+  width: 99%;
+  border: 0;
+  text-align: left;
+  outline: 0;
+  font-size: 9px;
+  transition: 0.4s;
+  z-index: 1;
+  border-radius: 0px;
+  opacity: 0.9;
+  filter: alpha(opacity=10);
+  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+}  
+
+
+
+
+
+
 
 
 #snackbar {
