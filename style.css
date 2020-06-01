@@ -1245,15 +1245,15 @@ cursor: pointer;
   visibility: hidden;
   width: 100%;
   top: 40px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   text-align: center;
   left: 0%;
   right: 0%;
   border-radius: 2px;
   position: fixed;
   z-index: 99999;
-  font-size: 15px;
+  font-size: 12px;
   height: 10%;
   box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }
