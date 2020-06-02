@@ -1053,8 +1053,8 @@ cursor: pointer;
 
 
 .chat {
-  background-color: red;
-  color: white;
+  background-color: white;
+  color: red;
   position: fixed;
   bottom: 57px;
   right: 1px;
@@ -1095,8 +1095,8 @@ cursor: pointer;
 @media screen and (min-width: 600px) 
 {
 .chat {
-  background-color: red;
-  color: white;
+  background-color: white;
+  color: red;
   position: fixed;
   bottom: 60px;
   right: 1px;
@@ -1136,18 +1136,12 @@ cursor: pointer;
 }   
 }
 
-
-
-
-
-
 .power {
   font-family: "hind", sans-serif;
   background-color: white;
   position: fixed;
   bottom: 55.5px;
   left: 1px;
-  
   padding: 6px;
   width: 96%;
   border: 0;
@@ -1184,8 +1178,6 @@ cursor: pointer;
 }  
 }
 
-
-
 .searchtag {
   font-family: "hind", sans-serif;
   background-color: white;
@@ -1204,10 +1196,9 @@ cursor: pointer;
   z-index: 1;
   border-radius: 0px;
   opacity: 0.9;
-  filter: alpha(opacity=10);
-  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-  
+  filter: alpha(opacity=10);  
 }  
+
 @media screen and (min-width: 600px) 
 {
 .searchtag {
@@ -1228,9 +1219,7 @@ cursor: pointer;
   z-index: 1;
   border-radius: 0px;
   opacity: 0.9;
-  filter: alpha(opacity=10);
-  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-  
+  filter: alpha(opacity=10);  
 }  
 }
 
