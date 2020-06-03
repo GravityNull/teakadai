@@ -1152,7 +1152,7 @@ cursor: pointer;
   z-index: 1;
   border-radius: 0px;
   opacity: 0.9;
-  filter: alpha(opacity=10);
+  filter: alpha(opacity=10);  
   }  
 
 @media screen and (min-width: 600px) 
@@ -1173,9 +1173,7 @@ cursor: pointer;
   z-index: 1;
   border-radius: 0px;  
   opacity: 0.9;
-  filter: alpha(opacity=10);
-  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
-}  
+  filter: alpha(opacity=10);  }  
 }
 
 .searchtag {
@@ -1186,7 +1184,7 @@ cursor: pointer;
   left: -1px;
   
   padding: 9px;
-  width: 85%;
+  width: 90%;
   height: 36px;
   border: 0;
   text-align: left;
@@ -1194,7 +1192,7 @@ cursor: pointer;
   font-size: 9px;
 
   z-index: 1;
-  border-radius: 0px;
+  border-radius: 25px;
   opacity: 0.9;
   filter: alpha(opacity=10);  
 }  
@@ -1217,7 +1215,7 @@ cursor: pointer;
   font-size: 9px;
 
   z-index: 1;
-  border-radius: 0px;
+  border-radius: 25px;
   opacity: 0.9;
   filter: alpha(opacity=10);  
 }  
