@@ -1,13 +1,14 @@
 .white {
   font-family: "hind", sans-serif;
-  background-image: linear-gradient(to right, white, ivory);
+  background-image: linear-gradient(to right, yellow, gold);
   color: black;
   text-decoration: none;
   padding: 4px 6px;
   position: relative;
   display: inline-block;
+  border: 2px;
   border-radius: 2px;
-  border-color:white ;
+  border-color:black ;
   font-size: 11px;
   text-align: center;
   border-radius: 5px;
