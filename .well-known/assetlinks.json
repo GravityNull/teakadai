@@ -1,17 +1,10 @@
-[
-{  
-"relation": 
-[
-"delegate_permission/common.handle_all_urls"
-],
-"target": 
-{
-"namespace": "android_app",
-"package_name": "gravitynull.in",
-"sha256_cert_fingerprints": 
-[
-"96:46:DE:5D:9F:D6:D8:72:7A:58:DD:4A:86:56:B7:6F:5F:CD:D2:1A:33:C4:A2:32:2E:8C:CC:57:F3:55:43:C2"
-]
-}
-}
-]
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "in.gravitynull.teakadai",
+    "sha256_cert_fingerprints": [
+      "60:5B:B8:95:6D:22:08:56:E0:62:C5:A8:D7:C4:E1:E5:B1:15:C7:52:99:93:42:28:96:BB:4A:99:32:B7:83:53"
+    ]
+  }
+}]
