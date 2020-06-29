@@ -1093,6 +1093,7 @@ cursor: pointer;
   position: fixed;
   bottom: 57px;
   right: 1px;
+  width: 90%;
   cursor: pointer;
   padding: 3px;
   width: 45px;
@@ -1117,12 +1118,14 @@ cursor: pointer;
 }
 
 .chatpanel {
-  padding: 5px;
+  font-family: "hind", sans-serif;
+  padding: 15px;
   position: fixed;
   right: 5px;
   bottom: 90px;
   display: none;
   background-color: #2B2B2B;
+  color: white;
   overflow: hidden;
   border-radius: 5px;
 }
@@ -1135,6 +1138,7 @@ cursor: pointer;
   position: fixed;
   bottom: 60px;
   right: 1px;
+  width: 90%;
   cursor: pointer;
   padding: 3px;
   width: 45px;
@@ -1159,15 +1163,16 @@ cursor: pointer;
 }
 
 .chatpanel {
-  padding: 5px;
+  font-family: "hind", sans-serif;
+  padding: 15px;
   position: fixed;
   right: 5px;
   bottom: 99px;
   display: none;
   background-color: #2B2B2B;
+  color: white;
   overflow: hidden;
   border-radius: 5px;
-  
 }   
 }
 
@@ -1284,3 +1289,10 @@ cursor: pointer;
   -webkit-animation: fadein 2s, fadeout 2s 2s;
   animation: fadein 2s, fadeout 2s 2s;
 }
+
+
+
+
+
+
+
