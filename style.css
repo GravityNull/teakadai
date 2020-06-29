@@ -1121,6 +1121,7 @@ cursor: pointer;
   font-family: "hind", sans-serif;
   padding: 15px;
   position: fixed;
+  width: 90%;
   right: 5px;
   bottom: 90px;
   display: none;
