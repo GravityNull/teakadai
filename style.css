@@ -127,6 +127,7 @@ color: yellow;
 cursor: pointer;
 padding: 7.5px;
 transition: .155s;
+box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.0);  
 }
 #myBtn:after {
   content: "";
@@ -151,7 +152,7 @@ transition: .155s;
 
 
 
-/* paytm button */ 
+/* search button */ 
 #ptBtn 
 {
 font-family: 'hind', sans-serif;
@@ -162,6 +163,7 @@ width: 45px;
 z-index: 99;
 font-size: 30px;
 border-radius: 0%;
+font-size: 11px;  
 border: none;
 outline: none;
 background-color: #00e676;
@@ -1092,7 +1094,7 @@ cursor: pointer;
   color: red;
   position: fixed;
   bottom: 57px;
-  right: 1px;
+  right: -8px;
   width: 90%;
   cursor: pointer;
   padding: 3px;
@@ -1139,7 +1141,7 @@ cursor: pointer;
   color: red;
   position: fixed;
   bottom: 60px;
-  right: 1px;
+  right: -8px;
   width: 90%;
   cursor: pointer;
   padding: 3px;
