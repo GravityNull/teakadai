@@ -1121,14 +1121,15 @@ cursor: pointer;
   font-family: "hind", sans-serif;
   padding: 15px;
   position: fixed;
-  width: 90%;
-  right: 5px;
+  width: 75%;
+  right: 44px;
   bottom: 90px;
   display: none;
   background-color: #2B2B2B;
   color: white;
   overflow: hidden;
   border-radius: 5px;
+  z-index: 99999;
 }
 
 @media screen and (min-width: 600px) 
