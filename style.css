@@ -1,6 +1,6 @@
 .white {
   font-family: "hind", sans-serif;
-  background-image: linear-gradient(to right, yellow, gold);
+  background-image: linear-gradient(to right, white, ivory);
   color: black;
   text-decoration: none;
   padding: 4px 6px;
@@ -1170,14 +1170,17 @@ cursor: pointer;
   font-family: "hind", sans-serif;
   padding: 15px;
   position: fixed;
-  right: 5px;
-  bottom: 99px;
+  text-align: left;
+  width: 50%;
+  right: 44px;
+  bottom: 90px;
   display: none;
   background-color: #2B2B2B;
   color: white;
   overflow: hidden;
   border-radius: 5px;
-}   
+  z-index: 99999;
+}
 }
 
 .power {
