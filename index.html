@@ -71,20 +71,19 @@
 
 
 
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-<script>
-  window.OneSignal = window.OneSignal || [];
-  OneSignal.push(function() {
-    OneSignal.init({
-      appId: "ff144432-ff3d-4e99-80fc-5b250be91a72",
-      notifyButton: {
-        enable: true,
-      },
-      subdomainName: "gravitynull",
-    });
-  });
-</script>
 
+    <script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.2/app.js" async></script>
+    <script>
+    var truepush = window.truepush || [];
+            
+    truepush.push(function(){
+        truepush.Init({
+            id: "5f1557af613a32b6f3ffb79c"
+        },function(error){
+          if(error) console.error(error);
+        })
+    })
+    </script>
 
 
 
@@ -405,7 +404,6 @@ Click the i button again to close this popup
   
 <div id="Home" class="tabcontent">
 
-<div class='onesignal-customlink-container'></div>
   
 <center>
   
