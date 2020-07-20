@@ -137,8 +137,17 @@ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
   
 </style>
 
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "ff144432-ff3d-4e99-80fc-5b250be91a72",
+    });
+  });
+</script>
 
-
+<div class='onesignal-customlink-container'></div>
 <center>
 
 
