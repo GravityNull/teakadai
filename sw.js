@@ -1,51 +1,28 @@
-self.addEventListener("fetch", event => console.log(`[ServiceWorker] Fetch ${event.request.url}`)) 
-
-
-
-const offlineHTML = `
-
-  <!DOCTYPE html>
-  <html class="no-js">
-
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>TeaKadai | Offline </title>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-
-  <style>
-    body {
-      font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-      margin: 2em;
+var version = "v2.0.2";
+var swPath;
+var urlObject = new URL(location);
+var host;
+if (urlObject.searchParams.get("swPath")) {
+    swPath = urlObject.searchParams.get("swPath");
+}
+else {
+    if (urlObject.searchParams.get("version")) {
+        version = urlObject.searchParams.get("version");
+    }
+    if (urlObject.searchParams.get("swJSHost")) {
+        host = "https://" + urlObject.searchParams.get("swJSHost");
     }
 
-    h1 {
-      font-style: italic;
-      color: #373fff;
+
+
+
+    else {
+        host = "https://sdki.truepush.com/sdk/";
     }
-
-    img{
-      display:block;
-      margin:auto;
-    }
-  </style>
-
-  <body>
-    <h1>You are offline :/ </h1>
-  </body>
-
-  </html>
-
-`;
+    swPath = host + version + "/sw.js";
+}
+importScripts(swPath);
 
 
-self.addEventListener("fetch", event => {
 
-    event.respondWith(
-        fetch(event.request)
-        .catch( () => new Response(offlineHTML, { headers : {"Content-Type": "text/html;charset=utf-8"}}))
-    );
 
-});
