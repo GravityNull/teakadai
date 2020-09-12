@@ -1299,17 +1299,18 @@ cursor: pointer;
 
 .clock {
   font-family: "hind", sans-serif;
-  background-color: white;
-  color: black;
+  background-image: linear-gradient(to right, #F44336, #D32F2F);
+  color: white;
   position: fixed;
   bottom: 89px;
-  right: 1px;
+  right: 5px;
+  width: 110px;
   cursor: pointer;
   padding: 3px;
-  border: none;
+  border: 2;
   text-align: center;
-  outline: 0;
-  font-size: 10px;
+  outline: 2;
+  font-size: 9px;
   transition: 0.4s;
   z-index: 1;
   border-radius: 2px;

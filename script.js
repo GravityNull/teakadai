@@ -234,7 +234,7 @@ else if(nhour>12){ap=" PM";nhour-=12;}
 if(nmin<=9) nmin="0"+nmin;
 if(nsec<=9) nsec="0"+nsec;
 
-var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
+var clocktext=" "+nhour+":"+nmin+":"+nsec+ap+" "+tmonth[nmonth]+" "+ndate+", "+nyear+" ";
 document.getElementById('clockbox').innerHTML=clocktext;
 }
 
