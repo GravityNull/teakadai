@@ -1316,8 +1316,27 @@ cursor: pointer;
   border-radius: 2px;
 }
 
-
-
+@media screen and (min-width: 750px) 
+{
+.clock {
+  font-family: "hind", sans-serif;
+  background-image: linear-gradient(to right, #F44336, #D32F2F);
+  color: white;
+  position: fixed;
+  bottom: 67px;
+  right: 35px;
+  width: 110px;
+  cursor: pointer;
+  padding: 3px;
+  border: 2;
+  text-align: center;
+  outline: 2;
+  font-size: 9px;
+  transition: 0.4s;
+  z-index: 1;
+  border-radius: 2px;
+}
+}
 
 
 
