@@ -1340,5 +1340,13 @@ cursor: pointer;
 
 
 
-
-
+.sbody
+{
+height: 99%;
+width: 99%;
+font-size: 10px;  
+margin: 0px;
+align: center;  
+highlightme { background-color:#FFFF00; }  
+-webkit-transition-duration: 1.75s;
+}
