@@ -36,7 +36,7 @@ const offlineHTML = `
   <body>
     <h1>Sorry.. something went wrong :/ </h1>
     <br>
-    <a herf="https://fb.com/roobenk">ask developer for help</a>
+    Please check your internet connection, or contact developer for help : roobank1@gmail.com 
   </body>
 
   </html>
