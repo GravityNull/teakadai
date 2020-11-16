@@ -1090,7 +1090,7 @@ cursor: pointer;
 
 
 .chat {
-  background-color: ;
+  background-color: white;
   color: red;
   position: fixed;
   bottom: 57px;
@@ -1105,7 +1105,7 @@ cursor: pointer;
   font-size: 14px;
   transition: 0.4s;
   z-index: 1;
-  border-radius: 2px;
+  border-radius: 15%;
 }
 .chat:after {
   content: '\002B';
@@ -1137,7 +1137,7 @@ cursor: pointer;
 @media screen and (min-width: 600px) 
 {
 .chat {
-  background-color: ;
+  background-color: white;
   color: red;
   position: fixed;
   bottom: 60px;
