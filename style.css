@@ -1090,7 +1090,7 @@ cursor: pointer;
 
 
 .chat {
-  background-color: white;
+  background-color: ;
   color: red;
   position: fixed;
   bottom: 57px;
@@ -1137,7 +1137,7 @@ cursor: pointer;
 @media screen and (min-width: 600px) 
 {
 .chat {
-  background-color: white;
+  background-color: ;
   color: red;
   position: fixed;
   bottom: 60px;
@@ -1230,8 +1230,8 @@ cursor: pointer;
   bottom: 38px;
   left: -1px;
   
-  padding: 9px;
-  width: 90%;
+  padding: 11px;
+  width: 86%;
   height: 36px;
   border: 0;
   text-align: left;
