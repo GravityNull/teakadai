@@ -125,7 +125,7 @@ outline: none;
 background-color: #00e676;
 color: yellow;
 cursor: pointer;
-padding: 7.8px;
+padding: 8.5px;
 transition: .155s;
 box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.0);  
 }
@@ -169,7 +169,7 @@ outline: none;
 background-color: #00e676;
 color: red;
 cursor: pointer;
-padding: 7.8px;
+padding: 8.5px;
 transition: .155s;
 box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.0);
 }
@@ -187,7 +187,6 @@ top: 0%;
 left: 0%;
 width:75px;  
 z-index: 99;
-font-size: 1px;
 text-align: center;  
 border-radius: none;
 border: none;
@@ -195,7 +194,7 @@ outline: none;
 background-color: #ff3a3a;
 color: white;
 cursor: pointer;
-padding: 6.5px;
+padding: 5.1px;
 opacity: 1;
 filter: alpha(opacity=10);  
 box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
@@ -230,7 +229,7 @@ box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 .logo 
 {
 position: fixed;
-top: -2px;
+top: 0px;
 right: px;
 z-index: 11;
 font-size: 13px;
@@ -241,7 +240,7 @@ background-color: blue;
 background-image: linear-gradient(to right, #35aee8, #354be8);
 color: white;
 cursor: pointer;
-padding: 12.5px;
+padding: 12px;
 width: 100%;
 box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }
