@@ -1296,7 +1296,7 @@ cursor: pointer;
 
 .clock {
   font-family: "hind", sans-serif;
-  background-image: linear-gradient(to right, grey, ivory);
+  background-image: linear-gradient(to right, #F44336, #D32F2F);
   color: white;
   position: fixed;
   bottom: 89px;
