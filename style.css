@@ -1,3 +1,24 @@
+.notice {
+  font-family: "hind", sans-serif;
+  background-image: linear-gradient(to right, white, ivory);
+  color: black;
+  width: 285px;
+  left: 4px;
+  text-decoration: none;
+  padding: 4px 6px;
+  position: relative;
+  display: inline-block;
+  border: 2px;
+  border-radius: 2px;
+  border-color:black ;
+  font-size: 11px;
+  text-align: left;
+  border-radius: 5px;
+  transition: max-height 0.2s ease-out;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+}
+
+
 .white {
   font-family: "hind", sans-serif;
   background-image: linear-gradient(to right, white, ivory);
@@ -391,6 +412,7 @@ width: 0%;
 @media screen and (min-width: 100px) {
 .content 
 {
+font-family: "hind", sans-serif;  
 position: relative;
 align: ;
 padding: 20px 0px;
@@ -405,6 +427,7 @@ text-align: ;
 @media screen and (min-width: 650px) {
 .content 
 {
+font-family: "hind", sans-serif;  
 position: relative;
 align: ;  
 padding: 20px 0px;
@@ -419,6 +442,7 @@ text-align: ;
 @media screen and (min-width: 950px) {
 .content 
 {
+font-family: "hind", sans-serif;  
 position: relative;
 align: ;  
 padding: 20px 0;
