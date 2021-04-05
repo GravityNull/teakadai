@@ -99,12 +99,7 @@
 
 
 
-<a href="/search#gsc.q=%E0%AE%87%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AF%81">
-<button id="ptBtn"  title="Search"> 
-<b><i class="material-icons"> search </i></b>
-</button>
- </a>  
-  
+
 
 <button id="myBtnn" onclick="openNav()"> <i class="material-icons">
 <m> menu </m>
@@ -121,8 +116,11 @@
 </div> </br>
 
 
-
-<button onclick="topFunction()"  id="myBtn" title="Go to top"> 
+<button onclick="topFunction()" id="ptBtn"  title="Search"> 
+<b><i class="material-icons"> search </i></b>
+</button>
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top"> 
 <i class="material-icons"> restore </i>                                 
 </i>
 </button>
@@ -143,12 +141,6 @@ if (hours   == 0) { hours = 12; }
 if (minutes < 10){ minutes = "0" + minutes;}
 document.write("This page was loaded at - " + hours + ":" + minutes + ":" + seconds + " " +format);
 </script>
-
-<center>
-<hr>
-</center>  
-  
-<b class="red">Click here for the latest News updates</b>     
 
 </a>
 </div> 
@@ -402,25 +394,40 @@ Click the i button again to close this popup
 
                                                                                                        
                                                                                                                                                                                                        
-<center>
 <br>
+  
+<center>  
+<pwa-install>install our app :: it's just 1mb & 100% ads free </pwa-install>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall@latest/dist/pwa-install.min.js"></script>    
+</center>
+
   
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     
+<script>
+(function() {
+var cx = '003234057910183980416:geop3oezqse';
+var gcse = document.createElement('script');
+gcse.type = 'text/javascript';
+gcse.async = true;
+gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(gcse, s);
+})();
+</script>
+
+<gcse:search newWindow="false"></gcse:search>
+
+
   
 <div id="Home" class="tabcontent">
 
+
   
 <center>
-  
-<pwa-install>install our app :: it's just 1mb & 100% ads free </pwa-install>
-<script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall@latest/dist/pwa-install.min.js"></script>
-  
-    
-<hr>  
 <a href="/news">
 Switch to <lable class="red"><b> election mode   </b></lable> to watch all the politicians & IT wing's tweets.</a>    
-    
+  
   
 <a class="twitter-timeline" href="https://twitter.com/gravitynullblog/lists/tamil" 
 data-chrome="noheader" data-chrome="transparent" data-chrome="noscrollbar" data-dnt="false" data-tweet-limit="" target="_self" >
