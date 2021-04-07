@@ -1309,7 +1309,7 @@ cursor: pointer;
   position: fixed;
   z-index: 99999;
   font-size: 12px;
-  height: 10%;
+  height: 1px;
   transition: max-height 0.2s ease-out;
   box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
 }
