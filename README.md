@@ -1,1 +1,1 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/856b0a08-f90c-4195-8551-63946af4719d/deploy-status)](https://app.netlify.com/sites/gravitynull/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/40217e19-b8b2-44db-b433-21a738f6b0c3/deploy-status)](https://app.netlify.com/sites/teakadai/deploys)
