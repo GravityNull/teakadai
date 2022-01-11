@@ -1,3 +1,17 @@
+#content-desktop 
+{display: block;}
+#content-mobile 
+{display: none;}
+
+@media screen and (max-width: 768px) 
+{
+#content-desktop 
+{display: none;}
+#content-mobile 
+{display: block;}
+}
+
+
 .notice {
   font-family: "hind", sans-serif;
   background-image: linear-gradient(to right, white, ivory);
@@ -1369,6 +1383,16 @@ height: 99%;
 width: 99%;
 font-family: "hind", sans-serif;  
 font-size: 10px;  
+margin: 0px;
+align: center;  
+highlightme { background-color:#FFFF00; }  
+-webkit-transition-duration: 1.75s;
+}
+
+.p12
+{
+font-family: "hind", sans-serif;  
+font-size: 24px;  
 margin: 0px;
 align: center;  
 highlightme { background-color:#FFFF00; }  
