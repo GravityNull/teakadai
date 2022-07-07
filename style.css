@@ -769,7 +769,7 @@ color: #000; text-decoration: none; cursor: pointer;
 .panel 
 {
 padding: 0 2px;
-max-height: 0;
+max-height: 0;  
 overflow: hidden;
 transition: max-height 0.2s ease-out;
 box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
@@ -782,11 +782,11 @@ top: 20px;
 left: 5%;right:5%;
 font-family: "hind", sans-serif;
 font-size: 9px !important;
-width: 85%;
-position: absolute; /* float - for floating ribbon */
+width: 300px;
+position: absolute;/* float - for floating ribbon */
 background: #9900ab;
 background-image: linear-gradient(to right, #8000ab, #ad02cc);
-color: yellow;
+color: white;
 text-align: center;
 margin: 1em auto 1em; 
 z-index: 1;  
@@ -806,7 +806,7 @@ width: 300px;
 position: absolute; /* float - for floating ribbon */
 background: #9900ab;
 background-image: linear-gradient(to right, #8000ab, #ad02cc);
-color: yellow;
+color: white;
 text-align: center;
 margin: 1em auto 1em;  
 box-shadow: 0 5px 5px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
@@ -1222,7 +1222,7 @@ cursor: pointer;
   font-family: "hind", sans-serif;
   background-color: white;
   position: fixed;
-  bottom: 55.5px;
+  bottom: 54.3px;
   left: 1px;
   padding: 6px;
   width: 96%;
