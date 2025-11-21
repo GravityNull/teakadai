@@ -1,39 +1,404 @@
 <html ⚡>
+ <!doctype html>
 <html lang="en">
-  
+<head>
+  <meta charset="utf-8">
+  <title>GravityNull TeaKadai</title>
 
-<!-- COMMON TAGS -->
-<meta charset="utf-8">
-<title>GravityNull TeaKadai</title> 
+  <!-- Keep original scripts / styles (defer where present) -->
+  <script src="https://news.gravitynull.in/script.js" defer></script>
+  <script src="https://news.gravitynull.in/sw.js" defer></script>
+  <link rel="stylesheet" href="https://news.gravitynull.in/style.css" defer>
+  <link rel="manifest" href="/manifest.json" defer>
+  <link rel="canonical" href="https://www.gravitynull.in/">
 
-<script src="https://news.gravitynull.in/script.js" defer></script>  
-<script src="https://news.gravitynull.in/sw.js" defer></script>  
-<link defer rel="stylesheet" href="https://news.gravitynull.in/style.css">
-<link defer rel="manifest" href="/manifest.json">
-<link rel="canonical" href="https://www.gravitynull.in/"> 
-  
-  
-  
+  <!-- Google Analytics (kept as-is) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-P9DRXRBFCM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-P9DRXRBFCM');
+  </script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P9DRXRBFCM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta content='982534371769485' property='fb:pages'/>
+  <meta content='2139248996379882' property='fb:app_id'/>
+  <meta name="Description" content="Tamil flash news updates">
+  <meta name="mobile-web-app-capable" content="yes" display="standalone">
+  <meta property="og:url" content="https://www.gravitynull.in/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="GravityNull TeaKadai" />
+  <meta property="og:description" content="Tamil flash news updates" />
+  <meta property="og:image" content="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2F117678222_3241061209325910_6383338474867901194_o.jpg" />
+  <meta content="notranslate" name="google" />
+  <meta content="black" name="theme-color" />
+  <meta content="yes" name="mobile-web-app-capable" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
+  <meta content="standalone" name="display" />
+  <meta content="width" name="MobileOptimized" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png" rel='icon' />
+  <link rel="shortcut icon" href="https://ik.imagekit.io/pdmwfs9ocxywc/tk_bold_BJBVbzH8V.png">
 
-  gtag('config', 'G-P9DRXRBFCM');
-</script>
-  
+  <!-- AddToAny -->
+  <script async src="https://static.addtoany.com/menu/page.js"></script>
 
-  
-  
-<meta content='982534371769485' property='fb:pages'/>
-<meta content='2139248996379882' property='fb:app_id'/>
+  <!-- Small set of responsive overrides to improve desktop layout without changing your external CSS -->
+  <style>
+    /* Page container */
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: #fff;
+      color: #111;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
 
-<meta name="Description" content="Tamil flash news updates">  
-  
-<meta name="mobile-web-app-capable" content="yes" display="standalone">
+    /* Center main content and limit width on larger screens */
+    .content {
+      box-sizing: border-box;
+      padding: 12px;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1100px; /* desktop max width */
+    }
+
+    /* Header and tabs: make them wrap gracefully */
+    .header .progress-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      padding: 8px 12px;
+      box-sizing: border-box;
+    }
+
+    .tablink {
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+      padding: 6px 10px;
+      text-align: center;
+      font-size: 14px;
+      min-width: 72px;
+    }
+
+    .tablink i.material-icons {
+      display: block;
+      font-size: 20px;
+      margin-bottom: 2px;
+    }
+
+    /* Buttons and floating controls */
+    #myBtnn, #myBtn, #ptBtn {
+      position: fixed;
+      z-index: 9999;
+      border: none;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+      padding: 8px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+    }
+    /* stack floating buttons on mobile, move to top-right on desktop */
+    #myBtnn { left: 8px; bottom: 86px; }
+    #myBtn  { left: 8px; bottom: 28px; }
+    #ptBtn  { left: 8px; bottom: 146px; }
+
+    /* Desktop adjustments */
+    @media (min-width: 900px) {
+      /* move floating controls to top-right on desktop */
+      #myBtnn { left: auto; right: 20px; top: 20px; bottom: auto; }
+      #myBtn  { left: auto; right: 20px; top: 76px; bottom: auto; }
+      #ptBtn  { left: auto; right: 20px; top: 132px; bottom: auto; }
+
+      /* make a two-column layout if there is enough space */
+      .main-grid {
+        display: grid;
+        grid-template-columns: 1fr 320px; /* main column + sidebar */
+        gap: 20px;
+        align-items: start;
+      }
+
+      .sidebar {
+        position: sticky;
+        top: 20px;
+        align-self: start;
+      }
+
+      /* enlarge ribbon / headline area */
+      .ribbon, .ribbon .ribbon-content {
+        font-size: 18px;
+      }
+
+      /* enlarge chatpanel and embed area for desktop */
+      .chatpanel { font-size: 15px; padding: 12px; }
+      embed, iframe, img { max-width: 100%; height: auto; }
+
+      /* progress bar container width */
+      .progress-container { max-width: 100%; padding: 12px 24px; }
+    }
+
+    /* Make sure images, videos and embeds are fluid */
+    img, embed, iframe, video {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Improve readability on wide screens */
+    p, h1, h2, h3, h4, h5 {
+      line-height: 1.45;
+    }
+
+    /* Small fixes for legacy invalid tags used in page (label/lable/centre) */
+    center, centre, left, right {
+      display: block;
+      text-align: center;
+    }
+    lable { display: inline-block; }
+    /* a simple card style for the image area */
+    .image-card { background:#fff; padding:8px; border-radius:6px; box-shadow:0 1px 6px rgba(0,0,0,0.06); }
+
+    /* ensure sidenav embed fills available width on desktop */
+    .sidenav embed { width: 100%; min-height: 320px; border: none; }
+  </style>
+</head>
+
+<body>
+  <!-- Floating social copy button -->
+  <div class="a2a_kit a2a_kit_size_20 a2a_floating_style a2a_vertical_style" style="left:-1px; bottom:86px;">
+    <a class="a2a_button_copy_link"></a>
+  </div>
+
+  <!-- Floating controls (kept same ids so existing JS still works) -->
+  <button id="myBtnn" onclick="openNav()">
+    <i class="material-icons"><m>menu</m></i>
+    <img src="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2Ftk%20bold.png" style="width:25px;" alt="TeaKadai">
+  </button>
+
+  <button id="myBtn" title="Home">
+    <a href="/"><i class="material-icons">home</i></a>
+  </button>
+
+  <button onclick="topFunction()" id="ptBtn" title="Search">
+    <b><i class="material-icons">search</i></b>
+  </button>
+
+  <!-- small toast that shows load time -->
+  <div id="snackbar">
+    <a href="#" onclick="window.location.reload(true);" class="white">
+      <script type="text/javascript">
+        var todayDate=new Date();
+        var hours=todayDate.getHours();
+        var minutes=todayDate.getMinutes();
+        var seconds=todayDate.getSeconds();
+        var format ="AM";
+        if(hours>11) { format="PM"; }
+        if (hours > 12) { hours = hours - 12; }
+        if (hours == 0) { hours = 12; }
+        if (minutes < 10){ minutes = "0" + minutes;}
+        document.write("This page was loaded at - " + hours + ":" + minutes + ":" + seconds + " " +format);
+      </script>
+    </a>
+  </div>
+
+  <!-- ribbon / announcement -->
+  <div class="ribbon" style="padding:8px;">
+    <div class="ribbon-content">
+      <h2 class="accordion"><b>This WebApp is 100% Ads. free :)</b></h2>
+      <div class="panel image-card">
+        <a href="/cartoons" target="_self">
+          <img src="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2F117678222_3241061209325910_6383338474867901194_o.jpg" alt="GravityNull Cartoons" style="width:100%;">
+        </a>
+        <div style="padding:8px 0">
+          <a href="/cartoons" target="_self"><button class="contact"><b>Support our cartoon works :-)</b></button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- top navigation / sidenav embed -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn1" onclick="closeNav()">&times;</a>
+    <div class="alert">
+      <div class="sidenav-embed">
+        <embed src="/sidenav.html" frameborder="0" allowTransparency="true" scrolling="yes" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Main content area; will become two-column on desktop -->
+  <div class="content main-grid">
+    <main>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+
+        <a href="/#gsc.tab=0&gsc.q=tamilnadu%20&gsc.sort=date">
+          <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">
+            <i class="material-icons">local_florist</i>
+            <br><b>Tamil</b>
+          </button>
+        </a>
+
+        <a href="/#gsc.tab=0&gsc.q=tech%20&gsc.sort=date">
+          <button class="tablink" onclick="openPage('Tech', this, '#00C853')">
+            <i class="material-icons">devices</i>
+            <br><b>Tech</b>
+          </button>
+        </a>
+
+        <a href="/#gsc.tab=0&gsc.q=movies%20&gsc.sort=date">
+          <button class="tablink" onclick="openPage('Cinema', this, '#00aba4')">
+            <i class="material-icons">local_movies</i>
+            <br><b>Cinema</b>
+          </button>
+        </a>
+
+        <a href="/#gsc.tab=0&gsc.q=world%20&gsc.sort=date">
+          <button class="tablink" onclick="openPage('World', this, '#1565C0')">
+            <i class="material-icons">public</i>
+            <br><b>World</b>
+          </button>
+        </a>
+
+        <a href="/#gsc.tab=0&gsc.q=news%20&gsc.sort=date">
+          <button class="tablink" onclick="openPage('Chat', this, '#9900ab')">
+            <i class="material-icons">message</i>
+            <br><b>Social</b>
+          </button>
+        </a>
+      </div>
+
+      <!-- This area holds the main search/timeline sections -->
+      <div id="content-mobile">
+        <div id="Home" class="tabcontent">
+          <!-- custom search code -->
+          <script>
+            (function() {
+              var cx = '003234057910183980416:geop3oezqse';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search newWindow="false"></gcse:search>
+        </div>
+
+        <div id="Tech" class="tabcontent">
+          <script>
+            (function() {
+              var cx = '003234057910183980416:geop3oezqse';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search newWindow="false"></gcse:search>
+        </div>
+
+        <div id="Cinema" class="tabcontent">
+          <script>
+            (function() {
+              var cx = '003234057910183980416:geop3oezqse';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search newWindow="false"></gcse:search>
+        </div>
+
+        <div id="World" class="tabcontent">
+          <script>
+            (function() {
+              var cx = '003234057910183980416:geop3oezqse';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search newWindow="false"></gcse:search>
+        </div>
+
+        <div id="Chat" class="tabcontent">
+          <script>
+            (function() {
+              var cx = '003234057910183980416:geop3oezqse';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search newWindow="false"></gcse:search>
+        </div>
+      </div>
+
+      <br><br><br>
+      <pwa-install>install our app :: it's just 1mb & 100% ads free</pwa-install>
+      <script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall@latest/dist/pwa-install.min.js"></script>
+    </main>
+
+    <!-- Sidebar area (on mobile it will appear below content) -->
+    <aside class="sidebar">
+      <div class="power" style="margin-bottom:12px;">
+        <a href="/#gsc.tab=0&gsc.q=தேர்தல்%20&gsc.sort=date"><lable class="green"><b>#தேர்தல்</b></lable></a>
+        <a href="/#gsc.tab=0&gsc.q=கொரோனா%20&gsc.sort=date"><lable class="red"><b>#கொரோனா</b></lable></a>
+        <a href="/#gsc.tab=0&gsc.q=இன்று%20&gsc.sort=date"><lable class="yellow"><b>#இன்று</b></lable></a>
+        <a href="/#gsc.tab=0&gsc.q=%E0%AE%A4%E0%AE%AE%E0%AE%BF%E0%AE%B4%E0%AE%95%E0%AE%AE%E0%AF%8D%20&gsc.sort=date"><lable class="purple"><b>#தமிழகம்</b></lable></a>
+      </div>
+
+      <div class="chatpanel image-card" style="margin-bottom:12px;">
+        <h3>Hello Makkals :D</h3>
+        <p>All the News links are fetched directly from the trusted third party News websites via Twitter's List & Google's CSE API.</p>
+        <p>Kindly take a screenshot, if you want to share a News with your friends...</p>
+        <p><a href="/about.html" target="_top"><lable class="green"><b>About this App</b></lable></a>
+           <a href="https://fb.com/roobenk" target="_blank"><lable class="blue"><b>Contact Dev.</b></lable></a></p>
+      </div>
+
+      <div class="image-card" style="padding:8px;">
+        <a href="/cartoons" target="_self">
+          <img src="https://cdn.glitch.com/e68e9bfc-04e8-4acb-91fc-4381e1c60480%2F117678222_3241061209325910_6383338474867901194_o.jpg" alt="Cartoon" />
+        </a>
+      </div>
+    </aside>
+  </div>
+
+  <!-- keep twitter widget script loaded once -->
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <!-- small helper JS kept minimal so your existing behavior is preserved -->
+  <script>
+    // Ensure default tab opens (if your existing openPage is defined in external script it will still work)
+    document.addEventListener('DOMContentLoaded', function() {
+      try {
+        var def = document.getElementById('defaultOpen');
+        if (def && typeof openPage === 'function') {
+          def.click();
+        }
+      } catch(e){ /* ignore */ }
+    });
+  </script>
+</body>
+</html>
   
 <meta property="og:url" content="https://www.gravitynull.in/" />
 <meta property="og:type" content="article" />
