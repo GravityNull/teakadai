@@ -1,15 +1,15 @@
-#content-desktop 
+/* #content-desktop 
 {display: block;}
 #content-mobile 
-{display: none;}
+{display: none;} */
 
-@media screen and (max-width: 768px) 
+/* @media screen and (max-width: 768px) 
 {
 #content-desktop 
 {display: none;}
 #content-mobile 
 {display: block;}
-}
+} */
 
 
 .notice {
@@ -458,7 +458,7 @@ text-align: left;
 {
 font-family: "hind", sans-serif;  
 position: relative;
-align: lefft;  
+align: left;  
 padding: 20px 0;
 margin: 0px auto 0 auto;
 width: 60%;
@@ -480,7 +480,8 @@ height: 99%;
 width: 99%;
 font-size: 10px;  
 margin: 0px;
-align: center;  
+align: left;  
+text-align: left;	
 highlightme { background-color:#FFFF00; }  
 -webkit-transition-duration: 1.75s;
 }
@@ -634,10 +635,10 @@ font-family: "Acme", sans-serif;
 {
 font-family: "Acme", sans-serif;
 color:white ;
-align: center;
+align: left;
 display: none;
 padding: 0px;
-
+text-align: left;
 webkit-transition-duration: 0.75s;
 webkit-animation: fadeEffect 3s;
 animation: fadeEffect 3s;
@@ -662,7 +663,7 @@ font-family: "hind", sans-serif;
 color: white;
 display: none;
 padding: 0px 0px;
-
+text-align: left;
 webkit-transition-duration: 0.15s;
 webkit-animation: fadeEffect 1s;
 animation: fadeEffect 1s;
@@ -1120,10 +1121,6 @@ cursor: pointer;
   cursor: pointer;
 }
 
-
-
-
-
 .chat {
   background-color: white;
   color: red;
@@ -1375,8 +1372,6 @@ cursor: pointer;
 }
 }
 
-
-
 .sbody
 {
 height: 99%;
@@ -1384,7 +1379,7 @@ width: 99%;
 font-family: "hind", sans-serif;  
 font-size: 10px;  
 margin: 0px;
-align: center;  
+align: left;  
 highlightme { background-color:#FFFF00; }  
 -webkit-transition-duration: 1.75s;
 }
